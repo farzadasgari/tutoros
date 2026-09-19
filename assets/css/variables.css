@@ -91,3 +91,10 @@
   --sp-stack: var(--sp-3);
   --row-h: 2.25rem;
 }
+
+[data-density="spacious"] {
+  --sp-card: var(--sp-7);
+  --sp-cell: 0.9375rem 1.125rem;
+  --sp-stack: var(--sp-6);
+  --row-h: 3.25rem;
+}
