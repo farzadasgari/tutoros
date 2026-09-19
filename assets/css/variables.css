@@ -67,4 +67,10 @@
   --navbar-h: 60px;
   --content-max: 1560px;
   --tap: 44px;
+
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.36, 1);
 }
