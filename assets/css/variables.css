@@ -61,4 +61,10 @@
   --r-xl: 20px;
   --r-pill: 999px;
   --r-circle: 50%;
+
+  --sidebar-w: 260px;
+  --sidebar-w-collapsed: 72px;
+  --navbar-h: 60px;
+  --content-max: 1560px;
+  --tap: 44px;
 }
