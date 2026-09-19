@@ -53,4 +53,12 @@
   --sp-cell: 0.625rem 0.875rem;
   --sp-stack: var(--sp-4);
   --row-h: 2.75rem;
+
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 20px;
+  --r-pill: 999px;
+  --r-circle: 50%;
 }
