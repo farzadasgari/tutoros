@@ -19,4 +19,9 @@
   --fs-stat-sm: clamp(1.125rem, 0.95rem + 0.85vw, 1.5rem);
   --fs-stat: clamp(1.375rem, 1.05rem + 1.5vw, 2rem);
   --fs-stat-lg: clamp(1.75rem, 1.2rem + 2.6vw, 2.75rem);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
 }
