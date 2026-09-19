@@ -84,3 +84,10 @@
   --z-pallete:1065;
   --z-toast:1090;
 }
+
+[data-density="compact"] {
+  --sp-card: var(--sp-4);
+  --sp-cell: 0.375rem 0.625rem;
+  --sp-stack: var(--sp-3);
+  --row-h: 2.25rem;
+}
