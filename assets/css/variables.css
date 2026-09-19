@@ -73,4 +73,14 @@
   --dur-slow: 320ms;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-inout: cubic-bezier(0.65, 0, 0.36, 1);
+
+  --z-base:1;
+  --z-sticky:1020;
+  --z-sidebar:1035;
+  --z-navbar:1030;
+  --z-backdrop:1040;
+  --z-offcanvas:1045;
+  --z-modal:1055;
+  --z-pallete:1065;
+  --z-toast:1090;
 }
