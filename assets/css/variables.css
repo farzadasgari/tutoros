@@ -74,15 +74,15 @@
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-inout: cubic-bezier(0.65, 0, 0.36, 1);
 
-  --z-base:1;
-  --z-sticky:1020;
-  --z-sidebar:1035;
-  --z-navbar:1030;
-  --z-backdrop:1040;
-  --z-offcanvas:1045;
-  --z-modal:1055;
-  --z-pallete:1065;
-  --z-toast:1090;
+  --z-base: 1;
+  --z-sticky: 1020;
+  --z-sidebar: 1035;
+  --z-navbar: 1030;
+  --z-backdrop: 1040;
+  --z-offcanvas: 1045;
+  --z-modal: 1055;
+  --z-pallete: 1065;
+  --z-toast: 1090;
 }
 
 [data-density="compact"] {
@@ -97,4 +97,16 @@
   --sp-cell: 0.9375rem 1.125rem;
   --sp-stack: var(--sp-6);
   --row-h: 3.25rem;
+}
+
+[dir="rtl"] {
+  --font-ui: var(--font-fa);
+}
+
+:root {
+  --flip: 1;
+}
+
+[dir="rtl"] {
+  --flip: -1;
 }
