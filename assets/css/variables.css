@@ -1,7 +1,22 @@
 :root {
-    --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, --apple-system, sans-serif;
-    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-    --font-fa: "Vazirmatn", "IBM Plex Sans", system-ui, sans-serif;
-    --font-ui: var(--font-sans);
-}
+  --font-sans:
+    "IBM Plex Sans", "Segoe UI", system-ui, --apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-fa: "Vazirmatn", "IBM Plex Sans", system-ui, sans-serif;
+  --font-ui: var(--font-sans);
 
+  --fs-3xs: 0.6875rem;
+  --fs-2xs: 0.75rem;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1.0625rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: clamp(1.375rem, 1.15rem + 1.1vw, 1.75rem);
+  --fs-3xl: clamp(1.625rem, 1.25rem + 1.8vw, 2.25rem);
+  --fs-4xl: clamp(2rem, 1.4rem + 3vw, 3rem);
+
+  --fs-stat-sm: clamp(1.125rem, 0.95rem + 0.85vw, 1.5rem);
+  --fs-stat: clamp(1.375rem, 1.05rem + 1.5vw, 2rem);
+  --fs-stat-lg: clamp(1.75rem, 1.2rem + 2.6vw, 2.75rem);
+}
