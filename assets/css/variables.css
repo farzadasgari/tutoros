@@ -1,0 +1,7 @@
+:root {
+    --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, --apple-system, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --font-fa: "Vazirmatn", "IBM Plex Sans", system-ui, sans-serif;
+    --font-ui: var(--font-sans);
+}
+
