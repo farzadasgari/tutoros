@@ -29,4 +29,9 @@
   --lh-snug: 1.35;
   --lh-normal: 1.55;
   --lh-loose: 1.7;
+
+  --ls-tight: -0.018em;
+  --ls-snug: -0.011em;
+  --ls-normal: 0;
+  --ls-wide: 0.02em;
 }
