@@ -50,5 +50,31 @@
         } catch (err) {}
       })();
     </script>
+    <script>
+      document.write(
+        '<link rel="stylesheet" id="bs-css" href="./assets/vendor/bootstrap/bootstrap' +
+          (document.documentElement.getAttribute("data-bs-rtl") ? ".rtl" : "") +
+          '.min.css">',
+      );
+    </script>
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="./assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
+      />
+    </noscript>
+    <script>
+      (function () {
+        try {
+          if ((localStorage.getItem("tutoros.dir") || "ltr") === "rtl") {
+            let l = document.getElementById("bs-css");
+            l.href = l.href.replace(
+              "bootstrap.min.css",
+              "bootstrap.rtl.min.css",
+            );
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
 </html>
