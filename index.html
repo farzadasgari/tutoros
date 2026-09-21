@@ -1,117 +1,122 @@
 <!doctype html>
 <html lang="en" dir="ltr" data-theme="light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" content="#fbfbfe" />
-    <title>TutorOS</title>
-    <meta
-      name="description"
-      content="TutorOS - the private teaching operations system for tracking classes, hours, packages and payments."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="TutorOS" />
-    <meta
-      property="og:description"
-      content="TutorOS - the private teaching operations system for tracking classes, hours, packages and payments."
-    />
-    <meta property="og:site_name" content="TutorOS" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
-    <script>
-      (function () {
-        try {
-          let t = localStorage.getItem("tutoros.theme") || "system";
-          let r =
-            t === "system"
-              ? matchMedia("(prefers-color-scheme:dark)").matches
-                ? "dark"
-                : "light"
-              : t;
-          let e = document.documentElement;
-          e.setAttribute("data-theme", r);
-          e.setAttribute(
-            "data-density",
-            localStorage.getItem("tutoros.density") || "comfortable",
-          );
-          let d = localStorage.getItem("tutoros.dir") || "ltr";
-          e.setAttribute("dir", d);
-          e.setAttribute(
-            "lang",
-            localStorage.getItem("tutoros.locale") || "en",
-          );
-          if (d === "rtl") {
-            e.setAttribute("data-bs-rtl", "1");
-          }
-        } catch (err) {}
-      })();
-    </script>
-    <script>
-      document.write(
-        '<link rel="stylesheet" id="bs-css" href="./assets/vendor/bootstrap/bootstrap' +
-          (document.documentElement.getAttribute("data-bs-rtl") ? ".rtl" : "") +
-          '.min.css">',
-      );
-    </script>
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="./assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
-      />
-    </noscript>
-    <script>
-      (function () {
-        try {
-          if ((localStorage.getItem("tutoros.dir") || "ltr") === "rtl") {
-            let l = document.getElementById("bs-css");
-            l.href = l.href.replace(
-              "bootstrap.min.css",
-              "bootstrap.rtl.min.css",
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" content="#fbfbfe" />
+        <title>TutorOS</title>
+        <meta
+            name="description"
+            content="TutorOS - the private teaching operations system for tracking classes, hours, packages and payments."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="TutorOS" />
+        <meta
+            property="og:description"
+            content="TutorOS - the private teaching operations system for tracking classes, hours, packages and payments."
+        />
+        <meta property="og:site_name" content="TutorOS" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+        <script>
+            (function () {
+                try {
+                    let t = localStorage.getItem("tutoros.theme") || "system";
+                    let r =
+                        t === "system"
+                            ? matchMedia("(prefers-color-scheme:dark)").matches
+                                ? "dark"
+                                : "light"
+                            : t;
+                    let e = document.documentElement;
+                    e.setAttribute("data-theme", r);
+                    e.setAttribute(
+                        "data-density",
+                        localStorage.getItem("tutoros.density") ||
+                            "comfortable",
+                    );
+                    let d = localStorage.getItem("tutoros.dir") || "ltr";
+                    e.setAttribute("dir", d);
+                    e.setAttribute(
+                        "lang",
+                        localStorage.getItem("tutoros.locale") || "en",
+                    );
+                    if (d === "rtl") {
+                        e.setAttribute("data-bs-rtl", "1");
+                    }
+                } catch (err) {}
+            })();
+        </script>
+        <script>
+            document.write(
+                '<link rel="stylesheet" id="bs-css" href="./assets/vendor/bootstrap/bootstrap' +
+                    (document.documentElement.getAttribute("data-bs-rtl")
+                        ? ".rtl"
+                        : "") +
+                    '.min.css">',
             );
-          }
-        } catch (e) {}
-      })();
-    </script>
-    <link rel="stylesheet" href="./assets/css/variables.css" />
-    <link rel="stylesheet" href="./assets/css/theme.css" />
-    <link rel="stylesheet" href="./assets/css/components.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/pages.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
+        </script>
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="./assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
+            />
+        </noscript>
+        <script>
+            (function () {
+                try {
+                    if (
+                        (localStorage.getItem("tutoros.dir") || "ltr") === "rtl"
+                    ) {
+                        let l = document.getElementById("bs-css");
+                        l.href = l.href.replace(
+                            "bootstrap.min.css",
+                            "bootstrap.rtl.min.css",
+                        );
+                    }
+                } catch (e) {}
+            })();
+        </script>
+        <link rel="stylesheet" href="./assets/css/variables.css" />
+        <link rel="stylesheet" href="./assets/css/theme.css" />
+        <link rel="stylesheet" href="./assets/css/components.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/pages.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
 
-    <meta http-equiv="refresh" content="0; url=dashboard/index.html" />
-  </head>
-  <body data-page="redirect" class="">
-    <div data-base="./">
-      <div class="error-shell"></div>
-      <span
-        class="empty-art"
-        style="width: 56px; height: 56px; margin-inline: auto"
-      >
-        <span class="spinner is-lg"></span>
-      </span>
-      <h1 class="error-title">Opening TutorOS</h1>
-      <p class="error-text">
-        If nothing happens,
-        <a href="dashboard/index.html"> open the dashboard </a>
-        .
-      </p>
-    </div>
-    <div class="toast-region" role="status" aria-live="polite"></div>
+        <meta http-equiv="refresh" content="0; url=dashboard/index.html" />
+    </head>
+    <body data-page="redirect" class="">
+        <div data-base="./">
+            <div class="error-shell"></div>
+            <span
+                class="empty-art"
+                style="width: 56px; height: 56px; margin-inline: auto"
+            >
+                <span class="spinner is-lg"></span>
+            </span>
+            <h1 class="error-title">Opening TutorOS</h1>
+            <p class="error-text">
+                If nothing happens,
+                <a href="dashboard/index.html"> open the dashboard </a>
+                .
+            </p>
+        </div>
+        <div class="toast-region" role="status" aria-live="polite"></div>
 
-    <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/data/mock-data.js"></script>
-    <script src="./assets/js/core/format.js"></script>
-    <script src="./assets/js/core/store.js"></script>
-    <script src="./assets/js/engine.js"></script>
-    <script src="./assets/js/components.js"></script>
-    <script src="./assets/js/theme.js"></script>
-    <script src="./assets/js/layout.js"></script>
-    <script src="./assets/js/charts.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
+        <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/data/mock-data.js"></script>
+        <script src="./assets/js/core/format.js"></script>
+        <script src="./assets/js/core/store.js"></script>
+        <script src="./assets/js/engine.js"></script>
+        <script src="./assets/js/components.js"></script>
+        <script src="./assets/js/theme.js"></script>
+        <script src="./assets/js/layout.js"></script>
+        <script src="./assets/js/charts.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
