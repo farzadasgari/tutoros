@@ -206,3 +206,8 @@ a:hover {
     color: var(--brand-hover);
     text-decoration: underline;
 }
+
+small, .text-small {
+    font-size: var(--fs-2xs);
+}
+
