@@ -141,3 +141,45 @@ h6,
   color: var(--fg-default);
   text-wrap: balance;
 }
+
+h1,
+.h1 {
+  font-size: var(--fs-3xl);
+}
+
+h2,
+.h2 {
+  font-size: var(--fs-2xl);
+}
+
+h3,
+.h3 {
+  font-size: var(--fs-xl);
+  letter-spacing: var(--ls-snug);
+}
+
+h4,
+.h4 {
+  font-size: var(--fs-lg);
+  letter-spacing: var(--ls-snug);
+}
+
+h5,
+.h5 {
+  font-size: var(--fs-md);
+  letter-spacing: var(--ls-normal);
+}
+
+h6,
+.h6 {
+  font-size: var(--fs-sm);
+  letter-spacing: var(--ls-normal);
+}
+
+p {
+  margin: 0 0 var(--sp-3);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
