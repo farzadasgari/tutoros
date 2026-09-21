@@ -58,3 +58,36 @@
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
     U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215;
 }
+
+:root,
+[data-theme="light"],
+[data-theme="dark"] {
+  --bs-body-bg: var(--bg-body);
+  --bs-body-color: var(--fg-default);
+  --bs-body-font-family: var(--font-ui);
+  --bs-body-font-size: var(--fs-sm);
+  --bs-body-line-height: var(--lh-normal);
+  --bs-emphasis-color: var(--fg-default);
+  --bs-secondary-color: var(--fg-muted);
+  --bs-tertiary-color: var(--fg-subtle);
+  --bs-secondary-bg: var(--bg-sunken);
+  --bs-tertiary-bg: var(--bg-subtle);
+  --bs-border-color: var(--border-default);
+  --bs-border-color-translucent: var(--border-subtle);
+  --bs-border-radius: var(--r-md);
+  --bs-border-radius-sm: var(--r-sm);
+  --bs-border-radius-lg: var(--r-lg);
+  --bs-border-radius-xl: var(--r-xl);
+  --bs-border-radius-pill: var(--r-pill);
+  --bs-link-color: var(--brand-fg);
+  --bs-link-hover-color: var(--brand-hover);
+  --bs-primary: var(--brand);
+  --bs-primary-rgb: 109, 74, 255;
+  --bs-focus-ring-color: rgba(109, 74, 255, 0.35);
+  --bs-heading-color: var(--fg-default);
+  --bs-code-color: var(--brand-fg);
+  --bs-highlight-bg: var(--warning-soft);
+  --bs-box-shadow: var(--shadow-md);
+  --bs-box-shadow-sm: var(--shadow-sm);
+  --bs-box-shadow-lg: var(--shadow-lg);
+}
