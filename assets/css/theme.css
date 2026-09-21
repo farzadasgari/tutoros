@@ -195,3 +195,14 @@ p:last-child {
     line-height: var(--lh-snug);
     color: var(--fg-muted);
 }
+
+a {
+    color: var(--brand-fg);
+    text-decoration: none;
+    text-underline-offset: 0.18em;
+}
+
+a:hover {
+    color: var(--brand-hover);
+    text-decoration: underline;
+}
