@@ -102,3 +102,19 @@ html {
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--bg-body);
+    color: var(--fg-default);
+    font-family: var(--font-ui);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-normal);
+    letter-spacing: var(--ls-normal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1, "cv05" 1;
+    overflow-x: hidden;
+}
