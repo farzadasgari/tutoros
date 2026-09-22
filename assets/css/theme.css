@@ -320,6 +320,31 @@ hr {
     font-size: var(--fs-lg);
 }
 
-.fw-medium {font-weight: var(--fw-medium) !important;}
+.fw-medium {
+    font-weight: var(--fw-medium) !important;
+}
 
-.fw-semibold {font-weight: var(--fw-semibold) !important;}
+.fw-semibold {
+    font-weight: var(--fw-semibold) !important;
+}
+
+.num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+    letter-spacing: var(--ls-snug);
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
