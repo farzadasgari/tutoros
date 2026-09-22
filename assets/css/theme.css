@@ -390,3 +390,12 @@ hr {
     outline-offset: 2px;
     box-shadow: var(--focus-ring);
 }
+
+.on-brand :focus-visible {
+    outline-color: #fff;
+}
+
+::selection {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
