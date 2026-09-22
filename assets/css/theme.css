@@ -207,11 +207,16 @@ a:hover {
     text-decoration: underline;
 }
 
-small, .text-small {
+small,
+.text-small {
     font-size: var(--fs-2xs);
 }
 
-code, kbd, pre, samp, .mono {
+code,
+kbd,
+pre,
+samp,
+.mono {
     font-family: var(--font-mono);
     font-size: 0.92em;
     font-feature-settings: "tnum" 1;
@@ -261,4 +266,36 @@ hr {
     border: 0;
     border-top: 1px solid var(--border-subtle);
     opacity: 1;
+}
+
+.t-muted {
+    color: var(--fg-muted) !important;
+}
+
+.t-subtle {
+    color: var(--fg-subtel) !important;
+}
+
+.t-default {
+    color: var(--fg-default) !important;
+}
+
+.t-brand {
+    color: var(--brand-fg) !important;
+}
+
+.t-success {
+    color: var(--success-fg) !important;
+}
+
+.t-warning {
+    color: var(--warning-fg) !important;
+}
+
+.t-danger {
+    color: var(--danger-fg) !important;
+}
+
+.t-time {
+    color: var(--accent-fg) !important;
 }
