@@ -399,3 +399,30 @@ hr {
     background: var(--brand-soft);
     color: var(--brand-fg);
 }
+
+.skip-link {
+    position: absolute;
+    inset-inline-start: var(--sp-3);
+    top: -100px;
+    z-index: var(--z-toast);
+    padding: var(--sp-3) var(--sp-4);
+    border-radius: var(--r-md);
+    background: var(--brand);
+    color: var(--fg-on-brand);
+    font-weight: var(--fw-semibold);
+    transition: var(--dur-fast) var(--ease-out);
+}
+
+.skip-link:focus {
+    top: var(--sp-3);
+    color: var(--fg-on-brand);
+}
+
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
