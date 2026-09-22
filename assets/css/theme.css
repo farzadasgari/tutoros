@@ -372,3 +372,21 @@ hr {
     font-weight: var(--fw-regular);
     font-size: var(--fs-2xs);
 }
+
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid var(--focus-color);
+    outline-offset: 2px;
+    border-radius: var(--r-xs);
+}
+
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible {
+    outline: 2px solid var(--focus-color);
+    outline-offset: 2px;
+    box-shadow: var(--focus-ring);
+}
