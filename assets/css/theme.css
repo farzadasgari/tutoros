@@ -299,3 +299,23 @@ hr {
 .t-time {
     color: var(--accent-fg) !important;
 }
+
+.t-2xs {
+    font-size: var(--fs-2xs);
+}
+
+.t-xs {
+    font-size: var(--fs-xs);
+}
+
+.t-sm {
+    font-size: var(--fs-sm);
+}
+
+.t-md {
+    font-size: var(--fs-md);
+}
+
+.t-lg {
+    font-size: var(--fs-lg);
+}
