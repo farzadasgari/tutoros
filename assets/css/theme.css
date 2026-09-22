@@ -426,3 +426,29 @@ hr {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
 }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-strong) transparent;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 3px solid transparent;
+    border-radius: var(--r-pill);
+    background: var(--border-strong);
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--fg-disabled);
+    background-clip: content-box;
+}
