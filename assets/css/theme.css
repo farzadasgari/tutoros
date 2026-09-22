@@ -319,3 +319,7 @@ hr {
 .t-lg {
     font-size: var(--fs-lg);
 }
+
+.fw-medium {font-weight: var(--fw-medium) !important;}
+
+.fw-semibold {font-weight: var(--fw-semibold) !important;}
