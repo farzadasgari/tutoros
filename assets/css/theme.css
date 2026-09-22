@@ -348,3 +348,27 @@ hr {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.section-label {
+    display: flex;
+    align-items: baseline;
+    gap: var(--sp-3);
+    margin-bottom: var(--sp-3);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--fg-default);
+}
+
+.section-label::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border-subtle);
+}
+
+.section-label .count {
+    order: 3;
+    color: var(--fg-subtel);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-2xs);
+}
