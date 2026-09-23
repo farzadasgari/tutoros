@@ -520,3 +520,12 @@ hr {
         content: '';
     }
 }
+
+.auth-foot a,
+.empty-text a,
+.field-hint a,
+p a:not(.btn):not(.tag),
+li a:not(.btn):not(.nav-item-link):not(.tab-link):not(.dropdown-item) {
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
