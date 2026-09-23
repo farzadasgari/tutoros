@@ -2,10 +2,7 @@
 <html lang="en" dir="ltr" data-theme="light">
     <head>
         <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <meta name="color-scheme" content="light dark" />
         <meta name="theme-color" content="#fbfbfe" />
         <title>TutorOS</title>
@@ -25,28 +22,16 @@
         <script>
             (function () {
                 try {
-                    let t = localStorage.getItem("tutoros.theme") || "system";
-                    let r =
-                        t === "system"
-                            ? matchMedia("(prefers-color-scheme:dark)").matches
-                                ? "dark"
-                                : "light"
-                            : t;
+                    let t = localStorage.getItem('tutoros.theme') || 'system';
+                    let r = t === 'system' ? (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light') : t;
                     let e = document.documentElement;
-                    e.setAttribute("data-theme", r);
-                    e.setAttribute(
-                        "data-density",
-                        localStorage.getItem("tutoros.density") ||
-                            "comfortable",
-                    );
-                    let d = localStorage.getItem("tutoros.dir") || "ltr";
-                    e.setAttribute("dir", d);
-                    e.setAttribute(
-                        "lang",
-                        localStorage.getItem("tutoros.locale") || "en",
-                    );
-                    if (d === "rtl") {
-                        e.setAttribute("data-bs-rtl", "1");
+                    e.setAttribute('data-theme', r);
+                    e.setAttribute('data-density', localStorage.getItem('tutoros.density') || 'comfortable');
+                    let d = localStorage.getItem('tutoros.dir') || 'ltr';
+                    e.setAttribute('dir', d);
+                    e.setAttribute('lang', localStorage.getItem('tutoros.locale') || 'en');
+                    if (d === 'rtl') {
+                        e.setAttribute('data-bs-rtl', '1');
                     }
                 } catch (err) {}
             })();
@@ -54,29 +39,19 @@
         <script>
             document.write(
                 '<link rel="stylesheet" id="bs-css" href="./assets/vendor/bootstrap/bootstrap' +
-                    (document.documentElement.getAttribute("data-bs-rtl")
-                        ? ".rtl"
-                        : "") +
-                    '.min.css">',
+                    (document.documentElement.getAttribute('data-bs-rtl') ? '.rtl' : '') +
+                    '.min.css">'
             );
         </script>
         <noscript>
-            <link
-                rel="stylesheet"
-                href="./assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
-            />
+            <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/bootstrap-icons.min.css" />
         </noscript>
         <script>
             (function () {
                 try {
-                    if (
-                        (localStorage.getItem("tutoros.dir") || "ltr") === "rtl"
-                    ) {
-                        let l = document.getElementById("bs-css");
-                        l.href = l.href.replace(
-                            "bootstrap.min.css",
-                            "bootstrap.rtl.min.css",
-                        );
+                    if ((localStorage.getItem('tutoros.dir') || 'ltr') === 'rtl') {
+                        let l = document.getElementById('bs-css');
+                        l.href = l.href.replace('bootstrap.min.css', 'bootstrap.rtl.min.css');
                     }
                 } catch (e) {}
             })();
@@ -93,10 +68,7 @@
     <body data-page="redirect" class="">
         <div data-base="./">
             <div class="error-shell"></div>
-            <span
-                class="empty-art"
-                style="width: 56px; height: 56px; margin-inline: auto"
-            >
+            <span class="empty-art" style="width: 56px; height: 56px; margin-inline: auto">
                 <span class="spinner is-lg"></span>
             </span>
             <h1 class="error-title">Opening TutorOS</h1>
