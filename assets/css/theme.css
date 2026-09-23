@@ -529,3 +529,10 @@ li a:not(.btn):not(.nav-item-link):not(.tab-link):not(.dropdown-item) {
     text-decoration: underline;
     text-underline-offset: 0.18em;
 }
+
+.auth-foot a,
+.auth-card a.t-xs {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+}
