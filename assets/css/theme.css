@@ -452,3 +452,15 @@ hr {
     background: var(--fg-disabled);
     background-clip: content-box;
 }
+
+[dir="rtl"] body {letter-spacing: 0;}
+
+[dir="rtl"] .bi-chevron-right::before {content: "\f284";}
+
+[dir="rtl"] .bi-chevron-left::before {content: "\f285";}
+
+[dir="rtl"] .bi-arrow-right::before {content: "\f12f";}
+
+[dir="rtl"] .bi-arrow-left::before {content: "\f138";}
+
+[dir="rtl"] .mirror-rtl {transform: scaleX(-1);}
