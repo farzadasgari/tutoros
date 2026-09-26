@@ -32,3 +32,21 @@
     color: var(--fg-default);
     text-decoration: none;
 }
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--r-md);
+    background: linear-gradient(140deg, var(--violet-500), var(--indigo-600));
+    color: #fff;
+    box-shadow: var(--shadow-brand);
+}
+
+.brand-mark svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
