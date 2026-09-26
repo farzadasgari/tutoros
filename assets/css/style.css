@@ -50,3 +50,22 @@
     height: 18px;
     display: block;
 }
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    line-height: 1.1;
+}
+
+.brand-name {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-bold);
+    letter-spacing: -0.03em;
+}
+
+.brand-sub {
+    font-size: var(--fs-3x);
+    color: var(--fg-subtle);
+    letter-spacing: 0.01em;
+}
