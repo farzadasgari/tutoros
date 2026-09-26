@@ -135,7 +135,7 @@
 }
 
 .nav-item-link.active::before {
-    content: "";
+    content: '';
     position: absolute;
     inset-inline-start: 0;
     top: 50%;
@@ -152,4 +152,26 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.nav-count {
+    flex-shrink: 0;
+    min-width: 1.4rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--r-pill);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-semibold);
+    text-align: center;
+}
+
+.nav-count.is-alert {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
+
+.nav-count.is-warn {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
 }
