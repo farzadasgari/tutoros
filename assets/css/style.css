@@ -217,3 +217,15 @@
     font-size: var(--fs-3xs);
     color: var(--fg-subtle);
 }
+
+.app.is-collapsed .app-sidebar {
+    width: var(--sidebar-w-collapsed);
+}
+
+.app.is-collapsed .brand-text,
+.app.is-collapsed .nav-label,
+.app.is-collapsed .nav-count,
+.app.is-collapsed .nav-group-title,
+.app.is-collapsed .sidebar-user .meta {
+    display: none;
+}
