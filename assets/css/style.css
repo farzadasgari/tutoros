@@ -133,3 +133,15 @@
 .nav-item-link.active .bi {
     color: var(--brand-fg);
 }
+
+.nav-item-link.active::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    top: 50%;
+    width: 3px;
+    height: 1.25rem;
+    border-radius: var(--r-pill);
+    background: var(--brand);
+    transform: translateY(-50%);
+}
