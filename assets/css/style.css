@@ -250,3 +250,24 @@
 .app.is-collapsed .app-main {
     margin-inline-start: var(--sidebar-w-collapsed);
 }
+
+.app-navbar {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-navbar);
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    height: var(--navbar-h);
+    padding-inline: var(--sp-4);
+    border-bottom: 1px solid var(--border-default);
+    background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+    backdrop-filter: saturate(100%) blur(12px);
+    -webkit-backdrop-filter: saturate(100%) blur(12px);
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+    .app-navbar {
+        background: var(--bg-surface);
+    }
+}
