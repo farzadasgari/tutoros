@@ -197,3 +197,23 @@
     cursor: pointer;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.sidebar-user:hover {
+    background: var(--bg-hover);
+}
+
+.sidebar-user .meta {
+    flex: 1;
+    min-width: 0;
+    line-height: 1.25;
+}
+
+.sidebar-user .name {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
+
+.sidebar-user .role {
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+}
