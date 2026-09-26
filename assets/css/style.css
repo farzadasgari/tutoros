@@ -306,3 +306,14 @@
 .icon-btn.is-bordered {
     border-color: var(--border-default);
 }
+
+.icon-btn .dot {
+    position: absolute;
+    top: 8px;
+    inset-inline-end: 8px;
+    min-width: 8px;
+    height: 8px;
+    border: 2px solid var(--bg-surface);
+    border-radius: var(--r-pill);
+    background: var(--danger);
+}
