@@ -1,0 +1,17 @@
+.app {
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.app-sidebar {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-start: 0;
+    z-index: var(--z-sidebar);
+    display: flex;
+    flex-direction: column;
+    width: var(--sidebar-w);
+    border-inline-end: 1px solid var(--border-default);
+    background: var(--bg-surface);
+    transition: var(--dur-base) var(--ease-out);
+}
