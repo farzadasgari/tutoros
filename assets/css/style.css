@@ -292,3 +292,17 @@
     cursor: pointer;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.icon-btn:hover {
+    background: var(--bg-hover);
+    color: var(--fg-default);
+}
+
+.icon-btn[aria-expanded='true'] {
+    background: var(--bg-active);
+    color: var(--fg-default);
+}
+
+.icon-btn.is-bordered {
+    border-color: var(--border-default);
+}
