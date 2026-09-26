@@ -271,3 +271,24 @@
         background: var(--bg-surface);
     }
 }
+
+.navbar-spacer {
+    flex: 1;
+    min-width: 0;
+}
+
+.icon-btn {
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: var(--tap);
+    height: var(--tap);
+    border: 1px solid transparent;
+    border-radius: var(--r-sm);
+    background: transparent;
+    color: var(--fg-muted);
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: var(--dur-fast) var(--ease-out);
+}
