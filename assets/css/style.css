@@ -69,3 +69,11 @@
     color: var(--fg-subtle);
     letter-spacing: 0.01em;
 }
+
+.sidebar-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: var(--sp-3) var(--sp-3) var(--sp-4);
+}
