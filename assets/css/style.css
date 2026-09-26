@@ -15,3 +15,20 @@
     background: var(--bg-surface);
     transition: var(--dur-base) var(--ease-out);
 }
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    flex-shrink: 0;
+    height: var(--navbar-h);
+    padding-inline: var(--sp-4);
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--fg-default);
+    text-decoration: none;
+}
+
+.sidebar-brand:hover {
+    color: var(--fg-default);
+    text-decoration: none;
+}
