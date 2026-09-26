@@ -256,6 +256,7 @@ kbd {
     box-shadow: var(--shadow-xs);
     color: var(--fg-muted);
     font-size: var(--fs-3xs);
+    font-weight: var(--fw-medium);
     line-height: 1.4;
     text-align: center;
 }
@@ -272,7 +273,7 @@ hr {
 }
 
 .t-subtle {
-    color: var(--fg-subtel) !important;
+    color: var(--fg-subtle) !important;
 }
 
 .t-default {
@@ -299,12 +300,12 @@ hr {
     color: var(--accent-fg) !important;
 }
 
-.t-2xs {
-    font-size: var(--fs-2xs);
-}
-
 .t-xs {
     font-size: var(--fs-xs);
+}
+
+.t-2xs {
+    font-size: var(--fs-2xs);
 }
 
 .t-sm {
@@ -367,7 +368,7 @@ hr {
 
 .section-label .count {
     order: 3;
-    color: var(--fg-subtel);
+    color: var(--fg-subtle);
     font-weight: var(--fw-regular);
     font-size: var(--fs-2xs);
 }
@@ -409,7 +410,7 @@ hr {
     background: var(--brand);
     color: var(--fg-on-brand);
     font-weight: var(--fw-semibold);
-    transition: var(--dur-fast) var(--ease-out);
+    transition: top var(--dur-fast) var(--ease-out);
 }
 
 .skip-link:focus {
@@ -455,7 +456,6 @@ hr {
 [dir='rtl'] body {
     letter-spacing: 0;
 }
-
 [dir='rtl'] .bi-chevron-right::before {
     content: '\f284';
 }
@@ -480,6 +480,30 @@ hr {
     direction: ltr;
     unicode-bidi: isolate;
     text-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .skeleton {
+        animation: none !important;
+        background-position: 0 0 !important;
+    }
+
+    .pulse-dot {
+        animation: none !important;
+    }
 }
 
 @media print {
