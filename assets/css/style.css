@@ -175,3 +175,9 @@
     background: var(--warning-soft);
     color: var(--warning-fg);
 }
+
+.sidebar-footer {
+    flex-shrink: 0;
+    padding: var(--sp-3);
+    border-top: 1px solid var(--border-subtle);
+}
