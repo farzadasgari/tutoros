@@ -396,3 +396,12 @@
     color: var(--fg-default);
     font-weight: var(--fw-medium);
 }
+
+.app-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin-inline-start: var(--sidebar-w);
+    transition: var(--dur-base) var(--ease-out);
+}
