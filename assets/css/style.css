@@ -553,3 +553,11 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.palette-item:hover,
+.palette-item.is-active {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    text-decoration: none;
+}
+
