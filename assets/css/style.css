@@ -528,3 +528,11 @@
 .palette-input::placeholder {
     color: var(--fg-subtle);
 }
+
+.palette-group-title {
+    padding: var(--sp-2) var(--sp-3) var(--sp-1);
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-wide);
+}
