@@ -492,3 +492,13 @@
 .palette-backdrop.is-open {
     display: block;
 }
+
+.palette {
+    width: min(640px, 100%);
+    margin: clamp(var(--sp-4), 8vh, 7rem) auto 0;
+    overflow: hidden;
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-lg);
+}
