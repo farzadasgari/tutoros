@@ -360,3 +360,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.app-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-1);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--fs-xs);
+    color: var(--fg-subtle);
+}
