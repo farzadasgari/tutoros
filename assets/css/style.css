@@ -451,3 +451,10 @@
     color: var(--fg-muted);
     font-size: var(--fs-sm);
 }
+
+.page-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    align-items: center;
+}
