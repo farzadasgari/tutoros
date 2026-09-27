@@ -413,3 +413,10 @@
     margin-inline: auto;
     padding: var(--sp-5) var(--sp-5) var(--sp-12);
 }
+
+.app-footer {
+    padding: var(--sp-4) var(--sp-5);
+    border-top: 1px solid var(--border-subtle);
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
