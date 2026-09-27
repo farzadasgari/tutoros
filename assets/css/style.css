@@ -371,3 +371,15 @@
     font-size: var(--fs-xs);
     color: var(--fg-subtle);
 }
+
+.app-breadcrumb li {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-1);
+    min-width: 0;
+}
+
+.app-breadcrumb li + li::before {
+    content: "/";
+    color: var(--border-strong);
+}
