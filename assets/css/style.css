@@ -618,3 +618,9 @@
     pointer-events: auto;
     animation: toast-in var(--dur-base) var(--ease-out);
 }
+
+.toast-item .bi {
+    flex-shrink: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
