@@ -581,3 +581,14 @@
     color: var(--fg-subtle);
     font-size: var(--fs-2xs);
 }
+
+.palette-foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+    padding: var(--sp-2) var(--sp-4);
+    border-top: 1px solid var(--border-subtle);
+    background: var(--bg-sunken);
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+}
