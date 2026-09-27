@@ -561,3 +561,23 @@
     text-decoration: none;
 }
 
+.palette-item .bi {
+    flex-shrink: 0;
+    color: var(--fg-subtle);
+}
+
+.palette-item.is-active .bi,
+.palette-item:hover .bi {
+    color: var(--brand-fg);
+}
+
+.palette-item .hint {
+    margin-inline-start: auto;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
+
+.palette-item .sub {
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
