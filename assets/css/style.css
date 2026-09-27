@@ -445,3 +445,9 @@
     font-weight: var(--fw-bold);
     letter-spacing: var(--ls-tight);
 }
+
+.page-subtitle {
+    margin: var(--sp-1) 0 0;
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
