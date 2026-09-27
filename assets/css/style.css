@@ -604,3 +604,17 @@
     width: min(23rem, calc(100vw - 2 * var(--sp-4)));
     pointer-events: none;
 }
+
+.toast-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
+    border: 1px solid var(--border-default);
+    border-inline-start: 3px solid var(--brand);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-lg);
+    pointer-events: auto;
+    animation: toast-in var(--dur-base) var(--ease-out);
+}
