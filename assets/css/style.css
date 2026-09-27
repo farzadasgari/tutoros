@@ -433,3 +433,15 @@
     gap: var(--sp-4);
     margin-bottom: var(--sp-5);
 }
+
+.page-head-text {
+    flex: 1 1 20rem;
+    min-width: 0;
+}
+
+.page-title {
+    margin: 0;
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-tight);
+}
