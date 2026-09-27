@@ -477,3 +477,18 @@
     color: var(--fg-default);
     font-weight: var(--fw-semibold);
 }
+
+.palette-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: var(--z-palette);
+    display: none;
+    padding: var(--sp-4);
+    background: var(--scrim);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.palette-backdrop.is-open {
+    display: block;
+}
