@@ -458,3 +458,22 @@
     gap: var(--sp-2);
     align-items: center;
 }
+
+.greeting-title {
+    margin: 0;
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-tight);
+}
+
+.greeting-sub {
+    margin: var(--sp-2) 0 0;
+    max-width: 60ch;
+    color: var(--fg-muted);
+    font-size: var(--fs-md);
+}
+
+.greeting-sub strong {
+    color: var(--fg-default);
+    font-weight: var(--fw-semibold);
+}
