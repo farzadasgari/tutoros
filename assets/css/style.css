@@ -380,6 +380,19 @@
 }
 
 .app-breadcrumb li + li::before {
-    content: "/";
+    content: '/';
     color: var(--border-strong);
+}
+
+.app-breadcrumb a {
+    color: var(--fg-muted);
+}
+
+.app-breadcrumb a:hover {
+    color: var(--brand-fg);
+}
+
+.app-breadcrumb [aria-current='page'] {
+    color: var(--fg-default);
+    font-weight: var(--fw-medium);
 }
