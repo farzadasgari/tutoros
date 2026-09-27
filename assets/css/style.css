@@ -420,3 +420,8 @@
     color: var(--fg-subtle);
     font-size: var(--fs-2xs);
 }
+
+.app-footer a {
+    display: inline-block;
+    padding-block: var(--sp-1);
+}
