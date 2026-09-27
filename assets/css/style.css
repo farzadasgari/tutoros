@@ -502,3 +502,11 @@
     background: var(--bg-surface);
     box-shadow: var(--shadow-lg);
 }
+
+.palette-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
+    border-bottom: 1px solid var(--border-subtle);
+}
