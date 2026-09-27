@@ -510,3 +510,21 @@
     padding: var(--sp-3) var(--sp-4);
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.palette-input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    color: var(--fg-default);
+    font-family: inherit;
+    font-size: var(--fs-lg);
+}
+
+.palette-input:focus {
+    outline: none;
+}
+
+.palette-input::placeholder {
+    color: var(--fg-subtle);
+}
