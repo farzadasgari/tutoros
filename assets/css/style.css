@@ -405,3 +405,11 @@
     margin-inline-start: var(--sidebar-w);
     transition: var(--dur-base) var(--ease-out);
 }
+
+.app-content {
+    flex: 1;
+    width: 100%;
+    max-width: var(--content-max);
+    margin-inline: auto;
+    padding: var(--sp-5) var(--sp-5) var(--sp-12);
+}
