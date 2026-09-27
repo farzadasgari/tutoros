@@ -330,3 +330,33 @@
     line-height: 13px;
     text-align: center;
 }
+
+.search-trigger {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    width: min(420px, 100%);
+    height: 38px;
+    padding-inline: var(--sp-3);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-sunken);
+    color: var(--fg-subtle);
+    font-size: var(--fs-sm);
+    text-align: start;
+    cursor: text;
+    transition: var(--dur-fast) var(--ease-out);
+}
+
+.search-trigger:hover {
+    border-color: var(--border-strong);
+    background: var(--bg-surface);
+}
+
+.search-trigger .label {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
