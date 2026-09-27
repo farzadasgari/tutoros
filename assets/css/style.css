@@ -425,3 +425,11 @@
     display: inline-block;
     padding-block: var(--sp-1);
 }
+
+.page-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--sp-4);
+    margin-bottom: var(--sp-5);
+}
