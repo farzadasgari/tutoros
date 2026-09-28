@@ -330,3 +330,27 @@
     line-height: 13px;
     text-align: center;
 }
+
+.toast-item.is-success {
+    border-inline-start-color: var(--success);
+}
+
+.toast-item.is-warning {
+    border-inline-start-color: var(--warning);
+}
+
+.toast-item.is-danger {
+    border-inline-start-color: var(--danger);
+}
+
+.toast-item.is-success .bi {
+    color: var(--success-fg);
+}
+
+.toast-item.is-warning .bi {
+    color: var(--warning-fg);
+}
+
+.toast-item.is-danger .bi {
+    color: var(--danger-fg);
+}
