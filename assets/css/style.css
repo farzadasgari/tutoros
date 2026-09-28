@@ -619,8 +619,32 @@
     animation: toast-in var(--dur-base) var(--ease-out);
 }
 
+.toast-item.is-success {
+    border-inline-start-color: var(--success);
+}
+
+.toast-item.is-warning {
+    border-inline-start-color: var(--warning-bold);
+}
+
+.toast-item.is-danger {
+    border-inline-start-color: var(--danger);
+}
+
 .toast-item .bi {
     flex-shrink: 0;
     font-size: 1.05rem;
     line-height: 1.35;
+}
+
+.toast-item.is-success .bi {
+    color: var(--success-fg);
+}
+
+.toast-item.is-warning .bi {
+    color: var(--warning-fg);
+}
+
+.toast-item.is-danger .bi {
+    color: var(--danger-fg);
 }
