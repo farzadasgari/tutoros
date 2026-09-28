@@ -707,3 +707,36 @@
 .fab:hover {
     background: var(--brand-hover);
 }
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-stack);
+}
+
+.stack-sm {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+}
+
+.row-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-3);
+}
+
+.row-gap {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-wrap: wrap;
+}
+
+.hairline {
+    height: 1px;
+    background: var(--border-subtle);
+    border: 0;
+    margin: 0;
+}
