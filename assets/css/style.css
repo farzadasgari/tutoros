@@ -703,3 +703,7 @@
     box-shadow: var(--shadow-brand);
     cursor: pointer;
 }
+
+.fab:hover {
+    background: var(--brand-hover);
+}
