@@ -685,3 +685,21 @@
         transform: translateY(6px) scale(0.98);
     }
 }
+
+.fab {
+    position: fixed;
+    inset-block-end: calc(var(--sp-5) + env(safe-area-inset-bottom, 0px));
+    inset-inline-end: var(--sp-5);
+    z-index: var(--z-sticky);
+    display: none;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: var(--r-circle);
+    background: var(--brand);
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: var(--shadow-brand);
+    cursor: pointer;
+}
