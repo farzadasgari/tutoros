@@ -648,3 +648,22 @@
 .toast-item.is-danger .bi {
     color: var(--danger-fg);
 }
+
+.toast-item .body {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--fs-sm);
+}
+
+.toast-item .title {
+    font-weight: var(--fw-semibold);
+}
+
+.toast-item .desc {
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+}
+
+.toast-item.is-leaving {
+    animation: toast-out var(--dur-base) var(--ease-input) forwards;
+}
