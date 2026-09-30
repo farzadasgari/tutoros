@@ -125,3 +125,12 @@
 .btn-success:hover {
     filter: brightness(0.92);
 }
+
+.btn-warning {
+    background: var(--warning-solid);
+    color: var(--on-warning-solid);
+}
+
+.btn-warning:hover {
+    filter: brightness(0.92);
+}
