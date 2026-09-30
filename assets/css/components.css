@@ -104,3 +104,15 @@
 .btn-primary:active {
     background: var(--brand-active);
 }
+
+.btn-secondary {
+    background: var(--bg-surface);
+    border-color: var(--border-control);
+    color: var(--fg-default);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-hover);
+    border-color: var(--border-strong);
+    color: var(--fg-default);
+}
