@@ -90,3 +90,17 @@
     display: flex;
     width: 100%;
 }
+
+.btn-primary {
+    background: var(--brand);
+    color: var(--fg-on-brand);
+}
+
+.btn-primary:hover {
+    background: var(--brand-hover);
+    color: var(--fg-on-brand);
+}
+
+.btn-primary:active {
+    background: var(--brand-active);
+}
