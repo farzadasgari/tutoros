@@ -209,3 +209,14 @@
     background: var(--danger-soft);
     color: var(--danger-fg);
 }
+
+.btn-outline-success {
+    border-color: var(--success);
+    color: var(--success-fg);
+    background: transparent;
+}
+
+.btn-outline-success:hover {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
