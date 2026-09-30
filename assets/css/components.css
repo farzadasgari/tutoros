@@ -198,3 +198,14 @@
     background: var(--brand-soft);
     color: var(--brand-fg);
 }
+
+.btn-outline-danger {
+    border-color: var(--danger);
+    color: var(--danger-fg);
+    background: transparent;
+}
+
+.btn-outline-danger:hover {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
