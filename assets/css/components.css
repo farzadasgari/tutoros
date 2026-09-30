@@ -134,3 +134,12 @@
 .btn-warning:hover {
     filter: brightness(0.92);
 }
+
+.btn-danger {
+    background: var(--danger-solid);
+    color: var(--on-danger-solid);
+}
+
+.btn-danger:hover {
+    filter: brightness(0.92);
+}
