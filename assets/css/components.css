@@ -284,3 +284,9 @@
 .btn-ghost.is-loading::after {
     color: var(--fg-muted);
 }
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
