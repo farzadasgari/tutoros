@@ -24,7 +24,7 @@
 
 .btn:disabled,
 .btn.disabled,
-.btn[aria-disabled="true"] {
+.btn[aria-disabled='true'] {
     opacity: 0.55;
     pointer-events: none;
 }
@@ -32,4 +32,37 @@
 .btn .bi {
     font-size: 1.05em;
     line-height: 1;
+}
+
+.btn-xs {
+    --btn-h: 26px;
+    --btn-px: 0.5rem;
+    --btn-fs: var(--fs-3xs);
+    border-radius: var(--r-sm);
+}
+
+.btn-sm {
+    --btn-h: 32px;
+    --btn-px: 0.6875rem;
+    --btn-fs: var(--fs-xs);
+    border-radius: var(--r-sm);
+}
+
+.btn-md {
+    --btn-h: 38px;
+    --btn-px: 0.875rem;
+    --btn-fs: var(--fs-sm);
+}
+
+.btn-lg {
+    --btn-h: 44px;
+    --btn-px: 1.125rem;
+    --btn-fs: var(--fs-md);
+}
+
+.btn-xl {
+    --btn-h: 52px;
+    --btn-px: 1.5rem;
+    --btn-fs: var(--fs-lg);
+    border-radius: var(--r-lg);
 }
