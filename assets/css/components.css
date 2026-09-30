@@ -290,3 +290,36 @@
         transform: rotate(360deg);
     }
 }
+
+.btn-group-tt {
+    display: inline-flex;
+}
+
+.btn-group-tt .btn {
+    border-radius: 0;
+}
+
+.btn-group-tt .btn:first-child {
+    border-start-start-radius: var(--r-md);
+    border-end-start-radius: var(--r-md);
+}
+
+.btn-group-tt .btn:last-child {
+    border-start-end-radius: var(--r-md);
+}
+
+.btn-group-tt .btn + .btn {
+    margin-inline-start: -1px;
+}
+
+.btn-group-tt .btn:hover,
+.btn-group-tt .btn.active {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-group-tt .btn.active {
+    background: var(--brand-soft);
+    border-color: var(--brand);
+    color: var(--brand-fg);
+}
