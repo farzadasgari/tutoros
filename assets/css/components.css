@@ -162,3 +162,17 @@
     background: var(--bg-active);
     color: var(--fg-default);
 }
+
+.btn-dark {
+    background: var(--bg-inverse);
+    color: var(--fg-inverse);
+}
+
+.btn-dark:hover {
+    background: var(--n-800);
+    color: var(--fg-inverse);
+}
+
+[data-theme='dark'] .btn-dark:hover {
+    background: var(--n-200);
+}
