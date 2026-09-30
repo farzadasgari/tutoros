@@ -255,3 +255,26 @@
     color: var(--brand-hover);
     text-decoration: underline;
 }
+
+.btn.is-loading {
+    position: relative;
+    color: transparent !important;
+    pointer-events: none;
+}
+
+.btn.is-loading > * {
+    visibility: hidden;
+}
+
+.btn.is-loading::after {
+    content: "";
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border: 2px solid currentColor;
+    border-top-color: transparent;
+    border-radius: var(--r-circle);
+    color: var(--fg-on-brand);
+    animation: spin 0.6s linear infinite;
+    visibility: visible;
+}
