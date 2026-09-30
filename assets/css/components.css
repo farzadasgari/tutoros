@@ -230,3 +230,13 @@
     background: var(--bg-hover);
     color: var(--fg-default);
 }
+
+.btn-ghost-danger {
+    background: transparent;
+    color: var(--danger-fg);
+}
+
+.btn-ghost-danger:hover {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
