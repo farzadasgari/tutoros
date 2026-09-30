@@ -176,3 +176,14 @@
 [data-theme='dark'] .btn-dark:hover {
     background: var(--n-200);
 }
+
+.btn-outline {
+    border-color: var(--border-control);
+    color: var(--fg-default);
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background: var(--bg-hover);
+    color: var(--fg-default);
+}
