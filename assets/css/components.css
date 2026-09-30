@@ -220,3 +220,13 @@
     background: var(--success-soft);
     color: var(--success-fg);
 }
+
+.btn-ghost {
+    background: transparent;
+    color: var(--fg-muted);
+}
+
+.btn-ghost:hover {
+    background: var(--bg-hover);
+    color: var(--fg-default);
+}
