@@ -143,3 +143,12 @@
 .btn-danger:hover {
     filter: brightness(0.92);
 }
+
+.btn-info {
+    background: var(--info-solid);
+    color: var(--on-info-solid);
+}
+
+.btn-info:hover {
+    filter: brightness(0.92);
+}
