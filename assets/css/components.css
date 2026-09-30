@@ -187,3 +187,14 @@
     background: var(--bg-hover);
     color: var(--fg-default);
 }
+
+.btn-outline-primary {
+    border-color: var(--brand);
+    color: var(--brand-fg);
+    background: transparent;
+}
+
+.btn-outline-primary:hover {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
