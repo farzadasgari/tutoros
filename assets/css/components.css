@@ -116,3 +116,12 @@
     border-color: var(--border-strong);
     color: var(--fg-default);
 }
+
+.btn-success {
+    background: var(--success-solid);
+    color: var(--on-success-solid);
+}
+
+.btn-success:hover {
+    filter: brightness(0.92);
+}
