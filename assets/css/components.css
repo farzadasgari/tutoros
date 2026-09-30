@@ -66,3 +66,27 @@
     --btn-fs: var(--fs-lg);
     border-radius: var(--r-lg);
 }
+
+.btn-square {
+    border-radius: var(--r-xs);
+}
+
+.btn-pill {
+    border-radius: var(--r-pill);
+}
+
+.btn-circle {
+    width: var(--btn-h);
+    padding: 0;
+    border-radius: var(--r-circle);
+}
+
+.btn-icon {
+    width: var(--btn-h);
+    padding: 0;
+}
+
+.btn-block {
+    display: flex;
+    width: 100%;
+}
