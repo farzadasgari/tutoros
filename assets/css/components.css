@@ -240,3 +240,18 @@
     background: var(--danger-soft);
     color: var(--danger-fg);
 }
+
+.btn-link {
+    height: auto;
+    min-height: 24px;
+    padding: 0;
+    background: transparent;
+    color: var(--brand-fg);
+    border: 0;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: var(--brand-hover);
+    text-decoration: underline;
+}
