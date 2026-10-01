@@ -371,3 +371,16 @@
     min-width: 0;
     padding: var(--sp-card);
 }
+
+.panel-body.is-flush {
+    padding: 0;
+}
+
+.panel-foot {
+    padding: var(--sp-3) var(--sp-card);
+    border-top: 1px solid var(--border-subtle);
+    background: var(--bg-sunken);
+    border-end-start-radius: var(--r-lg);
+    border-end-end-radius: var(--r-lg);
+    font-size: var(--fs-xs);
+}
