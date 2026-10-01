@@ -579,3 +579,16 @@ a.stat-tile:hover .stat-label {
         var(--indigo-700) 100%
     );
 }
+
+.hero-class::after {
+    content: "";
+    position: absolute;
+    inset-block-start: -30%;
+    inset-inline-end: -8%;
+    width: 300px;
+    height: 300px;
+    border: 34px solid rgba(255, 255, 255, 0.07);
+    border-radius: var(--r-circle);
+    clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 50% 100%);
+    pointer-events: none;
+}
