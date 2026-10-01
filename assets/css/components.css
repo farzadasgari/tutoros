@@ -581,7 +581,7 @@ a.stat-tile:hover .stat-label {
 }
 
 .hero-class::after {
-    content: "";
+    content: '';
     position: absolute;
     inset-block-start: -30%;
     inset-inline-end: -8%;
@@ -596,4 +596,14 @@ a.stat-tile:hover .stat-label {
 .hero-body {
     position: relative;
     padding: var(--sp-6) var(--sp-card);
+}
+
+.hero-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    margin-bottom: var(--sp-3);
+    color: rgba(255, 255, 255, 0.86);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
 }
