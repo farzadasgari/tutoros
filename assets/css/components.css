@@ -397,3 +397,13 @@
     border-color: var(--border-strong);
     box-shadow: var(--shadow-md);
 }
+
+.panel-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.panel-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
