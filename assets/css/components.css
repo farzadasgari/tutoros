@@ -429,3 +429,14 @@
     text-decoration: none;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+a.stat-tile:hover {
+    border-color: var(--brand);
+    background: var(--bg-surface);
+    color: inherit;
+    text-decoration: none;
+}
+
+a.stat-tile:hover .stat-label {
+    color: var(--brand-fg);
+}
