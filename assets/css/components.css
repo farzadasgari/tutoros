@@ -342,3 +342,12 @@
     padding: var(--sp-4) var(--sp-card);
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.panel-title {
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-snug);
+}
