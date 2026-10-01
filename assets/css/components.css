@@ -531,10 +531,21 @@ a.stat-tile:hover .stat-label {
     color: var(--fg-subtle);
 }
 
-
 .trend {
     display: inline-flex;
     align-items: center;
     gap: 0.2em;
     font-weight: var(--fw-semibold);
+}
+
+.trend.is-up {
+    color: var(--success-fg);
+}
+
+.trend.is-down {
+    color: var(--danger-fg);
+}
+
+.trend.is-flat {
+    color: var(--fg-subtle);
 }
