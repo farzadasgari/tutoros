@@ -358,3 +358,10 @@
     font-size: var(--fs-2xs);
     font-weight: var(--fw-regular);
 }
+
+.panel-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-shrink: 0;
+}
