@@ -515,3 +515,10 @@ a.stat-tile:hover .stat-label {
 .stat-value .money .cur {
     white-space: nowrap;
 }
+
+.stat-value .unit {
+    font-size: 0.6em;
+    font-weight: var(--fw-medium);
+    color: var(--fg-muted);
+    margin-inline-start: 0.15em;
+}
