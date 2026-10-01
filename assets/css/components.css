@@ -392,3 +392,8 @@
 .panel.is-hoverable {
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.panel.is-hoverable:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-md);
+}
