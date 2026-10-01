@@ -483,3 +483,14 @@ a.stat-tile:hover .stat-label {
     background: var(--danger-soft);
     color: var(--danger-fg);
 }
+
+.stat-label {
+    flex: 1;
+    min-width: 0;
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-medium);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
