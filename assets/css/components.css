@@ -323,3 +323,13 @@
     border-color: var(--brand);
     color: var(--brand-fg);
 }
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-sm);
+}
