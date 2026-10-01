@@ -530,3 +530,11 @@ a.stat-tile:hover .stat-label {
     font-size: var(--fs-2x);
     color: var(--fg-subtle);
 }
+
+
+.trend {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
+    font-weight: var(--fw-semibold);
+}
