@@ -592,3 +592,8 @@ a.stat-tile:hover .stat-label {
     clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 50% 100%);
     pointer-events: none;
 }
+
+.hero-body {
+    position: relative;
+    padding: var(--sp-6) var(--sp-card);
+}
