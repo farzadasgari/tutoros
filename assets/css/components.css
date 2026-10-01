@@ -351,3 +351,10 @@
     font-weight: var(--fw-semibold);
     letter-spacing: var(--ls-snug);
 }
+
+.panel-sub {
+    margin: 2px 0 0;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-regular);
+}
