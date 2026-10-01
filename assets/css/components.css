@@ -522,3 +522,11 @@ a.stat-tile:hover .stat-label {
     color: var(--fg-muted);
     margin-inline-start: 0.15em;
 }
+
+.stat-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    font-size: var(--fs-2x);
+    color: var(--fg-subtle);
+}
