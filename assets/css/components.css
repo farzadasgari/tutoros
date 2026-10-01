@@ -570,3 +570,12 @@ a.stat-tile:hover .stat-label {
     color: #fff;
     box-shadow: var(--shadow-brand);
 }
+
+[data-theme='dark'] .hero-class {
+    background: linear-gradient(
+        135deg,
+        var(--violet-800) 0%,
+        var(--violet-700) 42%,
+        var(--indigo-700) 100%
+    );
+}
