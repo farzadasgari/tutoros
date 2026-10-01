@@ -333,3 +333,12 @@
     background: var(--bg-surface);
     box-shadow: var(--shadow-sm);
 }
+
+.panel-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-4) var(--sp-card);
+    border-bottom: 1px solid var(--border-subtle);
+}
