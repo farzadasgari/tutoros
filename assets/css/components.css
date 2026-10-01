@@ -365,3 +365,9 @@
     gap: var(--sp-2);
     flex-shrink: 0;
 }
+
+.panel-body {
+    flex: 1;
+    min-width: 0;
+    padding: var(--sp-card);
+}
