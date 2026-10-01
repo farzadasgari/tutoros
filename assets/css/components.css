@@ -446,3 +446,15 @@ a.stat-tile:hover .stat-label {
     align-items: center;
     gap: var(--sp-2);
 }
+
+.stat-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+}
