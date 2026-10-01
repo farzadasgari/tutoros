@@ -384,3 +384,11 @@
     border-end-end-radius: var(--r-lg);
     font-size: var(--fs-xs);
 }
+
+.panel.is-flat {
+    box-shadow: none;
+}
+
+.panel.is-hoverable {
+    transition: var(--dur-fast) var(--ease-out);
+}
