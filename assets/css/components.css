@@ -503,3 +503,15 @@ a.stat-tile:hover .stat-label {
     font-variant-numeric: tabular-nums;
     overflow-wrap: anywhere;
 }
+
+.stat-tile.is-wide {
+    grid-column: span 2;
+}
+
+.stat-value .money {
+    white-space: normal;
+}
+
+.stat-value .money .cur {
+    white-space: nowrap;
+}
