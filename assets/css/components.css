@@ -458,3 +458,28 @@ a.stat-tile:hover .stat-label {
     color: var(--fg-muted);
     font-size: 0.85rem;
 }
+
+.stat-icon.is-brand {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
+
+.stat-icon.is-time {
+    background: var(--accent-soft);
+    color: var(--accent-fg);
+}
+
+.stat-icon.is-money {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
+
+.stat-icon.is-warn {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+}
+
+.stat-icon.is-danger {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
