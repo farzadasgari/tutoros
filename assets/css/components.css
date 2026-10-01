@@ -494,3 +494,12 @@ a.stat-tile:hover .stat-label {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.stat-value {
+    font-size: var(--fs-stat);
+    font-weight: var(--fw-bold);
+    line-height: 1.05;
+    letter-spacing: var(--ls-tight);
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}
