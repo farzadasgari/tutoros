@@ -556,3 +556,17 @@ a.stat-tile:hover .stat-label {
     height: 28px;
     margin-top: var(--sp-1);
 }
+
+.hero-class {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--r-xl);
+    background: linear-gradient(
+        135deg,
+        var(--violet-700) 0%,
+        var(--violet-600) 42%,
+        var(--indigo-600) 100%
+    );
+    color: #fff;
+    box-shadow: var(--shadow-brand);
+}
