@@ -891,3 +891,9 @@ a.stat-tile:hover .stat-label {
     background: var(--info-soft);
     color: var(--info-fg);
 }
+
+.avatar-wrap {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+}
