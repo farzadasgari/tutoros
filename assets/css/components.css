@@ -685,3 +685,10 @@ a.stat-tile:hover .stat-label {
     gap: var(--sp-2);
     margin-top: var(--sp-5);
 }
+
+.btn-join {
+    background: #fff;
+    color: var(--violet-700);
+    border-color: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
