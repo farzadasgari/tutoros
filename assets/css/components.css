@@ -784,3 +784,23 @@ a.stat-tile:hover .stat-label {
     border-radius: var(--r-circle);
     background: var(--fg-disabled);
 }
+
+.dot-status.is-active {
+    background: var(--success-bold);
+}
+
+.dot-status.is-warning {
+    background: var(--warning-bold);
+}
+
+.dot-status.is-risk {
+    background: var(--danger-bold);
+}
+
+.dot-status.is-inactive {
+    background: var(--fg-disabled);
+}
+
+.dot-status.is-brand {
+    background: var(--brand);
+}
