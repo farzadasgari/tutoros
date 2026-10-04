@@ -621,3 +621,11 @@ a.stat-tile:hover .stat-label {
     70% {box-shadow: 0 0 0 9px rgba(111, 224, 234, 0);}
     100% {box-shadow: 0 0 0 0 rgba(111, 224, 234, 0);}
 }
+
+.hero-student {
+    margin: 0;
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-tight);
+    color: #fff;
+}
