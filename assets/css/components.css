@@ -678,7 +678,6 @@ a.stat-tile:hover .stat-label {
     margin-inline-end: 0.4em;
 }
 
-
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
@@ -741,9 +740,47 @@ a.stat-tile:hover .stat-label {
     border-color: var(--brand-soft-bd);
 }
 
-.tag-success {background: var(--success-soft); color: var(--success-fg); border-color: color-mix(in srgb, var(--success) 32%, transparent);}
-.tag-warning {background: var(--warning-soft); color: var(--warning-fg); border-color: color-mix(in srgb, var(--warning) 32%, transparent);}
-.tag-danger {background: var(--danger-soft); color: var(--danger-fg); border-color: color-mix(in srgb, var(--danger) 32%, transparent);}
-.tag-info {background: var(--info-soft); color: var(--info-fg); border-color: color-mix(in srgb, var(--info) 32%, transparent);}
-.tag-time {background: var(--accent-soft); color: var(--accent-fg); border-color: color-mix(in srgb, var(--accent) 32%, transparent);}
-.tag-outline {background: transparent; color: var(--fg-muted); border-color: var(--border-control);}
+.tag-success {
+    background: var(--success-soft);
+    color: var(--success-fg);
+    border-color: color-mix(in srgb, var(--success) 32%, transparent);
+}
+
+.tag-warning {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+    border-color: color-mix(in srgb, var(--warning) 32%, transparent);
+}
+
+.tag-danger {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+    border-color: color-mix(in srgb, var(--danger) 32%, transparent);
+}
+
+.tag-info {
+    background: var(--info-soft);
+    color: var(--info-fg);
+    border-color: color-mix(in srgb, var(--info) 32%, transparent);
+}
+
+.tag-time {
+    background: var(--accent-soft);
+    color: var(--accent-fg);
+    border-color: color-mix(in srgb, var(--accent) 32%, transparent);
+}
+
+.tag-outline {
+    background: transparent;
+    color: var(--fg-muted);
+    border-color: var(--border-control);
+}
+
+.dot-status {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: var(--r-circle);
+    background: var(--fg-disabled);
+}
