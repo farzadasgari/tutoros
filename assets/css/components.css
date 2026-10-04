@@ -804,3 +804,20 @@ a.stat-tile:hover .stat-label {
 .dot-status.is-brand {
     background: var(--brand);
 }
+
+.avatar {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--r-circle);
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0;
+    text-transform: uppercase;
+    user-select: none;
+    overflow: hidden;
+}
