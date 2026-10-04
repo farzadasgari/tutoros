@@ -907,3 +907,15 @@ a.stat-tile:hover .stat-label {
     border: 2px solid var(--bg-surface);
     border-radius: var(--r-circle);
 }
+
+.avatar-stack {
+    display: inline-flex;
+}
+
+.avatar-stack .avatar {
+    border: 2px solid var(--bg-surface);
+}
+
+.avatar-stack .avatar + .avatar {
+    margin-inline-start: -10px;
+}
