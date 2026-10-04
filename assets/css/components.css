@@ -677,3 +677,11 @@ a.stat-tile:hover .stat-label {
     color: rgba(255, 255, 255, 0.72);
     margin-inline-end: 0.4em;
 }
+
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    margin-top: var(--sp-5);
+}
