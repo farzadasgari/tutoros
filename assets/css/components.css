@@ -527,7 +527,7 @@ a.stat-tile:hover .stat-label {
     display: flex;
     align-items: center;
     gap: var(--sp-2);
-    font-size: var(--fs-2x);
+    font-size: var(--fs-2xs);
     color: var(--fg-subtle);
 }
 
@@ -709,4 +709,19 @@ a.stat-tile:hover .stat-label {
     background: rgba(255, 255, 255, 0.24);
     color: #fff;
     border-color: rgba(255, 255, 255, 0.5);
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.34em;
+    padding: 0.2em 0.6em;
+    border: 1px solid transparent;
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    line-height: 1.45;
+    white-space: nowrap;
 }
