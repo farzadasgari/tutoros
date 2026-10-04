@@ -618,8 +618,12 @@ a.stat-tile:hover .stat-label {
 }
 
 @keyframes pulse {
-    70% {box-shadow: 0 0 0 9px rgba(111, 224, 234, 0);}
-    100% {box-shadow: 0 0 0 0 rgba(111, 224, 234, 0);}
+    70% {
+        box-shadow: 0 0 0 9px rgba(111, 224, 234, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(111, 224, 234, 0);
+    }
 }
 
 .hero-student {
@@ -634,4 +638,23 @@ a.stat-tile:hover .stat-label {
     margin: var(--sp-1) 0 0;
     color: rgba(255, 255, 255, 0.88);
     font-size: var(--fs-md);
+}
+
+.hero-fact {
+    min-width: 0;
+}
+
+.hero-fact .k {
+    display: block;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: var(--fs-3xs);
+}
+
+.hero-fact .v {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    color: #fff;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
 }
