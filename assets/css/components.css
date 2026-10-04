@@ -670,3 +670,10 @@ a.stat-tile:hover .stat-label {
     line-height: 1;
     color: #fff;
 }
+
+.hero-countdown .seg-label {
+    font-size: 0.34em;
+    font-weight: var(--fw-medium);
+    color: rgba(255, 255, 255, 0.72);
+    margin-inline-end: 0.4em;
+}
