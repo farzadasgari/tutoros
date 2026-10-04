@@ -658,3 +658,15 @@ a.stat-tile:hover .stat-label {
     font-size: var(--fs-md);
     font-weight: var(--fw-semibold);
 }
+
+.hero-countdown {
+    display: flex;
+    align-items: baseline;
+    gap: 0.15em;
+    font-size: clamp(2rem, 1.3rem + 3.2vw, 3rem);
+    font-weight: var(--fw-bold);
+    letter-spacing: -0.04em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    color: #fff;
+}
