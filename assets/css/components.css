@@ -897,3 +897,13 @@ a.stat-tile:hover .stat-label {
     display: inline-flex;
     flex-shrink: 0;
 }
+
+.avatar-wrap .presence {
+    position: absolute;
+    inset-block-end: -1px;
+    inset-inline-end: -1px;
+    width: 11px;
+    height: 11px;
+    border: 2px solid var(--bg-surface);
+    border-radius: var(--r-circle);
+}
