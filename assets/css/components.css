@@ -698,3 +698,15 @@ a.stat-tile:hover .stat-label {
     color: var(--violet-800);
     border-color: var(--violet-50);
 }
+
+.btn-on-brand {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.32);
+    color: #fff;
+}
+
+.btn-on-brand:hover {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
