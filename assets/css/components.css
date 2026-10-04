@@ -629,3 +629,9 @@ a.stat-tile:hover .stat-label {
     letter-spacing: var(--ls-tight);
     color: #fff;
 }
+
+.hero-course {
+    margin: var(--sp-1) 0 0;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: var(--fs-md);
+}
