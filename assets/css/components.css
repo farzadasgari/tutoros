@@ -861,3 +861,33 @@ a.stat-tile:hover .stat-label {
     height: 100%;
     object-fit: cover;
 }
+
+.avatar.c1 {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
+
+.avatar.c2 {
+    background: var(--accent-soft);
+    color: var(--accent-fg);
+}
+
+.avatar.c3 {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
+
+.avatar.c4 {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+}
+
+.avatar.c5 {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
+
+.avatar.c6 {
+    background: var(--info-soft);
+    color: var(--info-fg);
+}
