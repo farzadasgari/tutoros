@@ -692,3 +692,9 @@ a.stat-tile:hover .stat-label {
     border-color: #fff;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
 }
+
+.btn-join:hover {
+    background: var(--violet-50);
+    color: var(--violet-800);
+    border-color: var(--violet-50);
+}
