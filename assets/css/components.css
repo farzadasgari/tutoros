@@ -1005,3 +1005,23 @@ a.identity:hover .id-name {
     line-height: 1.5;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.input::placeholder, .textarea::placeholder {
+    color: var(--fg-subtle);
+}
+
+.input:hover, .select:hover, .textarea:hover {
+    border-color: var(--border-strong);
+}
+
+.input:focus, .select:focus, .textarea:focus {
+    outline: none;
+    border-color: var(--brand);
+    box-shadow: var(--focus-ring);
+}
+
+.input:disabled, .select:disabled, .textarea:disabled {
+    background: var(--bg-sunken);
+    color: var(--fg-disabled);
+    cursor: not-allowed;
+}
