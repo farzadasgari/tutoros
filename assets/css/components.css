@@ -989,3 +989,19 @@ a.identity:hover .id-name {
     color: var(--danger-fg);
     font-weight: var(--fw-medium);
 }
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    min-height: var(--tap);
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-control);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+    color: var(--fg-default);
+    font-family: var(--font-ui);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    transition: var(--dur-fast) var(--ease-out);
+}
