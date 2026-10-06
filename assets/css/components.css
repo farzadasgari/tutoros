@@ -1106,3 +1106,13 @@ a.identity:hover .id-name {
     border-start-end-radius: 0;
     border-end-end-radius: 0;
 }
+
+.field-float {
+    position: relative;
+}
+
+.field-float .input {
+    padding-top: 1.35rem;
+    padding-bottom: 0.35rem;
+    min-height: 3.25rem;
+}
