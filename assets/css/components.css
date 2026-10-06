@@ -1084,3 +1084,15 @@ a.identity:hover .id-name {
     font-weight: var(--fw-medium);
     white-space: nowrap;
 }
+
+.input-group-tt .input-affix:last-child {
+    border-inline-start: 0;
+    border-start-end-radius: var(--r-md);
+    border-end-end-radius: var(--r-md);
+}
+
+.input-group-tt .input-affix:first-child {
+    border-inline-end: 0;
+    border-start-start-radius: var(--r-md);
+    border-end-start-radius: var(--r-md);
+}
