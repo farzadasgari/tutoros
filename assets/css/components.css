@@ -971,3 +971,21 @@ a.identity:hover .id-name {
     font-weight: var(--fw-semibold);
     color: var(--fg-default);
 }
+
+.field-label .req {
+    color: var(--danger-fg);
+}
+
+.field-hint {
+    font-size: var(--fs-2xs);
+    color: var(--fg-subtle);
+}
+
+.field-error {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    font-size: var(--fs-2xs);
+    color: var(--danger-fg);
+    font-weight: var(--fw-medium);
+}
