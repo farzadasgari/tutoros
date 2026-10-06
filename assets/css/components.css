@@ -955,3 +955,10 @@ a.stat-tile:hover .stat-label {
 a.identity:hover .id-name {
     color: var(--brand-fg);
 }
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    min-width: 0;
+}
