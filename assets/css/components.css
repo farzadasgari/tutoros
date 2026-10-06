@@ -919,3 +919,16 @@ a.stat-tile:hover .stat-label {
 .avatar-stack .avatar + .avatar {
     margin-inline-start: -10px;
 }
+
+.identity {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    min-width: 0;
+    min-height: 24px;
+}
+
+.identity .id-text {
+    min-width: 0;
+    line-height: 1.3;
+}
