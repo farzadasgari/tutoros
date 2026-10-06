@@ -932,3 +932,26 @@ a.stat-tile:hover .stat-label {
     min-width: 0;
     line-height: 1.3;
 }
+
+.identity .id-name {
+    display: block;
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-sm);
+    color: var(--fg-default);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.identity .id-sub {
+    display: block;
+    font-size: var(--fs-2xs);
+    color: var(--fg-subtle);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a.identity:hover .id-name {
+    color: var(--brand-fg);
+}
