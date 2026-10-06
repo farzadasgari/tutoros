@@ -1116,3 +1116,14 @@ a.identity:hover .id-name {
     padding-bottom: 0.35rem;
     min-height: 3.25rem;
 }
+
+.field-float label {
+    position: absolute;
+    inset-inline-start: 0.78rem;
+    top: 0.95rem;
+    color: var(--fg-subtle);
+    font-size: var(--fs-sm);
+    pointer-events: none;
+    transform-origin: left center;
+    transition: var(--dur-fast) var(--ease-out);
+}
