@@ -1047,3 +1047,24 @@ a.identity:hover .id-name {
     min-height: 5.5rem;
     resize: vertical;
 }
+
+.input-group-tt {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    min-width: 0;
+}
+
+.input-group-tt .input {
+    border-radius: var(--r-md);
+}
+
+.input-group-tt .lead-icon {
+    position: absolute;
+    inset-inline-start: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--fg-subtle);
+    pointer-events: none;
+    font-size: 0.95rem;
+}
