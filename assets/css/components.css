@@ -1396,3 +1396,21 @@ a.identity:hover .id-name {
     gap: var(--sp-4);
     grid-template-columns: minmax(0, 1fr);
 }
+
+@media (min-width: 768px) {
+    .form-grid.col-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    .form-grid.col-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .form-grid .span-2 {
+        grid-column: span 2;
+    }
+
+    .form-grid .span-full {
+        grid-column: 1 / -1;
+    }
+}
