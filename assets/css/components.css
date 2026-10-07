@@ -1420,3 +1420,18 @@ a.identity:hover .id-name {
     padding-top: var(--sp-6);
     border-top: 1px solid var(--border-subtle);
 }
+
+.form-section-head {
+    margin-bottom: var(--sp-4);
+}
+
+.form-section-head h3 {
+    margin: 0 0 var(--sp-1);
+    font-size: var(--fs-md);
+}
+
+.form-section-head p {
+    margin: 0;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
