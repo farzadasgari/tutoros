@@ -1145,3 +1145,8 @@ a.identity:hover .id-name {
     accent-color: var(--brand);
     cursor: pointer;
 }
+
+.check .check-text {
+    font-size: var(--fs-sm);
+    line-height: 1.45;
+}
