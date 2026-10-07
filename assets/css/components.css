@@ -1380,8 +1380,13 @@ a.identity:hover .id-name {
     transition: var(--dur-fast) var(--ease-out);
 }
 
-.dropzone:hover, .dropzone.is-over {
+.dropzone:hover,
+.dropzone.is-over {
     border-color: var(--brand);
     background: var(--brand-soft);
     color: var(--brand-fg);
+}
+
+.dropzone .bi {
+    font-size: 1.7rem;
 }
