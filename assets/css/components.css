@@ -1269,3 +1269,9 @@ a.identity:hover .id-name {
     cursor: pointer;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.duration-chip:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent-fg);
+}
