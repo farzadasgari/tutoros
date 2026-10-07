@@ -1318,3 +1318,15 @@ a.identity:hover .id-name {
     font-size: var(--fs-2xs);
     font-weight: var(--fw-semibold);
 }
+
+.tag-chip button {
+    display: grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border: 0;
+    border-radius: var(--r-xs);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
