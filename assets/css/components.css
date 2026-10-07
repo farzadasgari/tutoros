@@ -1302,3 +1302,7 @@ a.identity:hover .id-name {
     color: inherit;
     font: inherit;
 }
+
+.tag-input input:focus {
+    outline: none;
+}
