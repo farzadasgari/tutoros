@@ -1220,3 +1220,18 @@ a.identity:hover .id-name {
     border-radius: var(--r-md);
     background: var(--bg-sunken);
 }
+
+.segmented button {
+    min-height: 30px;
+    padding: 0 0.7rem;
+    border: 0;
+    border-radius: var(--r-sm);
+    background: transparent;
+    color: var(--fg-muted);
+    font-family: inherit;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-medium);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: var(--dur-fast) var(--ease-out);
+}
