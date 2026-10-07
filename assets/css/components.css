@@ -1330,3 +1330,7 @@ a.identity:hover .id-name {
     color: inherit;
     cursor: pointer;
 }
+
+.tag-chip button:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
