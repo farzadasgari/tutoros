@@ -1135,3 +1135,13 @@ a.identity:hover .id-name {
     min-height: 1.75rem;
     cursor: pointer;
 }
+
+.check input[type="checkbox"],
+.check input[type="radio"] {
+    flex: 0;
+    width: 1.05rem;
+    height: 1.05rem;
+    margin-top: 0.18rem;
+    accent-color: var(--brand);
+    cursor: pointer;
+}
