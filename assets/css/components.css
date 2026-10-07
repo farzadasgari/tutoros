@@ -1339,3 +1339,17 @@ a.identity:hover .id-name {
     display: flex;
     gap: var(--sp-2);
 }
+
+.otp-group input {
+    width: 2.8rem;
+    height: 3.2rem;
+    padding: 0;
+    border: 1px solid var(--border-control);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+    color: var(--fg-default);
+    font-family: var(--font-mono);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semibold);
+    text-align: center;
+}
