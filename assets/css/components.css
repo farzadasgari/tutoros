@@ -1203,3 +1203,7 @@ a.identity:hover .id-name {
 .switch input:checked + .track::after {
     transform: translateX(calc(16px * var(--flip)));
 }
+
+.switch input:focus-visible + .track {
+    box-shadow: var(--focus-ring);
+}
