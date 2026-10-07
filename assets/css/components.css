@@ -1247,3 +1247,9 @@ a.identity:hover .id-name {
     font-weight: var(--fw-semibold);
     box-shadow: var(--shadow-xs);
 }
+
+.duration-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+}
