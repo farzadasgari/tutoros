@@ -1253,3 +1253,19 @@ a.identity:hover .id-name {
     flex-wrap: wrap;
     gap: var(--sp-2);
 }
+
+.duration-chip {
+    min-height: var(--tap);
+    min-width: 3.5rem;
+    padding: 0 0.75rem;
+    border: 1px solid var(--border-control);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+    color: var(--fg-default);
+    font-family: inherit;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    font-variant-numeric: tabular-nums;
+    cursor: pointer;
+    transition: var(--dur-fast) var(--ease-out);
+}
