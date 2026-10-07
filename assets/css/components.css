@@ -1293,3 +1293,12 @@ a.identity:hover .id-name {
     border-radius: var(--r-md);
     background: var(--bg-surface);
 }
+
+.tag-input input {
+    flex: 1;
+    min-width: 6rem;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+}
