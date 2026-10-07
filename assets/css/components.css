@@ -1136,8 +1136,8 @@ a.identity:hover .id-name {
     cursor: pointer;
 }
 
-.check input[type="checkbox"],
-.check input[type="radio"] {
+.check input[type='checkbox'],
+.check input[type='radio'] {
     flex: 0;
     width: 1.05rem;
     height: 1.05rem;
@@ -1183,7 +1183,7 @@ a.identity:hover .id-name {
 }
 
 .switch .track::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 2px;
     inset-inline-start: 2px;
@@ -1198,4 +1198,8 @@ a.identity:hover .id-name {
 .switch input:checked + .track {
     background: var(--brand);
     border-color: var(--brand);
+}
+
+.switch input:checked + .track::after {
+    transform: translateX(calc(16px * var(--flip)));
 }
