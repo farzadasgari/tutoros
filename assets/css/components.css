@@ -1379,3 +1379,9 @@ a.identity:hover .id-name {
     cursor: pointer;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.dropzone:hover, .dropzone.is-over {
+    border-color: var(--brand);
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
