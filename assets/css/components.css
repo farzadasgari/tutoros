@@ -1365,3 +1365,17 @@ a.identity:hover .id-name {
     accent-color: var(--brand);
     height: var(--tap);
 }
+
+.dropzone {
+    display: grid;
+    place-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-8) var(--sp-4);
+    border: 2px dashed var(--border-control);
+    border-radius: var(--r-lg);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    text-align: center;
+    cursor: pointer;
+    transition: var(--dur-fast) var(--ease-out);
+}
