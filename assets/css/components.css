@@ -1239,3 +1239,11 @@ a.identity:hover .id-name {
 .segmented button:hover {
     color: var(--fg-default);
 }
+
+.segmented button[aria-pressed='true'],
+.segmented button.active {
+    background: var(--bg-surface);
+    color: var(--fg-default);
+    font-weight: var(--fw-semibold);
+    box-shadow: var(--shadow-xs);
+}
