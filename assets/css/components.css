@@ -1207,3 +1207,8 @@ a.identity:hover .id-name {
 .switch input:focus-visible + .track {
     box-shadow: var(--focus-ring);
 }
+
+.switch input:disabled + .track {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
