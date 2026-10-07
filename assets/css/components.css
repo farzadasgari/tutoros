@@ -1235,3 +1235,7 @@ a.identity:hover .id-name {
     cursor: pointer;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.segmented button:hover {
+    color: var(--fg-default);
+}
