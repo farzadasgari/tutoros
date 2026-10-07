@@ -1359,3 +1359,9 @@ a.identity:hover .id-name {
     border-color: var(--brand);
     box-shadow: var(--focus-ring);
 }
+
+.range {
+    width: 100%;
+    accent-color: var(--brand);
+    height: var(--tap);
+}
