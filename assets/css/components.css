@@ -1150,3 +1150,9 @@ a.identity:hover .id-name {
     font-size: var(--fs-sm);
     line-height: 1.45;
 }
+
+.check .check-hint {
+    display: block;
+    font-size: var(--fs-2xs);
+    color: var(--fg-subtle);
+}
