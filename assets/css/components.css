@@ -1390,3 +1390,9 @@ a.identity:hover .id-name {
 .dropzone .bi {
     font-size: 1.7rem;
 }
+
+.form-grid {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: minmax(0, 1fr);
+}
