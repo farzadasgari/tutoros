@@ -1306,3 +1306,15 @@ a.identity:hover .id-name {
 .tag-input input:focus {
     outline: none;
 }
+
+.tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.15em 0.25em 0.15em 0.55em;
+    border-radius: var(--r-sm);
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+}
