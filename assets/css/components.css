@@ -1353,3 +1353,9 @@ a.identity:hover .id-name {
     font-weight: var(--fw-semibold);
     text-align: center;
 }
+
+.otp-group input:focus {
+    outline: none;
+    border-color: var(--brand);
+    box-shadow: var(--focus-ring);
+}
