@@ -1181,3 +1181,16 @@ a.identity:hover .id-name {
     background: var(--bg-sunken);
     transition: var(--dur-base) var(--ease-out);
 }
+
+.switch .track::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    inset-inline-start: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: var(--r-circle);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-xs);
+    transition: var(--dur-base) var(--ease-out);
+}
