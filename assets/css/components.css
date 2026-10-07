@@ -1156,3 +1156,10 @@ a.identity:hover .id-name {
     font-size: var(--fs-2xs);
     color: var(--fg-subtle);
 }
+
+.switch {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-3);
+    cursor: pointer;
+}
