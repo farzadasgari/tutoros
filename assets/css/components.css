@@ -1401,7 +1401,7 @@ a.identity:hover .id-name {
     .form-grid.col-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    
+
     .form-grid.col-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -1413,4 +1413,10 @@ a.identity:hover .id-name {
     .form-grid .span-full {
         grid-column: 1 / -1;
     }
+}
+
+.form-section + .form-section {
+    margin-top: var(--sp-6);
+    padding-top: var(--sp-6);
+    border-top: 1px solid var(--border-subtle);
 }
