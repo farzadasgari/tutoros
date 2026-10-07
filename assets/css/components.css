@@ -1127,3 +1127,11 @@ a.identity:hover .id-name {
     transform-origin: left center;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.check {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--sp-2);
+    min-height: 1.75rem;
+    cursor: pointer;
+}
