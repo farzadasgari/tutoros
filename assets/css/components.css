@@ -1275,3 +1275,10 @@ a.identity:hover .id-name {
     background: var(--accent-soft);
     color: var(--accent-fg);
 }
+
+.duration-chip[aria-pressed='true'] {
+    border-color: var(--accent-bold);
+    background: var(--accent-soft);
+    color: var(--accent-fg);
+    box-shadow: inset 0 0 0 1px var(--accent-bold);
+}
