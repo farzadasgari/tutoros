@@ -1212,3 +1212,11 @@ a.identity:hover .id-name {
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+.segmented {
+    display: inline-flex;
+    padding: 3px;
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-sunken);
+}
