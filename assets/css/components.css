@@ -1282,3 +1282,14 @@ a.identity:hover .id-name {
     color: var(--accent-fg);
     box-shadow: inset 0 0 0 1px var(--accent-bold);
 }
+
+.tag-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    padding: 0.4rem;
+    min-height: var(--tap);
+    border: 1px solid var(--border-control);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+}
