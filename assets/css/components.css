@@ -1194,3 +1194,8 @@ a.identity:hover .id-name {
     box-shadow: var(--shadow-xs);
     transition: var(--dur-base) var(--ease-out);
 }
+
+.switch input:checked + .track {
+    background: var(--brand);
+    border-color: var(--brand);
+}
