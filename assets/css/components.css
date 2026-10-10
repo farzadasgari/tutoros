@@ -1442,3 +1442,10 @@ a.identity:hover .id-name {
     overscroll-behavior-x: contain;
     -webkit-overflow-scrolling: touch;
 }
+
+.tt-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: var(--fs-sm);
+}
