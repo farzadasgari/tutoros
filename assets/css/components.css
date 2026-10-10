@@ -1649,3 +1649,14 @@ a.identity:hover .id-name {
     background: var(--success-soft);
     color: var(--success-fg);
 }
+
+.banner {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-sunken);
+    font-size: var(--fs-sm);
+}
