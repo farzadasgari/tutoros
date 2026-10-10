@@ -1631,3 +1631,12 @@ a.identity:hover .id-name {
     background: var(--warning-soft);
     color: var(--warning-fg);
 }
+
+.alert-card.sev-info {
+    border-inline-start-color: var(--info);
+}
+
+.alert-card.sev-info .alert-icon {
+    background: var(--info-soft);
+    color: var(--info-fg);
+}
