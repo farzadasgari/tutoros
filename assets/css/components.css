@@ -1532,3 +1532,13 @@ a.identity:hover .id-name {
     opacity: 0.4;
     font-size: 0.85em;
 }
+
+.th-sort[aria-sort='ascending'] .bi,
+.th-sort[aria-sort='descending'] .bi {
+    opacity: 1;
+    color: var(--brand-fg);
+}
+
+.th-sort:hover {
+    color: var(--fg-default);
+}
