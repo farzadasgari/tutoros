@@ -1660,3 +1660,8 @@ a.identity:hover .id-name {
     background: var(--bg-sunken);
     font-size: var(--fs-sm);
 }
+
+.banner .bi {
+    flex-shrink: 0;
+    margin-top: 0.1em;
+}
