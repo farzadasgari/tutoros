@@ -1677,3 +1677,9 @@ a.identity:hover .id-name {
     border-color: color-mix(in srgb, var(--danger) 36%, transparent);
     color: var(--danger-fg);
 }
+
+.banner.is-success {
+    background: var(--success-soft);
+    border-color: color-mix(in srgb, var(--success) 36%, transparent);
+    color: var(--success-fg);
+}
