@@ -1469,3 +1469,49 @@ a.identity:hover .id-name {
     white-space: nowrap;
     border-bottom-color: var(--border-default);
 }
+
+.tt-table tbody tr {
+    transition: var(--dur-fast) var(--ease-out);
+}
+
+.tt-table.is-hover tbody tr:hover {
+    background: var(--bg-hover);
+}
+
+.tt-table.is-striped tbody tr:nth-child(even) {
+    background: var(--bg-subtle);
+}
+
+.tt-table.is-bordered th,
+.tt-table.is-bordered td {
+    border-inline-end: 1px solid var(--border-subtle);
+}
+
+.tt-table.is-bordered th:last-child,
+.tt-table.is-bordered td:last-child {
+    border-inline-end: 0;
+}
+
+.tt-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.tt-table th.num,
+.tt-table td.num {
+    text-align: end;
+    font-variant-numeric: tabular-nums;
+}
+
+.tt-table .col-actions {
+    width: 1%;
+    white-space: nowrap;
+    text-align: end;
+}
+
+.tt-table caption {
+    padding: var(--sp-3);
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+    text-align: start;
+    caption-side: top;
+}
