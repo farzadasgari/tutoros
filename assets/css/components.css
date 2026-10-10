@@ -1586,3 +1586,14 @@ a.identity:hover .id-name {
     color: var(--fg-muted);
     font-size: 1rem;
 }
+
+.alert-card .alert-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.alert-card .alert-title {
+    margin: 0 0 2px;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
