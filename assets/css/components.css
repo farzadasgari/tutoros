@@ -1457,3 +1457,15 @@ a.identity:hover .id-name {
     vertical-align: middle;
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.tt-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    white-space: nowrap;
+    border-bottom-color: var(--border-default);
+}
