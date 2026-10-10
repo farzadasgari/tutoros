@@ -1449,3 +1449,11 @@ a.identity:hover .id-name {
     border-spacing: 0;
     font-size: var(--fs-sm);
 }
+
+.tt-table th,
+.tt-table td {
+    padding: var(--sp-cell);
+    text-align: start;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--border-subtle);
+}
