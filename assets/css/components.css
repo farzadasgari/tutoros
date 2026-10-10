@@ -1574,3 +1574,15 @@ a.identity:hover .id-name {
     border-radius: var(--r-md);
     background: var(--bg-surface);
 }
+
+.alert-card .alert-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: 1rem;
+}
