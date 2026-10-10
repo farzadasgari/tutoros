@@ -1550,3 +1550,12 @@ a.identity:hover .id-name {
 .row-expand > td {
     padding: var(--sp-4) var(--sp-5);
 }
+
+.table-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-3) var(--sp-card);
+    border-bottom: 1px solid var(--border-subtle);
+}
