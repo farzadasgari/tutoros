@@ -1604,3 +1604,10 @@ a.identity:hover .id-name {
     font-size: var(--fs-xs);
     line-height: var(--lh-snug);
 }
+
+.alert-card .alert-action {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    margin-top: var(--sp-3);
+}
