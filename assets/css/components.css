@@ -1622,3 +1622,12 @@ a.identity:hover .id-name {
     background: var(--danger-soft);
     color: var(--danger-fg);
 }
+
+.alert-card.sev-warning {
+    border-inline-start-color: var(--warning-bold);
+}
+
+.alert-card.sev-warning .alert-icon {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+}
