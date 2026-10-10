@@ -1527,3 +1527,8 @@ a.identity:hover .id-name {
     font: inherit;
     cursor: pointer;
 }
+
+.th-sort .bi {
+    opacity: 0.4;
+    font-size: 0.85em;
+}
