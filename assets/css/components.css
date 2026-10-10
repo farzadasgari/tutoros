@@ -1611,3 +1611,9 @@ a.identity:hover .id-name {
     gap: var(--sp-2);
     margin-top: var(--sp-3);
 }
+
+.alert-card.sev-critical {
+    border-inline-start-color: var(--danger);
+    background: var(--danger-soft);
+    border-color: color-mix(in srgb, var(--danger) 28%, transparent);
+}
