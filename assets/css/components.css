@@ -1564,3 +1564,13 @@ a.identity:hover .id-name {
     flex: 1 1 12rem;
     min-width: 0;
 }
+
+.alert-card {
+    display: flex;
+    gap: var(--sp-3);
+    padding: var(--sp-4);
+    border: 1px solid var(--border-default);
+    border-inline-start: 3px solid var(--fg-disabled);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+}
