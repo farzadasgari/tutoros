@@ -1515,3 +1515,15 @@ a.identity:hover .id-name {
     text-align: start;
     caption-side: top;
 }
+
+.th-sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    border: 0;
+    padding: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
