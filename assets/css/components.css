@@ -1542,3 +1542,11 @@ a.identity:hover .id-name {
 .th-sort:hover {
     color: var(--fg-default);
 }
+
+.row-expand {
+    background: var(--bg-sunken);
+}
+
+.row-expand > td {
+    padding: var(--sp-4) var(--sp-5);
+}
