@@ -1665,3 +1665,9 @@ a.identity:hover .id-name {
     flex-shrink: 0;
     margin-top: 0.1em;
 }
+
+.banner.is-warning {
+    background: var(--warning-soft);
+    border-color: color-mix(in srgb, var(--warning) 36%, transparent);
+    color: var(--warning-fg);
+}
