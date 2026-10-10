@@ -1617,3 +1617,8 @@ a.identity:hover .id-name {
     background: var(--danger-soft);
     border-color: color-mix(in srgb, var(--danger) 28%, transparent);
 }
+
+.alert-card.sev-critical .alert-icon {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
