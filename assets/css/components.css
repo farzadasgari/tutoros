@@ -1671,3 +1671,9 @@ a.identity:hover .id-name {
     border-color: color-mix(in srgb, var(--warning) 36%, transparent);
     color: var(--warning-fg);
 }
+
+.banner.is-danger {
+    background: var(--danger-soft);
+    border-color: color-mix(in srgb, var(--danger) 36%, transparent);
+    color: var(--danger-fg);
+}
