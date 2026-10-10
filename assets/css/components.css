@@ -1640,3 +1640,12 @@ a.identity:hover .id-name {
     background: var(--info-soft);
     color: var(--info-fg);
 }
+
+.alert-card.sev-success {
+    border-inline-start-color: var(--success);
+}
+
+.alert-card.sev-success .alert-icon {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
