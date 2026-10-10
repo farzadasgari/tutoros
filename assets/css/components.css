@@ -1559,3 +1559,8 @@ a.identity:hover .id-name {
     padding: var(--sp-3) var(--sp-card);
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.table-toolbar .grow {
+    flex: 1 1 12rem;
+    min-width: 0;
+}
