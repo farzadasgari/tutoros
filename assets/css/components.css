@@ -1435,3 +1435,10 @@ a.identity:hover .id-name {
     color: var(--fg-subtle);
     font-size: var(--fs-2xs);
 }
+
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+}
