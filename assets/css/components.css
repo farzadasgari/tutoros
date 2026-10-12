@@ -1919,3 +1919,14 @@ a.identity:hover .id-name {
     background: var(--danger);
     position: relative;
 }
+
+.spine-now .now-rule::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0.5rem;
+    top: -3px;
+    width: 7px;
+    height: 7px;
+    border-radius: var(--r-circle);
+    background: var(--danger);
+}
