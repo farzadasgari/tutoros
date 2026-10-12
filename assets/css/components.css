@@ -1895,3 +1895,10 @@ a.identity:hover .id-name {
     min-width: 0;
     margin-inline-start: var(--sp-4);
 }
+
+.spine-now {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-1) 0;
+}
