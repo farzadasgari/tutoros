@@ -1689,3 +1689,12 @@ a.identity:hover .id-name {
     border-color: color-mix(in srgb, var(--info) 36%, transparent);
     color: var(--info-fg);
 }
+
+.progress-track {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    overflow: hidden;
+    border-radius: var(--r-pill);
+    background: var(--bg-sunken);
+}
