@@ -1833,7 +1833,7 @@ a.identity:hover .id-name {
 }
 
 .spine::before {
-    content: "";
+    content: '';
     position: absolute;
     inset-block: 0.75rem;
     inset-inline-start: 4.25rem;
@@ -1871,4 +1871,21 @@ a.identity:hover .id-name {
     border-radius: var(--r-circle);
     background: var(--border-strong);
     box-shadow: 0 0 0 2px var(--bg-surface);
+}
+
+.spine-item.is-done .spine-node {
+    background: var(--success-bold);
+}
+
+.spine-item.is-next .spine-node {
+    background: var(--brand);
+    box-shadow: 0 0 0 3px var(--brand-soft);
+}
+
+.spine-item.is-live .spine-node {
+    background: var(--danger-bold);
+}
+
+.spine-item.is-missed .spine-node {
+    background: var(--warning-bold);
 }
