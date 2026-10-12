@@ -1698,3 +1698,11 @@ a.identity:hover .id-name {
     border-radius: var(--r-pill);
     background: var(--bg-sunken);
 }
+
+.progress-track.is-lg {
+    height: 12px;
+}
+
+.progress-track.is-sm {
+    height: 5px;
+}
