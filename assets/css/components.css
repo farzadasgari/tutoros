@@ -1889,3 +1889,9 @@ a.identity:hover .id-name {
 .spine-item.is-missed .spine-node {
     background: var(--warning-bold);
 }
+
+.spine-body {
+    flex: 1;
+    min-width: 0;
+    margin-inline-start: var(--sp-4);
+}
