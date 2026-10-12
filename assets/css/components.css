@@ -1858,3 +1858,17 @@ a.identity:hover .id-name {
     font-variant-numeric: tabular-nums;
     text-align: end;
 }
+
+.spine-node {
+    position: absolute;
+    inset-inline-start: 4.25rem;
+    top: 1.15rem;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    margin-inline-start: -4px;
+    border: 2px solid var(--bg-surface);
+    border-radius: var(--r-circle);
+    background: var(--border-strong);
+    box-shadow: 0 0 0 2px var(--bg-surface);
+}
