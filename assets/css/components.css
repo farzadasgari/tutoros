@@ -1819,3 +1819,8 @@ a.identity:hover .id-name {
     font-weight: var(--fw-bold);
     font-variant-numeric: tabular-nums;
 }
+
+.radial .radial-lbl {
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+}
