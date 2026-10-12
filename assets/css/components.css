@@ -1813,3 +1813,9 @@ a.identity:hover .id-name {
     text-align: center;
     line-height: 1.15;
 }
+
+.radial .radial-num {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+}
