@@ -1937,3 +1937,14 @@ a.identity:hover .id-name {
     font-size: var(--fs-3xs);
     font-weight: var(--fw-bold);
 }
+
+.timeline {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 var(--sp-5);
+    list-style: none;
+}
+
+[dir="rtl"] .timeline {
+    padding: 0 var(--sp-5) 0 0;
+}
