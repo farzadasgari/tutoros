@@ -1921,7 +1921,7 @@ a.identity:hover .id-name {
 }
 
 .spine-now .now-rule::before {
-    content: "";
+    content: '';
     position: absolute;
     inset-inline-start: 0.5rem;
     top: -3px;
@@ -1929,4 +1929,11 @@ a.identity:hover .id-name {
     height: 7px;
     border-radius: var(--r-circle);
     background: var(--danger);
+}
+
+.spine-now .now-label {
+    flex-shrink: 0;
+    color: var(--danger-fg);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-bold);
 }
