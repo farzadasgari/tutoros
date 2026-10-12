@@ -1807,3 +1807,9 @@ a.identity:hover .id-name {
     stroke-linecap: round;
     transition: stroke-dashoffset var(--dur-slow) var(--ease-out);
 }
+
+.radial .radial-text {
+    position: absolute;
+    text-align: center;
+    line-height: 1.15;
+}
