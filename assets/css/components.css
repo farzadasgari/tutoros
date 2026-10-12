@@ -1729,3 +1729,29 @@ a.identity:hover .id-name {
 .progress-fill.is-danger {
     background: var(--danger);
 }
+
+.progress-track.has-ticks::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        transparent calc(50% - 1px),
+        var(--bg-surface) calc(50%),
+        transparent 50%
+    ), linear-gradient(
+        to right,
+        transparent calc(75% - 1px),
+        var(--bg-surface) calc(75% - 1px),
+        var(--bg-surface) 75%,
+        transparent 75%
+    ), linear-gradient(
+        to right,
+        transparent calc(90% - 1px),
+        var(--bg-surface) calc(90% - 1px),
+        var(--bg-surface) 90%,
+        transparent 90%
+    );
+
+    pointer-events: none;
+}
