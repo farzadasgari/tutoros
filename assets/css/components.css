@@ -1768,3 +1768,10 @@ a.identity:hover .id-name {
     font-size: var(--fs-2xs);
     color: var(--fg-muted);
 }
+
+.progress-legend .big {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-bold);
+    color: var(--fg-default);
+    font-variant-numeric: tabular-nums;
+}
