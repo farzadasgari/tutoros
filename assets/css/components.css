@@ -1793,3 +1793,9 @@ a.identity:hover .id-name {
 [dir='rtl'] .radial svg {
     transform: rotate(-90deg) scaleY(-1);
 }
+
+.radial .ring-bg {
+    fill: none;
+    stroke: var(--bg-sunken);
+    stroke-width: 9;
+}
