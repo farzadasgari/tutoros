@@ -1831,3 +1831,12 @@ a.identity:hover .id-name {
     padding: 0;
     list-style: none;
 }
+
+.spine::before {
+    content: "";
+    position: absolute;
+    inset-block: 0.75rem;
+    inset-inline-start: 4.25rem;
+    width: 2px;
+    background: var(--border-subtle);
+}
