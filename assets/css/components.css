@@ -1799,3 +1799,11 @@ a.identity:hover .id-name {
     stroke: var(--bg-sunken);
     stroke-width: 9;
 }
+
+.radial .ring-val {
+    fill: none;
+    stroke: var(--brand);
+    stroke-width: 9;
+    stroke-linecap: round;
+    transition: stroke-dashoffset var(--dur-slow) var(--ease-out);
+}
