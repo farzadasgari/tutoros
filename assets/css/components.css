@@ -1957,3 +1957,50 @@ a.identity:hover .id-name {
     width: 2px;
     background: var(--border-subtle);
 }
+
+.timeline > li {
+    position: relative;
+    padding-bottom: var(--sp-4);
+}
+
+.timeline >li:last-child {
+    padding-bottom: 0;
+}
+
+.timeline > li::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: -1.25rem;
+    top: 0.45rem;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--bg-surface);
+    border-radius: var(--r-circle);
+    background: var(--border-strong);
+}
+
+.timeline > li.is-brand::before {
+    background: var(--brand);
+}
+
+.timeline > li.is-success::before {
+    background: var(--success-bold);
+}
+
+.timeline > li.is-warning::before {
+    background: var(--warning-bold);
+}
+
+.timeline > li.is-danger::before {
+    background: var(--danger-bold);
+}
+
+.timeline .tl-time {
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+    font-variant-numeric: tabular-nums;
+}
+
+.timeline .tl-text {
+    font-size: var(--fs-sm);
+}
