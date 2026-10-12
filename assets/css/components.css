@@ -1824,3 +1824,10 @@ a.identity:hover .id-name {
     font-size: var(--fs-3xs);
     color: var(--fg-subtle);
 }
+
+.spine {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
