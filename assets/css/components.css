@@ -1840,3 +1840,10 @@ a.identity:hover .id-name {
     width: 2px;
     background: var(--border-subtle);
 }
+
+.spine-item {
+    position: relative;
+    display: flex;
+    gap: var(--sp-4);
+    padding: var(--sp-2) 0;
+}
