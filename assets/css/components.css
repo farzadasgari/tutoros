@@ -1912,3 +1912,10 @@ a.identity:hover .id-name {
     font-variant-numeric: tabular-nums;
     text-align: end;
 }
+
+.spine-now .now-rule {
+    flex: 1;
+    height: 1px;
+    background: var(--danger);
+    position: relative;
+}
