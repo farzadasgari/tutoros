@@ -1948,3 +1948,12 @@ a.identity:hover .id-name {
 [dir="rtl"] .timeline {
     padding: 0 var(--sp-5) 0 0;
 }
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    inset-block: 0.6rem;
+    inset-inline-start: 5px;
+    width: 2px;
+    background: var(--border-subtle);
+}
