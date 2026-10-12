@@ -1847,3 +1847,14 @@ a.identity:hover .id-name {
     gap: var(--sp-4);
     padding: var(--sp-2) 0;
 }
+
+.spine-time {
+    flex-shrink: 0;
+    width: 3.5rem;
+    padding-top: 0.65rem;
+    color: var(--fg-muted);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+    font-variant-numeric: tabular-nums;
+    text-align: end;
+}
