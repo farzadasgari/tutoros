@@ -1789,3 +1789,7 @@ a.identity:hover .id-name {
     width: 100%;
     height: 100%;
 }
+
+[dir='rtl'] .radial svg {
+    transform: rotate(-90deg) scaleY(-1);
+}
