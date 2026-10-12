@@ -1775,3 +1775,11 @@ a.identity:hover .id-name {
     color: var(--fg-default);
     font-variant-numeric: tabular-nums;
 }
+
+.radial {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 118px;
+    height: 118px;
+}
