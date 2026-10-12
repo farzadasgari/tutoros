@@ -1713,3 +1713,19 @@ a.identity:hover .id-name {
     background: var(--brand);
     transition: var(--dur-slow) var(--ease-out);
 }
+
+.progress-fill.is-time {
+    background: var(--accent-bold);
+}
+
+.progress-fill.is-success {
+    background: var(--success);
+}
+
+.progress-fill.is-warning {
+    background: var(--warning-bold);
+}
+
+.progress-fill.is-danger {
+    background: var(--danger);
+}
