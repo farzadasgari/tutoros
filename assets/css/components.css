@@ -1783,3 +1783,9 @@ a.identity:hover .id-name {
     width: 118px;
     height: 118px;
 }
+
+.radial svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
