@@ -2189,3 +2189,14 @@ a.identity:hover .id-name {
     padding: var(--sp-12) var(--sp-5);
     text-align: center;
 }
+
+.empty-art {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: var(--r-lg);
+    background: var(--bg-sunken);
+    color: var(--fg-subtle);
+    font-size: 1.5rem;
+}
