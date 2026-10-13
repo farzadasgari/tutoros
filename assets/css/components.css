@@ -2265,3 +2265,12 @@ a.identity:hover .id-name {
     border-radius: var(--r-pill);
     background: var(--brand);
 }
+
+.tab-link .tab-count {
+    padding: 0.05em 0.4em;
+    border-radius: var(--r-pill);
+    background: var(--bg-sunken);
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-semibold);
+}
