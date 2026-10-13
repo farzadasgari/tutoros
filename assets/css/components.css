@@ -2165,3 +2165,13 @@ a.identity:hover .id-name {
     height: 8rem;
     border-radius: var(--r-md);
 }
+
+.spinner {
+    display: inline-block;
+    width: 1.15rem;
+    height: 1.15rem;
+    border: 2px solid var(--border-default);
+    border-top-color: var(--brand);
+    border-radius: var(--r-circle);
+    animation: spin 0.65s linear infinite;
+}
