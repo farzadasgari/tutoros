@@ -2142,3 +2142,15 @@ a.identity:hover .id-name {
         background-position: 0 0;
     }
 }
+
+.sk-line.w-40 {
+    width: 40%;
+}
+
+.sk-line.w-60 {
+    width: 60%;
+}
+
+.sk-line.w-80 {
+    width: 80%;
+}
