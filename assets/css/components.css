@@ -2200,3 +2200,9 @@ a.identity:hover .id-name {
     color: var(--fg-subtle);
     font-size: 1.5rem;
 }
+
+.empty-title {
+    margin: 0;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semibold);
+}
