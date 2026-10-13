@@ -2124,7 +2124,21 @@ a.identity:hover .id-name {
 
 .skeleton {
     border-radius: var(--r-sm);
-    background: linear-gradient(90deg, var(--bg-sunken) 25%, var(--bg-hover) 37%, var(--bg-sunken) 63%);
+    background: linear-gradient(
+        90deg,
+        var(--bg-sunken) 25%,
+        var(--bg-hover) 37%,
+        var(--bg-sunken) 63%
+    );
     background-size: 400% 100%;
     animation: shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    from {
+        background-position: 100% 0;
+    }
+    to {
+        background-position: 0 0;
+    }
 }
