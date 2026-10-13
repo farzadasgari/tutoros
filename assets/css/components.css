@@ -2016,3 +2016,15 @@ a.identity:hover .id-name {
     background: var(--bg-surface);
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.class-row.is-done {
+    background: var(--bg-subtle);
+}
+
+.class-row.is-cancelled .cr-main {
+    opacity: 0.62;
+}
+
+.class-row.is-cancelled .cr-title {
+    text-decoration: line-through;
+}
