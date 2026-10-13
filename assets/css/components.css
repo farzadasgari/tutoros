@@ -2121,3 +2121,10 @@ a.identity:hover .id-name {
     border-color: color-mix(in srgb, var(--danger) 30%, transparent);
     color: var(--danger-fg);
 }
+
+.skeleton {
+    border-radius: var(--r-sm);
+    background: linear-gradient(90deg, var(--bg-sunken) 25%, var(--bg-hover) 37%, var(--bg-sunken) 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+}
