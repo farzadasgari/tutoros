@@ -2065,3 +2065,17 @@ a.identity:hover .id-name {
     flex-shrink: 0;
     margin-inline-start: auto;
 }
+
+.platform-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.15em 0.5em;
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-medium);
+    white-space: nowrap;
+}
