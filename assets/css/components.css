@@ -2175,3 +2175,9 @@ a.identity:hover .id-name {
     border-radius: var(--r-circle);
     animation: spin 0.65s linear infinite;
 }
+
+.spinner.is-lg {
+    width: 2rem;
+    height: 2rem;
+    border-width: 3px;
+}
