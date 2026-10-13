@@ -2028,3 +2028,26 @@ a.identity:hover .id-name {
 .class-row.is-cancelled .cr-title {
     text-decoration: line-through;
 }
+
+.cr-main {
+    flex: 1 1 12rem;
+    min-width: 0;
+}
+
+.cr-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cr-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-1) var(--sp-3);
+    margin-top: 2px;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
