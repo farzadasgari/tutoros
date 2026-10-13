@@ -2244,3 +2244,8 @@ a.identity:hover .id-name {
     white-space: nowrap;
     cursor: pointer;
 }
+
+.tab-link:hover {
+    color: var(--fg-default);
+    text-decoration: none;
+}
