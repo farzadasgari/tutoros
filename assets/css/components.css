@@ -1945,12 +1945,12 @@ a.identity:hover .id-name {
     list-style: none;
 }
 
-[dir="rtl"] .timeline {
+[dir='rtl'] .timeline {
     padding: 0 var(--sp-5) 0 0;
 }
 
 .timeline::before {
-    content: "";
+    content: '';
     position: absolute;
     inset-block: 0.6rem;
     inset-inline-start: 5px;
@@ -1963,12 +1963,12 @@ a.identity:hover .id-name {
     padding-bottom: var(--sp-4);
 }
 
-.timeline >li:last-child {
+.timeline > li:last-child {
     padding-bottom: 0;
 }
 
 .timeline > li::before {
-    content: "";
+    content: '';
     position: absolute;
     inset-inline-start: -1.25rem;
     top: 0.45rem;
@@ -2078,4 +2078,46 @@ a.identity:hover .id-name {
     font-size: var(--fs-3xs);
     font-weight: var(--fw-medium);
     white-space: nowrap;
+}
+
+.platform-chip .bi {
+    font-size: 0.95em;
+}
+
+.platform-chip.p-meet {
+    color: var(--success-fg);
+}
+
+.platform-chip.p-zoom {
+    color: var(--info-fg);
+}
+
+.platform-chip.p-teams {
+    color: var(--brand-fg);
+}
+
+.platform-chip.p-skype {
+    color: var(--accent-fg);
+}
+
+.platform-chip.p-discord {
+    color: var(--secondary-fg);
+}
+
+.platform-chip.p-jitsi {
+    color: var(--accent-fg);
+}
+
+.platform-chip.p-webex {
+    color: var(--warning-fg);
+}
+
+.platform-chip.p-custom {
+    color: var(--fg-muted);
+}
+
+.platform-chip.is-missing {
+    background: var(--danger-soft);
+    border-color: color-mix(in srgb, var(--danger) 30%, transparent);
+    color: var(--danger-fg);
 }
