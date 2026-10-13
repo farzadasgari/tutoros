@@ -2160,3 +2160,8 @@ a.identity:hover .id-name {
     height: 36px;
     border-radius: var(--r-circle);
 }
+
+.sk-block {
+    height: 8rem;
+    border-radius: var(--r-md);
+}
