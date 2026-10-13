@@ -2206,3 +2206,10 @@ a.identity:hover .id-name {
     font-size: var(--fs-lg);
     font-weight: var(--fw-semibold);
 }
+
+.empty-text {
+    margin: 0;
+    max-width: 42ch;
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
