@@ -2004,3 +2004,15 @@ a.identity:hover .id-name {
 .timeline .tl-text {
     font-size: var(--fs-sm);
 }
+
+.class-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-3);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+    transition: var(--dur-fast) var(--ease-out);
+}
