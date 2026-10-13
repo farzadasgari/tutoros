@@ -2181,3 +2181,11 @@ a.identity:hover .id-name {
     height: 2rem;
     border-width: 3px;
 }
+
+.empty {
+    display: grid;
+    place-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-12) var(--sp-5);
+    text-align: center;
+}
