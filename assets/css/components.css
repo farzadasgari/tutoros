@@ -2225,3 +2225,22 @@ a.identity:hover .id-name {
 .tabs::-webkit-scrollbar {
     display: none;
 }
+
+.tab-link {
+    position: relative;
+    flex-shrink: 0;
+    min-height: var(--tap);
+    padding: 0 var(--sp-3);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    border: 0;
+    background: none;
+    color: var(--fg-muted);
+    font-family: inherit;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
