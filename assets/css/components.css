@@ -2051,3 +2051,17 @@ a.identity:hover .id-name {
     color: var(--fg-subtle);
     font-size: var(--fs-2xs);
 }
+
+.cr-meta .mi {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.cr-side {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-shrink: 0;
+    margin-inline-start: auto;
+}
