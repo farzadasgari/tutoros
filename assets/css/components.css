@@ -2249,3 +2249,8 @@ a.identity:hover .id-name {
     color: var(--fg-default);
     text-decoration: none;
 }
+
+.tab-link[aria-selected="true"], .tab-link.active {
+    color: var(--brand-fg);
+    font-weight: var(--fw-semibold);
+}
