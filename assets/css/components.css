@@ -2213,3 +2213,15 @@ a.identity:hover .id-name {
     color: var(--fg-muted);
     font-size: var(--fs-sm);
 }
+
+.tabs {
+    display: flex;
+    gap: var(--sp-1);
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
+}
