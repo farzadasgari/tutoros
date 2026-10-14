@@ -2376,3 +2376,10 @@ a.identity:hover .id-name {
 .dropdown-menu-wide {
     min-width: 20rem;
 }
+
+.modal-content {
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-lg);
+}
