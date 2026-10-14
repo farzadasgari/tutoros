@@ -2531,3 +2531,10 @@ a.identity:hover .id-name {
     align-items: center;
     gap: 0.4em;
 }
+
+.chart-legend .swatch {
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
