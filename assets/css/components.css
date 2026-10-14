@@ -2346,3 +2346,9 @@ a.identity:hover .id-name {
     gap: 0.6em;
     min-height: 2.25rem;
 }
+
+.dropdown-item .bi{
+    color: var(--fg-subtle);
+    font-size: 1em;
+    width: 1.1em;
+}
