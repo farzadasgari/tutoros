@@ -2553,3 +2553,8 @@ a.identity:hover .id-name {
     gap: var(--sp-3);
     min-width: 0;
 }
+
+.kv dt {
+    color: var(--fg-muted);
+    font-size: var(--fs-xs);
+}
