@@ -2606,3 +2606,9 @@ a.identity:hover .id-name {
 .money.is-pos {
     color: var(--success-fg);
 }
+
+.card-grid {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+}
