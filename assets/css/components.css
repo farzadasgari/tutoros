@@ -2612,3 +2612,7 @@ a.identity:hover .id-name {
     gap: var(--sp-4);
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
 }
+
+.card-grid.is-wide  {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+}
