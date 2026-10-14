@@ -2488,3 +2488,9 @@ a.identity:hover .id-name {
     color: var(--brand-fg);
     font-weight: var(--fw-semibold);
 }
+
+.pager-btn:disabled,
+.pager-btn.disabled {
+    opacity: 0.45;
+    pointer-events: none;
+}
