@@ -2591,3 +2591,10 @@ a.identity:hover .id-name {
     font-weight: var(--fw-semibold);
     white-space: nowrap;
 }
+
+.money .cur {
+    font-size: 0.75em;
+    font-weight: var(--fw-medium);
+    color: var(--fg-muted);
+    margin-inline-start: 0.25em;
+}
