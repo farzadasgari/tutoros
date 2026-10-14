@@ -2372,3 +2372,7 @@ a.identity:hover .id-name {
     font-weight: var(--fw-semibold);
     letter-spacing: var(--ls-wide);
 }
+
+.dropdown-menu-wide {
+    min-width: 20rem;
+}
