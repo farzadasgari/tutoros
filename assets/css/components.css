@@ -28,7 +28,6 @@
     opacity: 0.55;
     pointer-events: none;
 }
-
 .btn .bi {
     font-size: 1.05em;
     line-height: 1;
@@ -306,6 +305,7 @@
 
 .btn-group-tt .btn:last-child {
     border-start-end-radius: var(--r-md);
+    border-end-end-radius: var(--r-md);
 }
 
 .btn-group-tt .btn + .btn {
@@ -575,11 +575,10 @@ a.stat-tile:hover .stat-label {
     background: linear-gradient(
         135deg,
         var(--violet-800) 0%,
-        var(--violet-700) 42%,
+        var(--violet-700) 45%,
         var(--indigo-700) 100%
     );
 }
-
 .hero-class::after {
     content: '';
     position: absolute;
@@ -638,6 +637,13 @@ a.stat-tile:hover .stat-label {
     margin: var(--sp-1) 0 0;
     color: rgba(255, 255, 255, 0.88);
     font-size: var(--fs-md);
+}
+
+.hero-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2) var(--sp-5);
+    margin-top: var(--sp-4);
 }
 
 .hero-fact {
@@ -749,7 +755,7 @@ a.stat-tile:hover .stat-label {
 .tag-warning {
     background: var(--warning-soft);
     color: var(--warning-fg);
-    border-color: color-mix(in srgb, var(--warning) 32%, transparent);
+    border-color: color-mix(in srgb, var(--warning) 36%, transparent);
 }
 
 .tag-danger {
@@ -767,13 +773,13 @@ a.stat-tile:hover .stat-label {
 .tag-time {
     background: var(--accent-soft);
     color: var(--accent-fg);
-    border-color: color-mix(in srgb, var(--accent) 32%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 36%, transparent);
 }
 
 .tag-outline {
     background: transparent;
-    color: var(--fg-muted);
     border-color: var(--border-control);
+    color: var(--fg-muted);
 }
 
 .dot-status {
@@ -1048,6 +1054,23 @@ a.identity:hover .id-name {
     resize: vertical;
 }
 
+.select {
+    appearance: none;
+    padding-inline-end: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236a6880'%3E%3Cpath d='M4.4 6.1 8 9.7l3.6-3.6 1.1 1.1L8 12 3.3 7.2z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 15px;
+}
+
+[dir='rtl'] .select {
+    background-position: left 0.7rem center;
+}
+
+[data-theme='dark'] .select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23a8a5bd'%3E%3Cpath d='M4.4 6.1 8 9.7l3.6-3.6 1.1 1.1L8 12 3.3 7.2z'/%3E%3C/svg%3E");
+}
+
 .input-group-tt {
     position: relative;
     display: flex;
@@ -1128,6 +1151,15 @@ a.identity:hover .id-name {
     transition: var(--dur-fast) var(--ease-out);
 }
 
+[dir='rtl'] .field-float label {
+    transform-origin: right center;
+}
+.field-float .input:focus + label,
+.field-float .input:not(:placeholder-shown) + label {
+    transform: translateY(-0.62rem) scale(0.78);
+    color: var(--brand-fg);
+}
+
 .check {
     display: flex;
     align-items: flex-start;
@@ -1138,7 +1170,7 @@ a.identity:hover .id-name {
 
 .check input[type='checkbox'],
 .check input[type='radio'] {
-    flex: 0;
+    flex-shrink: 0;
     width: 1.05rem;
     height: 1.05rem;
     margin-top: 0.18rem;
@@ -1398,18 +1430,15 @@ a.identity:hover .id-name {
 }
 
 @media (min-width: 768px) {
-    .form-grid.col-2 {
+    .form-grid.cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-
-    .form-grid.col-3 {
+    .form-grid.cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
-
     .form-grid .span-2 {
         grid-column: span 2;
     }
-
     .form-grid .span-full {
         grid-column: 1 / -1;
     }
@@ -1496,8 +1525,8 @@ a.identity:hover .id-name {
     border-bottom: 0;
 }
 
-.tt-table th.num,
-.tt-table td.num {
+.tt-table td.num,
+.tt-table th.num {
     text-align: end;
     font-variant-numeric: tabular-nums;
 }
@@ -1605,7 +1634,7 @@ a.identity:hover .id-name {
     line-height: var(--lh-snug);
 }
 
-.alert-card .alert-action {
+.alert-card .alert-actions {
     display: flex;
     flex-wrap: wrap;
     gap: var(--sp-2);
@@ -1738,7 +1767,8 @@ a.identity:hover .id-name {
         linear-gradient(
             to right,
             transparent calc(50% - 1px),
-            var(--bg-surface) calc(50%),
+            var(--bg-surface) calc(50% - 1px),
+            var(--bg-surface) 50%,
             transparent 50%
         ),
         linear-gradient(
@@ -1755,7 +1785,6 @@ a.identity:hover .id-name {
             var(--bg-surface) 90%,
             transparent 90%
         );
-
     pointer-events: none;
 }
 
@@ -1805,7 +1834,7 @@ a.identity:hover .id-name {
     stroke: var(--brand);
     stroke-width: 9;
     stroke-linecap: round;
-    transition: stroke-dashoffset var(--dur-slow) var(--ease-out);
+    transition: var(--dur-slow) var(--ease-out);
 }
 
 .radial .radial-text {
@@ -2017,6 +2046,16 @@ a.identity:hover .id-name {
     transition: var(--dur-fast) var(--ease-out);
 }
 
+.class-row:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-xs);
+}
+
+.class-row.is-next {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 1px var(--brand);
+}
+
 .class-row.is-done {
     background: var(--bg-subtle);
 }
@@ -2143,6 +2182,11 @@ a.identity:hover .id-name {
     }
 }
 
+.sk-line {
+    height: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
 .sk-line.w-40 {
     width: 40%;
 }
@@ -2250,14 +2294,15 @@ a.identity:hover .id-name {
     text-decoration: none;
 }
 
-.tab-link[aria-selected="true"], .tab-link.active {
+.tab-link[aria-selected='true'],
+.tab-link.active {
     color: var(--brand-fg);
     font-weight: var(--fw-semibold);
 }
 
-.tab-link[aria-selected="true"]::after, 
+.tab-link[aria-selected='true']::after,
 .tab-link.active::after {
-    content: "";
+    content: '';
     position: absolute;
     inset-inline: var(--sp-2);
     bottom: -1px;
@@ -2273,4 +2318,23 @@ a.identity:hover .id-name {
     color: var(--fg-subtle);
     font-size: var(--fs-3xs);
     font-weight: var(--fw-semibold);
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: var(--bg-surface);
+    --bs-dropdown-border-color: var(--border-default);
+    --bs-dropdown-border-radius: var(--r-md);
+    --bs-dropdown-link-color: var(--fg-default);
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-hover-color: var(--fg-default);
+    --bs-dropdown-link-active-bg: var(--brand-soft);
+    --bs-dropdown-link-active-color: var(--brand-fg);
+    --bs-dropdown-divider-bg: var(--border-subtle);
+    --bs-dropdown-header-color: var(--fg-subtle);
+    --bs-dropdown-font-size: var(--fs-sm);
+    --bs-dropdown-padding-y: 0.3rem;
+    --bs-dropdown-item-padding-y: 0.5rem;
+    --bs-dropdown-item-padding-x: 0.75rem;
+    box-shadow: var(--shadow-lg);
+    min-width: 12rem;
 }
