@@ -2545,3 +2545,11 @@ a.identity:hover .id-name {
     grid-template-columns: minmax(0, 1fr);
     margin: 0;
 }
+
+.kv > div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--sp-3);
+    min-width: 0;
+}
