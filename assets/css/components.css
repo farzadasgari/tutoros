@@ -2628,3 +2628,7 @@ a.identity:hover .id-name {
     padding-bottom: var(--sp-2);
     scroll-snap-type: x mandatory;
 }
+
+.scroll-x > * {
+    scroll-snap-align: start;
+}
