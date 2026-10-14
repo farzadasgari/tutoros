@@ -2417,3 +2417,10 @@ a.identity:hover .id-name {
 [data-theme='dark'] .btn-close {
     filter: invert(1) grayscale(1) brightness(2);
 }
+
+.offcanvas {
+    --bs-offcanvas-bg: var(--bg-surface);
+    --bs-offcanvas-color: var(--fg-default);
+    --bs-offcanvas-border-color: var(--border-default);
+    --bs-offcanvas-width: 300px;
+}
