@@ -2338,3 +2338,11 @@ a.identity:hover .id-name {
     box-shadow: var(--shadow-lg);
     min-width: 12rem;
 }
+
+.dropdown-item {
+    border-radius: var(--r-sm);
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    min-height: 2.25rem;
+}
