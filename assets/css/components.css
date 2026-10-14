@@ -2446,3 +2446,7 @@ a.identity:hover .id-name {
     --bs-accordion-active-bg: var(--brand-soft);
     --bs-accordion-btn-focus-box-shadow: var(--focus-ring);
 }
+
+[data-theme='dark'] .accordion-button::after {
+    filter: invert(1) brightness(1.6);
+}
