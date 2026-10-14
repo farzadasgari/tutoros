@@ -2404,7 +2404,12 @@ a.identity:hover .id-name {
     --bs-backdrop-opacity: 0.42;
 }
 
-[data-theme="dark"] .modal-backdrop {
+[data-theme='dark'] .modal-backdrop {
     --bs-backdrop-bg: #06050c;
     --bs-backdrop-opacity: 0.68;
+}
+
+.btn-close {
+    --bs-btn-close-color: var(--fg-muted);
+    filter: none;
 }
