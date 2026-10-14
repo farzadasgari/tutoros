@@ -2579,3 +2579,9 @@ a.identity:hover .id-name {
     font-size: var(--fs-3xs);
     margin-bottom: 2px;
 }
+
+.meta-dl dd {
+    margin: 0;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
