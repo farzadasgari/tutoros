@@ -2424,3 +2424,8 @@ a.identity:hover .id-name {
     --bs-offcanvas-border-color: var(--border-default);
     --bs-offcanvas-width: 300px;
 }
+
+.offcanvas-header {
+    border-bottom: 1px solid var(--border-subtle);
+    padding: var(--sp-4);
+}
