@@ -2538,3 +2538,10 @@ a.identity:hover .id-name {
     border-radius: 2px;
     flex-shrink: 0;
 }
+
+.kv {
+    display: grid;
+    gap: var(--sp-3);
+    grid-template-columns: minmax(0, 1fr);
+    margin: 0;
+}
