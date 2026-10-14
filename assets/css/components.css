@@ -2398,3 +2398,8 @@ a.identity:hover .id-name {
     font-size: var(--fs-lg);
     font-weight: var(--fw-semibold);
 }
+
+.modal-backdrop {
+    --bs-backdrop-bg: #17152d;
+    --bs-backdrop-opacity: 0.42;
+}
