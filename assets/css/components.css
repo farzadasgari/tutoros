@@ -2389,3 +2389,7 @@ a.identity:hover .id-name {
     border-color: var(--border-subtle);
     padding: var(--sp-4) var(--sp-card);
 }
+
+.modal-body {
+    padding: var(--sp-card);
+}
