@@ -2620,3 +2620,11 @@ a.identity:hover .id-name {
 .divider-y > * + * {
     border-top: 1px solid var(--border-subtle);
 }
+
+.scroll-x {
+    display: flex;
+    gap: var(--sp-3);
+    overflow-x: auto;
+    padding-bottom: var(--sp-2);
+    scroll-snap-type: x mandatory;
+}
