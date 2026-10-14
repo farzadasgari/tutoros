@@ -2638,3 +2638,7 @@ a.identity:hover .id-name {
     width: 42%;
     border-radius: var(--r-sm);
 }
+
+.tabular {
+    font-variant-numeric: tabular-nums;
+}
