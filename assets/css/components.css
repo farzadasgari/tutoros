@@ -2450,3 +2450,10 @@ a.identity:hover .id-name {
 [data-theme='dark'] .accordion-button::after {
     filter: invert(1) brightness(1.6);
 }
+
+.pager {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-2);
+}
