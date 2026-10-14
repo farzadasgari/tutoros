@@ -2429,3 +2429,8 @@ a.identity:hover .id-name {
     border-bottom: 1px solid var(--border-subtle);
     padding: var(--sp-4);
 }
+
+.offcanvas-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+}
