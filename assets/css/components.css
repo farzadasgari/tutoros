@@ -2413,3 +2413,7 @@ a.identity:hover .id-name {
     --bs-btn-close-color: var(--fg-muted);
     filter: none;
 }
+
+[data-theme='dark'] .btn-close {
+    filter: invert(1) grayscale(1) brightness(2);
+}
