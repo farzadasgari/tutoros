@@ -2357,3 +2357,7 @@ a.identity:hover .id-name {
 .dropdown-item.active .bi {
     color: inherit;
 }
+
+.dropdown-item.is-danger {
+    color: var(--danger-fg);
+}
