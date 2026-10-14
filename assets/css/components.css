@@ -2573,3 +2573,9 @@ a.identity:hover .id-name {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     margin: 0;
 }
+
+.meta-dl dt {
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    margin-bottom: 2px;
+}
