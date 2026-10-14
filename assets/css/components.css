@@ -2642,3 +2642,10 @@ a.identity:hover .id-name {
 .tabular {
     font-variant-numeric: tabular-nums;
 }
+
+.table-wrap:focus-visible, 
+.viewport-lab:focus-visible,
+.kanban:focus-visible {
+    outline: 2px solid var(--focus-color);
+    outline-offset: -2px;
+}
