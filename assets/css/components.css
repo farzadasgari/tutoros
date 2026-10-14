@@ -2566,3 +2566,10 @@ a.identity:hover .id-name {
     text-align: end;
     overflow-wrap: anywhere;
 }
+
+.meta-dl {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    margin: 0;
+}
