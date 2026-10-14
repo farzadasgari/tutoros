@@ -2632,3 +2632,9 @@ a.identity:hover .id-name {
 .scroll-x > * {
     scroll-snap-align: start;
 }
+
+.skeleton.sk-title {
+    height: 1.25rem;
+    width: 42%;
+    border-radius: var(--r-sm);
+}
