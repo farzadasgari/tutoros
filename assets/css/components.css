@@ -2558,3 +2558,11 @@ a.identity:hover .id-name {
     color: var(--fg-muted);
     font-size: var(--fs-xs);
 }
+
+.kv dd {
+    margin: 0;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    text-align: end;
+    overflow-wrap: anywhere;
+}
