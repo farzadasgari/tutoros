@@ -2494,3 +2494,8 @@ a.identity:hover .id-name {
     opacity: 0.45;
     pointer-events: none;
 }
+
+.chart-box {
+    position: relative;
+    width: 100%;
+}
