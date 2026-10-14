@@ -2361,3 +2361,8 @@ a.identity:hover .id-name {
 .dropdown-item.is-danger {
     color: var(--danger-fg);
 }
+
+.dropdown-item.is-danger:hover {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
