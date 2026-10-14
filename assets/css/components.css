@@ -2598,3 +2598,11 @@ a.identity:hover .id-name {
     color: var(--fg-muted);
     margin-inline-start: 0.25em;
 }
+
+.money.is-neg {
+    color: var(--danger-fg);
+}
+
+.money.is-pos {
+    color: var(--success-fg);
+}
