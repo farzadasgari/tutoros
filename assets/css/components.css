@@ -2613,7 +2613,7 @@ a.identity:hover .id-name {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
 }
 
-.card-grid.is-wide  {
+.card-grid.is-wide {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
 }
 
@@ -2643,7 +2643,7 @@ a.identity:hover .id-name {
     font-variant-numeric: tabular-nums;
 }
 
-.table-wrap:focus-visible, 
+.table-wrap:focus-visible,
 .viewport-lab:focus-visible,
 .kanban:focus-visible {
     outline: 2px solid var(--focus-color);

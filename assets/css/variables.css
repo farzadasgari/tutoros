@@ -1,8 +1,7 @@
 :root {
-    --font-sans:
-        "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
-    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-    --font-fa: "Vazirmatn", "IBM Plex Sans", system-ui, sans-serif;
+    --font-sans: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    --font-fa: 'Vazirmatn', 'IBM Plex Sans', system-ui, sans-serif;
     --font-ui: var(--font-sans);
 
     --violet-50: #f3f0ff;
@@ -153,7 +152,7 @@
 }
 
 :root,
-[data-theme="light"] {
+[data-theme='light'] {
     color-scheme: light;
 
     --bg-body: var(--n-25);
@@ -227,12 +226,9 @@
     --info-soft: #eef0ff;
 
     --shadow-xs: 0 1px 2px rgba(23, 21, 45, 0.05);
-    --shadow-sm:
-        0 1px 3px rgba(23, 21, 45, 0.07), 0 1px 2px rgba(23, 21, 45, 0.04);
-    --shadow-md:
-        0 4px 12px rgba(23, 21, 45, 0.08), 0 1px 3px rgba(23, 21, 45, 0.05);
-    --shadow-lg:
-        0 12px 32px rgba(23, 21, 45, 0.12), 0 2px 8px rgba(23, 21, 45, 0.06);
+    --shadow-sm: 0 1px 3px rgba(23, 21, 45, 0.07), 0 1px 2px rgba(23, 21, 45, 0.04);
+    --shadow-md: 0 4px 12px rgba(23, 21, 45, 0.08), 0 1px 3px rgba(23, 21, 45, 0.05);
+    --shadow-lg: 0 12px 32px rgba(23, 21, 45, 0.12), 0 2px 8px rgba(23, 21, 45, 0.06);
     --shadow-brand: 0 6px 20px rgba(109, 74, 255, 0.28);
 
     --focus-ring: 0 0 0 3px rgba(109, 74, 255, 0.35);
@@ -252,7 +248,7 @@
     --chart-8: #0b7f8c;
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
     color-scheme: dark;
 
     --bg-body: var(--n-950);
@@ -348,21 +344,21 @@
     --chart-8: var(--cyan-200);
 }
 
-[data-density="compact"] {
+[data-density='compact'] {
     --sp-card: var(--sp-4);
     --sp-cell: 0.375rem 0.625rem;
     --sp-stack: var(--sp-3);
     --row-h: 2.25rem;
 }
 
-[data-density="spacious"] {
+[data-density='spacious'] {
     --sp-card: var(--sp-7);
     --sp-cell: 0.9375rem 1.125rem;
     --sp-stack: var(--sp-6);
     --row-h: 3.25rem;
 }
 
-[dir="rtl"] {
+[dir='rtl'] {
     --font-ui: var(--font-fa);
 }
 
@@ -370,6 +366,6 @@
     --flip: 1;
 }
 
-[dir="rtl"] {
+[dir='rtl'] {
     --flip: -1;
 }
