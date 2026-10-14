@@ -2366,3 +2366,9 @@ a.identity:hover .id-name {
     background: var(--danger-soft);
     color: var(--danger-fg);
 }
+
+.dropdown-header {
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-wide);
+}
