@@ -2474,3 +2474,10 @@ a.identity:hover .id-name {
     text-decoration: none;
     cursor: pointer;
 }
+
+.pager-btn:hover {
+    border-color: var(--border-strong);
+    background: var(--bg-hover);
+    color: var(--fg-default);
+    text-decoration: none;
+}
