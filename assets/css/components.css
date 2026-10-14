@@ -2393,3 +2393,8 @@ a.identity:hover .id-name {
 .modal-body {
     padding: var(--sp-card);
 }
+
+.modal-title {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semibold);
+}
