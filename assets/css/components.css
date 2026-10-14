@@ -2616,3 +2616,7 @@ a.identity:hover .id-name {
 .card-grid.is-wide  {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
 }
+
+.divider-y > * + * {
+    border-top: 1px solid var(--border-subtle);
+}
