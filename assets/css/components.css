@@ -2481,3 +2481,10 @@ a.identity:hover .id-name {
     color: var(--fg-default);
     text-decoration: none;
 }
+
+.pager-btn[aria-current='page'] {
+    border-color: var(--brand);
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    font-weight: var(--fw-semibold);
+}
