@@ -2525,3 +2525,9 @@ a.identity:hover .id-name {
     font-size: var(--fs-2xs);
     color: var(--fg-muted);
 }
+
+.chart-legend .key {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+}
