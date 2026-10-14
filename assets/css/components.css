@@ -2516,3 +2516,12 @@ a.identity:hover .id-name {
 .chart-h-lg {
     height: 320px;
 }
+
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2) var(--sp-4);
+    margin-top: var(--sp-3);
+    font-size: var(--fs-2xs);
+    color: var(--fg-muted);
+}
