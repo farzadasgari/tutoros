@@ -2383,3 +2383,9 @@ a.identity:hover .id-name {
     background: var(--bg-surface);
     box-shadow: var(--shadow-lg);
 }
+
+.modal-header,
+.modal-footer {
+    border-color: var(--border-subtle);
+    padding: var(--sp-4) var(--sp-card);
+}
