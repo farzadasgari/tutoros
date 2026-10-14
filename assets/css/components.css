@@ -2499,3 +2499,8 @@ a.identity:hover .id-name {
     position: relative;
     width: 100%;
 }
+
+.chart-box canvas {
+    display: block;
+    width: 100% !important;
+}
