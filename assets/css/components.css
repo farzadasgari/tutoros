@@ -2504,3 +2504,15 @@ a.identity:hover .id-name {
     display: block;
     width: 100% !important;
 }
+
+.chart-h-sm {
+    height: 160px;
+}
+
+.chart-h {
+    height: 240px;
+}
+
+.chart-h-lg {
+    height: 320px;
+}
