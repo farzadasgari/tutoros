@@ -2434,3 +2434,15 @@ a.identity:hover .id-name {
     font-size: var(--fs-md);
     font-weight: var(--fw-semibold);
 }
+
+.accordion {
+    --bs-accordion-color: var(--fg-default);
+    --bs-accordion-bg: var(--bg-surface);
+    --bs-accordion-border-color: var(--border-default);
+    --bs-accordion-border-radius: var(--r-md);
+    --bs-accordion-btn-color: var(--fg-default);
+    --bs-accordion-btn-bg: var(--bg-surface);
+    --bs-accordion-active-color: var(--brand-fg);
+    --bs-accordion-active-bg: var(--brand-soft);
+    --bs-accordion-btn-focus-box-shadow: var(--focus-ring);
+}
