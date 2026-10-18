@@ -122,4 +122,9 @@
         border: 0;
         border-radius: 0;
     }
+
+    .modal-body {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 }
