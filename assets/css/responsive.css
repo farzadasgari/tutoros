@@ -24,4 +24,11 @@
     .app.is-collapsed .sidebar-user .meta {
         display: revert;
     }
+
+    .app.is-collapsed .nav-item-link,
+    .app.is-collapsed .sidebar-user,
+    .app.is-collapsed .sidebar-brand {
+        justify-content: flex-start;
+        padding-inline: var(--sp-3);
+    }
 }
