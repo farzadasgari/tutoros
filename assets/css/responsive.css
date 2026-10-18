@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+    .app-sidebar {
+        transform: translateX(calc(-100% * var(--flip)));
+        box-shadow: none;
+        width: min(300px, 84vw);
+    }
+}
