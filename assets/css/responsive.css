@@ -165,4 +165,15 @@
         border-radius: var(--r-pill);
         background: var(--border-strong);
     }
+
+    .offcanvas-end.offcanvas-sheet-sm {
+        inset-inline: 0;
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: min(86dvh, 40rem);
+        border-start-start-radius: var(--r-xl);
+        border-start-end-radius: var(--r-xl);
+        transform: translateY(100%);
+    }
 }
