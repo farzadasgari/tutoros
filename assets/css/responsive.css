@@ -69,4 +69,8 @@
     .navbar-search-btn {
         display: grid;
     }
+
+    .app-breadcrumb {
+        display: none;
+    }
 }
