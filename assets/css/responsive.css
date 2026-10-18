@@ -133,4 +133,9 @@
         bottom: 0;
         background: var(--bg-surface);
     }
+
+    .modal-footer .btn {
+        flex: 1 1 auto;
+        min-height: var(--tap);
+    }
 }
