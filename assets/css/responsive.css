@@ -56,4 +56,9 @@
     .app-content {
         padding: var(--sp-4) var(--sp-4) var(--sp-16);
     }
+
+    .app-navbar {
+        padding-inline: var(--sp-3);
+        gap: var(--sp-1);
+    }
 }
