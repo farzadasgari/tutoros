@@ -13,5 +13,8 @@
     .app-main {
         margin-inline-start: 0;
     }
-    
+
+    .app.is-collapsed .app-sidebar {
+        width: min(300px, 84vw);
+    }
 }
