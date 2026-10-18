@@ -17,4 +17,11 @@
     .app.is-collapsed .app-sidebar {
         width: min(300px, 84vw);
     }
+
+    .app.is-collapsed .brand-text,
+    .app.is-collapsed .nav-label,
+    .app.is-collapsed .nav-group-title,
+    .app.is-collapsed .sidebar-user .meta {
+        display: revert;
+    }
 }
