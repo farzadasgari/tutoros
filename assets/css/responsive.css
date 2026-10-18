@@ -97,4 +97,16 @@
     .split {
         gap: var(--sp-3);
     }
+
+    .panel-head {
+        padding: var(--sp-3) var(--sp-4);
+    }
+
+    .panel-body {
+        padding: var(--sp-4);
+    }
+
+    .panel-foot {
+        padding: var(--sp-3) var(--sp-4);
+    }
 }
