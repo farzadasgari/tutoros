@@ -109,4 +109,10 @@
     .panel-foot {
         padding: var(--sp-3) var(--sp-4);
     }
+
+    .modal-dialog:not(.modal-fullscreen) {
+        max-width: none;
+        margin: 0;
+        min-height: 100%;
+    }
 }
