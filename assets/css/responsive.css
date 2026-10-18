@@ -51,3 +51,9 @@
         overflow: hidden;
     }
 }
+
+@media (max-width: 768px) {
+    .app-content {
+        padding: var(--sp-4) var(--sp-4) var(--sp-16);
+    }
+}
