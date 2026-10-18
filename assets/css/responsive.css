@@ -41,4 +41,9 @@
         visibility: hidden;
         transition: var(--dur-base) var(--ease-out);
     }
+
+    .app.is-nav-open .nav-scrim {
+        opacity: 1;
+        visibility: visible;
+    }
 }
