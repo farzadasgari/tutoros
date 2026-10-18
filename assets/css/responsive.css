@@ -153,4 +153,16 @@
         border-start-start-radius: var(--r-xl);
         border-start-end-radius: var(--r-xl);
     }
+
+    .modal-dialog.modal-sheet .modal-header::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        inset-inline: 0;
+        margin-inline: auto;
+        width: 36px;
+        height: 4px;
+        border-radius: var(--r-pill);
+        background: var(--border-strong);
+    }
 }
