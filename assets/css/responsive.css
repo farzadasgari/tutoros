@@ -181,4 +181,12 @@
     .offcanvas-end.offcanvas-sheet-sm.show {
         transform: translateY(0);
     }
+
+    .palette {
+        margin-top: var(--sp-3);
+    }
+
+    .palette-results {
+        max-height: 60dvh;
+    }
 }
