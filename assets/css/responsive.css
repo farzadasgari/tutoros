@@ -176,4 +176,9 @@
         border-start-end-radius: var(--r-xl);
         transform: translateY(100%);
     }
+
+    .offcanvas-end.offcanvas-sheet-sm.showing,
+    .offcanvas-end.offcanvas-sheet-sm.show {
+        transform: translateY(0);
+    }
 }
