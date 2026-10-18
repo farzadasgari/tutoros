@@ -9,4 +9,9 @@
         transform: translateX(0);
         box-shadow: var(--shadow-lg);
     }
+
+    .app-main {
+        margin-inline-start: 0;
+    }
+    
 }
