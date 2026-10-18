@@ -73,4 +73,16 @@
     .app-breadcrumb {
         display: none;
     }
+
+    .page-head {
+        gap: var(--sp-3);
+    }
+
+    .page-actions {
+        width: 100%;
+    }
+
+    .page-actions .btn {
+        flex: 1 1 auto;
+    }
 }
