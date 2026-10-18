@@ -65,4 +65,8 @@
     .search-trigger {
         display: none;
     }
+
+    .navbar-search-btn {
+        display: grid;
+    }
 }
