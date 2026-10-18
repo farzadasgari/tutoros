@@ -46,4 +46,8 @@
         opacity: 1;
         visibility: visible;
     }
+
+    body.nav-locked {
+        overflow: hidden;
+    }
 }
