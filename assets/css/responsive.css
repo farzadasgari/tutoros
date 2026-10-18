@@ -127,4 +127,10 @@
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
+
+    .modal-footer {
+        position: sticky;
+        bottom: 0;
+        background: var(--bg-surface);
+    }
 }
