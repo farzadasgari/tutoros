@@ -85,4 +85,16 @@
     .page-actions .btn {
         flex: 1 1 auto;
     }
+
+    .fav {
+        display: grid;
+    }
+
+    .navbar-quickadd {
+        display: none;
+    }
+
+    .split {
+        gap: var(--sp-3);
+    }
 }
