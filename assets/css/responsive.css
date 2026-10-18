@@ -4,4 +4,9 @@
         box-shadow: none;
         width: min(300px, 84vw);
     }
+
+    .app.is-nav-open .app-sidebar {
+        transform: translateX(0);
+        box-shadow: var(--shadow-lg);
+    }
 }
