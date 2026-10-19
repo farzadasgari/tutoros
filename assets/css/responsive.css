@@ -289,7 +289,7 @@
         flex: 1;
     }
 
-    .card-grid, 
+    .card-grid,
     .card-grid.is-wide {
         grid-template-columns: minmax(0, 1fr);
     }
@@ -402,5 +402,19 @@
 @media (min-width: 768px) {
     .tt-table .col-optional {
         display: table-cell;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-scrim {
+        display: none;
+    }
+
+    .navbar-search-btn {
+        display: none;
+    }
+
+    .app.is-nav-open .app-sidebar {
+        transform: none;
     }
 }
