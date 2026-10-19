@@ -226,4 +226,31 @@
     .stat-tile.is-wide .stat-value {
         white-space: nowrap;
     }
+
+    .hero-body {
+        padding: var(--sp-5) var(--sp-4);
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .hero-actions .btn-join {
+        min-height: 54px;
+        font-size: var(--fs-lg);
+        order: -1;
+    }
+
+    .hero-facts {
+        gap: var(--sp-3) var(--sp-4);
+    }
+
+    .hero-class::after {
+        display: none;
+    }
 }
