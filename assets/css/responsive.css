@@ -466,3 +466,10 @@
         padding: var(--sp-6) var(--sp-8) var(--sp-16);
     }
 }
+
+@media (hover:none) {
+    .hover-reveal {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+}
