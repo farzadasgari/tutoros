@@ -389,4 +389,12 @@
         justify-content: flex-end;
         padding-top: var(--sp-2);
     }
+
+    .tt-table.table-cards-sm tbody td.col-actions::before {
+        display: none;
+    }
+
+    .tt-table .col-optional {
+        display: none;
+    }
 }
