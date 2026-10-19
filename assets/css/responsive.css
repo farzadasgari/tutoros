@@ -501,3 +501,16 @@
         min-height: var(--tap);
     }
 }
+
+@media (hover: hover) {
+    .hover-reveal {
+        opacity: 0;
+        transition: var(--dur-fast) var(--ease-out);
+    }
+
+    tr:hover .hover-reveal,
+    .class-row:hover .hover-reveal,
+    .hover-reveal:focus-within {
+        opacity: 1;
+    }
+}
