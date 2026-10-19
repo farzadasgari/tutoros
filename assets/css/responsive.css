@@ -439,4 +439,12 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+
+    .search-trigger {
+        width: min(280px, 100%);
+    }
+
+    .search-trigger kbd {
+        display: none;
+    }
 }
