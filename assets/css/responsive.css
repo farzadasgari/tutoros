@@ -263,4 +263,16 @@
         gap: var(--sp-1);
         padding: var(--sp-1) 0;
     }
+
+    .spine-node {
+        display: none;
+    }
+
+    .spine-body {
+        margin-inline-start: 0;
+    }
+
+    .spine-now .now-time {
+        width: auto;
+    }
 }
