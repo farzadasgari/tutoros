@@ -372,4 +372,12 @@
         font-weight: var(--fw-medium);
         text-align: start;
     }
+
+    .tt-table.table-cards-sm tbody td.cell-primary {
+        justify-content: flex-start;
+        padding-bottom: var(--sp-2);
+        margin-bottom: 0.15rem;
+        border-bottom: 1px solid var(--border-subtle);
+        text-align: start;
+    }
 }
