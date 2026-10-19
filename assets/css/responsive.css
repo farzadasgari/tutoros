@@ -424,4 +424,19 @@
         min-width: 0;
         overflow: hidden;
     }
+
+    .app-breadcrumb {
+        flex-wrap: nowrap;
+    }
+
+    .app-breadcrumb li {
+        overflow: hidden;
+    }
+
+    .app-breadcrumb li span,
+    .app-breadcrumb li a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
