@@ -398,3 +398,9 @@
         display: none;
     }
 }
+
+@media (min-width: 768px) {
+    .tt-table .col-optional {
+        display: table-cell;
+    }
+}
