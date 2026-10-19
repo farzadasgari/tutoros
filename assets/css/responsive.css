@@ -288,4 +288,9 @@
     .cr-side .btn {
         flex: 1;
     }
+
+    .card-grid, 
+    .card-grid.is-wide {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
