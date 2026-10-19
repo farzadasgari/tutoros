@@ -528,3 +528,9 @@
         padding-block: var(--sp-4);
     }
 }
+
+.viewport-lab {
+    display: flex;
+    gap: var(--sp-4);
+    padding-bottom: var(--sp-4);
+}
