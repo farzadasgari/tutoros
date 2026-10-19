@@ -218,4 +218,12 @@
     .sparkline {
         display: none;
     }
+
+    .stat-tile.is-wide {
+        grid-column: 1 / -1;
+    }
+
+    .stat-tile.is-wide .stat-value {
+        white-space: nowrap;
+    }
 }
