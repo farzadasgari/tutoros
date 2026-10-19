@@ -363,4 +363,13 @@
         text-align: end;
         min-width: 0;
     }
+
+    .tt-table.table-cards-sm tbody td::before {
+        content: attr(data-label);
+        flex-shrink: 0;
+        color: var(--fg-subtle);
+        font-size: var(--fs-2xs);
+        font-weight: var(--fw-medium);
+        text-align: start;
+    }
 }
