@@ -448,3 +448,9 @@
         display: none;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .app-navbar > a.icon-btn[href="calendar/index.html"] {
+        display: none;
+    }
+}
