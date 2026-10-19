@@ -514,3 +514,17 @@
         opacity: 1;
     }
 }
+
+@media (max-height: 520px) and (max-width: 992px) {
+    .palette {
+        margin-top: var(--sp-2);
+    }
+
+    .palette-results {
+        max-height: 44dvh;
+    }
+
+    .auth-shell {
+        padding-block: var(--sp-4);
+    }
+}
