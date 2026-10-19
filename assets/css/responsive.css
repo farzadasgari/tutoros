@@ -557,3 +557,9 @@
     color: var(--fg-muted);
     font-variant-numeric: tabular-nums;
 }
+
+.viewport-frame iframe {
+    display: block;
+    border: 0;
+    background: var(--bg-body);
+}
