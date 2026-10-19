@@ -331,3 +331,14 @@
         padding-inline: var(--sp-3);
     }
 }
+
+@media (max-width: 768px) {
+    .tt-table.table-cards-sm thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
+}
