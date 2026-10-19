@@ -380,4 +380,13 @@
         border-bottom: 1px solid var(--border-subtle);
         text-align: start;
     }
+
+    .tt-table.table-cards-sm tbody td.cell-primary::before {
+        display: none;
+    }
+
+    .tt-table.table-cards-sm tbody td.col-actions {
+        justify-content: flex-end;
+        padding-top: var(--sp-2);
+    }
 }
