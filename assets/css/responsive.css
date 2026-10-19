@@ -275,4 +275,17 @@
     .spine-now .now-time {
         width: auto;
     }
+
+    .class-row {
+        padding: var(--sp-3);
+    }
+
+    .cr-side {
+        width: 100%;
+        margin-inline-start: 0;
+    }
+
+    .cr-side .btn {
+        flex: 1;
+    }
 }
