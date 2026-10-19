@@ -201,4 +201,21 @@
     .app-content {
         padding: var(--sp-3) var(--sp-3) var(--sp-16);
     }
+
+    .stat-band {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--sp-2);
+    }
+
+    .stat-tile {
+        padding: var(--sp-3);
+    }
+
+    .stat-value {
+        font-size: var(--fs-stat-sm);
+    }
+
+    .sparkline {
+        display: none;
+    }
 }
