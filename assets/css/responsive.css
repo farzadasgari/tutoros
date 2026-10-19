@@ -544,3 +544,16 @@
     background: var(--bg-surface);
     overflow: hidden;
 }
+
+.viewport-frame .vf-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-3);
+    padding: var(--sp-2) var(--sp-3);
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--bg-sunken);
+    font-size: var(--fs-3xs);
+    color: var(--fg-muted);
+    font-variant-numeric: tabular-nums;
+}
