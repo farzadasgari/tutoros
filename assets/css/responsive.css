@@ -454,3 +454,9 @@
         display: none;
     }
 }
+
+@media(min-width: 1200px) {
+    .app-content {
+        padding: var(--sp-6) var(--sp-6) var(--sp-16);
+    }
+}
