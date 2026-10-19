@@ -253,4 +253,14 @@
     .hero-class::after {
         display: none;
     }
+
+    .spine::before {
+        display: none;
+    }
+
+    .spine-item {
+        flex-direction: column;
+        gap: var(--sp-1);
+        padding: var(--sp-1) 0;
+    }
 }
