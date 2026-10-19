@@ -316,4 +316,13 @@
         height: 2.9rem;
         font-size: var(--fs-lg);
     }
+
+    .segmented {
+        width: 100%;
+    }
+
+    .segmented button {
+        flex: 1;
+        padding-inline: 0.4rem;
+    }
 }
