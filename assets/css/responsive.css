@@ -196,3 +196,9 @@
         width: auto;
     }
 }
+
+@media (max-width: 576px) {
+    .app-content {
+        padding: var(--sp-3) var(--sp-3) var(--sp-16);
+    }
+}
