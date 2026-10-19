@@ -325,4 +325,9 @@
         flex: 1;
         padding-inline: 0.4rem;
     }
+
+    .tabs {
+        margin-inline: calc(-1 * var(--sp-3));
+        padding-inline: var(--sp-3);
+    }
 }
