@@ -418,3 +418,10 @@
         transform: none;
     }
 }
+
+@media (max-width: 1200px) {
+    .app-navbar > nav {
+        min-width: 0;
+        overflow: hidden;
+    }
+}
