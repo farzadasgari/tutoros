@@ -534,3 +534,13 @@
     gap: var(--sp-4);
     padding-bottom: var(--sp-4);
 }
+
+.viewport-frame {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+    overflow: hidden;
+}
