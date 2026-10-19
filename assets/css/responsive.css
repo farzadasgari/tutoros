@@ -472,4 +472,12 @@
         opacity: 1 !important;
         visibility: visible !important;
     }
+
+    .btn, .icon-btn, .nav-item-link, .tab-link, .paper-btn {
+        min-height: var(--tap);
+    }
+
+    .btn-xs, .btn-sm {
+        min-height: 36px;
+    }
 }
