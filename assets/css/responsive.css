@@ -293,4 +293,17 @@
     .card-grid.is-wide {
         grid-template-columns: minmax(0, 1fr);
     }
+
+    .form-grid {
+        gap: var(--sp-3);
+    }
+
+    .empty {
+        padding: var(--sp-8) var(--sp-4);
+    }
+
+    .radial {
+        width: 96px;
+        height: 96px;
+    }
 }
