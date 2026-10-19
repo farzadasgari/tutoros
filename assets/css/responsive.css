@@ -341,4 +341,15 @@
         clip: rect(0 0 0 0);
         white-space: nowrap;
     }
+
+    .tt-table.table-cards-sm tbody tr {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.35rem;
+        margin-bottom: var(--sp-3);
+        padding: var(--sp-3);
+        border: 1px solid var(--border-default);
+        border-radius: var(--r-md);
+        background: var(--bg-surface);
+    }
 }
