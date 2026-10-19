@@ -450,13 +450,19 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    .app-navbar > a.icon-btn[href="calendar/index.html"] {
+    .app-navbar > a.icon-btn[href='calendar/index.html'] {
         display: none;
     }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
     .app-content {
         padding: var(--sp-6) var(--sp-6) var(--sp-16);
+    }
+}
+
+@media (min-width: 1600px) {
+    .app-content {
+        padding: var(--sp-6) var(--sp-8) var(--sp-16);
     }
 }
