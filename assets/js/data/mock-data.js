@@ -84,6 +84,17 @@ window.TutorOS.mockData = {
             "isDefault": false,
             "isActive": true,
             "linkHint": "https://discord.gg/...",
+        },
+        {
+            "id": "pf_custom",
+            "name": "Custom",
+            "slug": "custom",
+            "icon": "bi-link-45deg",
+            "urlPatterns": [],
+            "color": "p-custom",
+            "isDefault": false,
+            "isActive": true,
+            "linkHint": "https://meeting-link",
         }
     ]
 }
