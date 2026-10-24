@@ -52,5 +52,16 @@ window.TutorOS.mockData = {
             "isActive": true,
             "linkHint": "https://meet.google.com/xxx-xxxx-xxx",
         },
+        {
+            "id": "pf_zoom",
+            "name": "Zoom",
+            "slug": "zoom",
+            "icon": "bi-camera-reels",
+            "urlPatterns": ["zoom.us", "zoom.com"],
+            "color": "p-zoom",
+            "isDefault": false,
+            "isActive": true,
+            "linkHint": "https://zoom.us/j/1234567890",
+        }
     ]
 }
