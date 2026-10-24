@@ -127,7 +127,16 @@ window.TutorOS.mockData = {
             "colorIndex": 1,
             "defaultPlatformId": "pf_meet",
             "description": "pandas, feature engineering, and the statistics behind the models.",
-            "defaultRate": 2000000,
+            "defaultRate": 4000000,
+        },
+        {
+            "id": "c_py",
+            "name": "Python",
+            "code": "PY",
+            "colorIndex": 2,
+            "defaultPlatformId": "pf_meet",
+            "description": "Language fundamentals through to idiomatic, testable code.",
+            "defaultRate": 2600000,
         },
     ]
 }
