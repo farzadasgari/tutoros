@@ -61,7 +61,18 @@ window.TutorOS.mockData = {
             "color": "p-zoom",
             "isDefault": false,
             "isActive": true,
-            "linkHint": "https://zoom.us/j/1234567890",
+            "linkHint": "https://zoom.us/j/0000000000",
+        },
+        {
+            "id": "pf_teams",
+            "name": "Microsoft Teams",
+            "slug": "teams",
+            "icon": "bi-microsoft-teams",
+            "urlPatterns": ["teams.microsoft.com", "teams.live.com"],
+            "color": "p-teams",
+            "isDefault": false,
+            "isActive": true,
+            "linkHint": "https://teams.microsoft.com/l/meetup-join/...",
         }
     ]
 }
