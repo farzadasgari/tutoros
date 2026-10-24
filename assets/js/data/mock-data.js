@@ -86,6 +86,17 @@ window.TutorOS.mockData = {
             "linkHint": "https://discord.gg/...",
         },
         {
+            "id": "pf_jitsi",
+            "name": "Jitsi Meet",
+            "slug": "jitsi",
+            "icon": "bi-broadcast",
+            "urlPatterns": ["meet.jit.si"],
+            "color": "p-jitsi",
+            "isDefault": false,
+            "isActive": true,
+            "linkHint": "https://meet.jit.si/room-name",
+        },
+        {
             "id": "pf_custom",
             "name": "Custom",
             "slug": "custom",
