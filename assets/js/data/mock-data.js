@@ -73,6 +73,17 @@ window.TutorOS.mockData = {
             "isDefault": false,
             "isActive": true,
             "linkHint": "https://teams.microsoft.com/l/meetup-join/...",
+        }, 
+        {
+            "id": "pf_discord",
+            "name": "Discord",
+            "slug": "discord",
+            "icon": "bi-discord",
+            "urlPatterns": ["discord.gg", "discord.com"],
+            "color": "p-discord",
+            "isDefault": false,
+            "isActive": true,
+            "linkHint": "https://discord.gg/...",
         }
     ]
 }
