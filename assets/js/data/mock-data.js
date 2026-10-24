@@ -39,5 +39,18 @@ window.TutorOS.mockData = {
             "missingLink": true
         },
         "widgets": ["nextClass", "attention", "today", "tomorrow", "revenue", "hours", "tasks", "insights", "activity"]
-    }
+    },
+    "platforms": [
+        {
+            "id": "pf_meet",
+            "name": "Google Meet",
+            "slug": "meet",
+            "icon": "bi-camera-video",
+            "urlPatterns": ["meet.google.com"],
+            "color": "p-meet",
+            "isDefault": true,
+            "isActive": true,
+            "linkHint": "https://meet.google.com/xxx-xxxx-xxx",
+        },
+    ]
 }
