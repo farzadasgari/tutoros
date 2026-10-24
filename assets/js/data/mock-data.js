@@ -183,5 +183,14 @@ window.TutorOS.mockData = {
             "description": "Layout, the grid, and building a design system on top.",
             "defaultRate": 1500000,
         },
+        {
+            "id": "c_rm",
+            "name": "Research Mentoring",
+            "code": "RM",
+            "colorIndex": 2,
+            "defaultPlatformId": "pf_zoom",
+            "description": "Paper structure, method selection, and review response.",
+            "defaultRate": 5000000,
+        },
     ]
 }
