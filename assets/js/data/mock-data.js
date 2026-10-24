@@ -97,6 +97,17 @@ window.TutorOS.mockData = {
             "linkHint": "https://meet.jit.si/room-name",
         },
         {
+            "id": "pf_webex",
+            "name": "Webex",
+            "slug": "webex",
+            "icon": "bi-camera-video-fill",
+            "urlPatterns": ["webex.com"],
+            "color": "p-webex",
+            "isDefault": false,
+            "isActive": false,
+            "linkHint": "https://company.webex.com/meet/...",
+        },
+        {
             "id": "pf_custom",
             "name": "Custom",
             "slug": "custom",
