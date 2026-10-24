@@ -138,5 +138,14 @@ window.TutorOS.mockData = {
             "description": "Language fundamentals through to idiomatic, testable code.",
             "defaultRate": 2600000,
         },
+        {
+            "id": "c_ml",
+            "name": "Machine Learning",
+            "code": "ML",
+            "colorIndex": 3,
+            "defaultPlatformId": "pf_teams",
+            "description": "Supervised and unsupervised methods with real evaluation discipline",
+            "defaultRate": 3400000,
+        },
     ]
 }
