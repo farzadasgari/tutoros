@@ -147,5 +147,14 @@ window.TutorOS.mockData = {
             "description": "Supervised and unsupervised methods with real evaluation discipline",
             "defaultRate": 3400000,
         },
+        {
+            "id": "c_dl",
+            "name": "Deep Learning",
+            "code": "DL",
+            "colorIndex": 4,
+            "defaultPlatformId": "pf_meet",
+            "description": "Neural network architectures, training dynamics, and tuning.",
+            "defaultRate": 3800000,
+        },
     ]
 }
