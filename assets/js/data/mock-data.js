@@ -174,5 +174,14 @@ window.TutorOS.mockData = {
             "description": "Modern ES6+, the DOM, and the browser runtime.",
             "defaultRate": 2000000,
         },
+        {
+            "id": "c_bs",
+            "name": "Bootstrap",
+            "code": "BS",
+            "colorIndex": 1,
+            "defaultPlatformId": "pf_meet",
+            "description": "Layout, the grid, and building a design system on top.",
+            "defaultRate": 1500000,
+        },
     ]
 }
