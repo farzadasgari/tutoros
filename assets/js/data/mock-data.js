@@ -156,5 +156,14 @@ window.TutorOS.mockData = {
             "description": "Neural network architectures, training dynamics, and tuning.",
             "defaultRate": 3800000,
         },
+        {
+            "id": "c_dj",
+            "name": "Django",
+            "code": "DJ",
+            "colorIndex": 5,
+            "defaultPlatformId": "pf_meet",
+            "description": "Models, views, DRF, and deploying something that stays up.",
+            "defaultRate": 3000000,
+        },
     ]
 }
