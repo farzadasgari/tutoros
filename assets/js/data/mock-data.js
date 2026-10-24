@@ -118,5 +118,16 @@ window.TutorOS.mockData = {
             "isActive": true,
             "linkHint": "https://meeting-link",
         }
+    ],
+    "courses": [
+        {
+            "id": "c_ds",
+            "name": "Data Science",
+            "code": "DS",
+            "colorIndex": 1,
+            "defaultPlatformId": "pf_meet",
+            "description": "pandas, feature engineering, and the statistics behind the models.",
+            "defaultRate": 2000000,
+        },
     ]
 }
