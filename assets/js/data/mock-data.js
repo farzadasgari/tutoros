@@ -165,5 +165,14 @@ window.TutorOS.mockData = {
             "description": "Models, views, DRF, and deploying something that stays up.",
             "defaultRate": 3000000,
         },
+        {
+            "id": "c_js",
+            "name": "JavaScript",
+            "code": "JS",
+            "colorIndex": 6,
+            "defaultPlatformId": "pf_zoom",
+            "description": "Modern ES6+, the DOM, and the browser runtime.",
+            "defaultRate": 2000000,
+        },
     ]
 }
