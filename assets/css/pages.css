@@ -59,3 +59,20 @@
 .cal-cell.is-today {
     background: var(--brand-soft);
 }
+
+.cal-daynum {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    border-radius: var(--r-circle);
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    font-variant-numeric: tabular-nums;
+}
+
+.cal-cell.is-today .cal-daynum {
+    background: var(--brand);
+    color: #fff;
+}
