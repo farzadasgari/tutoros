@@ -196,3 +196,17 @@
 .cal-slot:hover {
     background: var(--bg-hover);
 }
+
+.cal-slot .slot-event {
+    position: absolute;
+    inset-inline: 2px;
+    top: 2px;
+    padding: 0.2rem 0.35rem;
+    border-inline-start: 3px solid var(--brand);
+    border-radius: var(--r-xs);
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    font-size: var(--fs-3xs);
+    line-height: 1.25;
+    overflow: hidden;
+}
