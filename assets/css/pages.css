@@ -210,3 +210,16 @@
     line-height: 1.25;
     overflow: hidden;
 }
+
+.agenda-day + .agenda-day {
+    margin-top: var(--sp-5);
+}
+
+.agenda-date {
+    display: flex;
+    align-items: baseline;
+    gap: var(--sp-2);
+    margin-bottom: var(--sp-2);
+    padding-bottom: var(--sp-2);
+    border-bottom: 1px solid var(--border-subtle);
+}
