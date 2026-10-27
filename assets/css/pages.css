@@ -158,3 +158,11 @@
     overflow: hidden;
     background: var(--bg-surface);
 }
+
+.cal-week-head {
+    padding: var(--sp-2);
+    border-bottom: 1px solid var(--border-default);
+    background: var(--bg-sunken);
+    text-align: center;
+    font-size: var(--fs-2xs);
+}
