@@ -125,3 +125,27 @@
     font-size: var(--fs-3xs);
     padding-inline: 0.35rem;
 }
+
+.ev-c1 {
+    border-inline-start-color: var(--violet-500);
+}
+
+.ev-c2 {
+    border-inline-start-color: var(--cyan-500);
+}
+
+.ev-c3 {
+    border-inline-start-color: var(--emerald-500);
+}
+
+.ev-c4 {
+    border-inline-start-color: var(--amber-500);
+}
+
+.ev-c5 {
+    border-inline-start-color: var(--rose-500);
+}
+
+.ev-c6 {
+    border-inline-start-color: var(--indigo-500);
+}
