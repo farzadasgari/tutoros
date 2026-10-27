@@ -101,3 +101,9 @@
     color: var(--fg-default);
     text-decoration: none;
 }
+
+.cal-event .ev-time {
+    color: var(--fg-subtle);
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+}
