@@ -47,3 +47,15 @@
 .cal-cell:nth-child(7n + 7) {
     border-inline-end: 0;
 }
+
+.cal-cell.is-out {
+    background: var(--bg-sunken);
+}
+
+.cal-cell.is-out .cal-daynum {
+    color: var(--fg-subtle);
+}
+
+.cal-cell.is-today {
+    background: var(--brand-soft);
+}
