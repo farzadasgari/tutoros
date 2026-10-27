@@ -21,3 +21,13 @@
     overflow: hidden;
     background: var(--bg-surface);
 }
+
+.cal-dow {
+    padding: var(--sp-2);
+    border-bottom: 1px solid var(--border-default);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    text-align: center;
+}
