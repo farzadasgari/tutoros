@@ -119,3 +119,9 @@
     background: var(--bg-body);
     color: var(--fg-muted);
 }
+
+.cal-more {
+    color: var(--fg-muted);
+    font-size: var(--fs-3xs);
+    padding-inline: 0.35rem;
+}
