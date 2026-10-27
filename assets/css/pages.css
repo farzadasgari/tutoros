@@ -13,3 +13,11 @@
     letter-spacing: var(--ls-tight);
     min-width: 9rem;
 }
+
+.cal-month {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border: 1px solid var(--border-default);
+    overflow: hidden;
+    background: var(--bg-surface);
+}
