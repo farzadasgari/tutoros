@@ -107,3 +107,15 @@
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
 }
+
+.cal-event.ev-done {
+    border-inline-start-color: var(--border-strong);
+    background: var(--bg-body);
+}
+
+.cal-event.ev-cancelled {
+    text-decoration: line-through;
+    border-inline-start-color: var(--border-strong);
+    background: var(--bg-body);
+    color: var(--fg-muted);
+}
