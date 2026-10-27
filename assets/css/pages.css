@@ -31,3 +31,15 @@
     font-weight: var(--fw-semibold);
     text-align: center;
 }
+
+.cal-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-height: 7.5rem;
+    padding: var(--sp-2);
+    border-inline-end: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+    text-align: start;
+}
