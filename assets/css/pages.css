@@ -149,3 +149,12 @@
 .ev-c6 {
     border-inline-start-color: var(--indigo-500);
 }
+
+.cal-week {
+    display: grid;
+    grid-template-columns: 3.5rem repeat(7, minmax(0, 1fr));
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    background: var(--bg-surface);
+}
