@@ -76,3 +76,22 @@
     background: var(--brand);
     color: #fff;
 }
+
+.cal-event {
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.15rem 0.35rem;
+    border-inline-start: 3px solid var(--brand);
+    border-radius: var(--r-xs);
+    background: var(--bg-sunken);
+    color: var(--fg-default);
+    font-size: var(--fs-3xs);
+    line-height: 1.35;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
