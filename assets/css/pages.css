@@ -223,3 +223,24 @@
     padding-bottom: var(--sp-2);
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.agenda-date .dnum {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+}
+
+.agenda-date .dname {
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
+
+.agenda-date .dsum {
+    margin-inline-start: auto;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+}
+
+.agenda-date.is-today .dnum {
+    color: var(--brand-fg);
+}
