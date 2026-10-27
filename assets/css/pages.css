@@ -184,3 +184,15 @@
     font-variant-numeric: tabular-nums;
     text-align: end;
 }
+
+.cal-slot {
+    position: relative;
+    min-height: 3rem;
+    border-inline-start: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    cursor: pointer;
+}
+
+.cal-slot:hover {
+    background: var(--bg-hover);
+}
