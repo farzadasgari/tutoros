@@ -43,3 +43,7 @@
     background: var(--bg-surface);
     text-align: start;
 }
+
+.cal-cell:nth-child(7n + 7) {
+    border-inline-end: 0;
+}
