@@ -175,3 +175,12 @@
     font-weight: var(--fw-semibold);
     font-variant-numeric: tabular-nums;
 }
+
+.cal-hour-label {
+    padding: var(--sp-1) var(--sp-2);
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    font-variant-numeric: tabular-nums;
+    text-align: end;
+}
