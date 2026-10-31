@@ -359,3 +359,15 @@
     gap: var(--sp-2);
     align-items: center;
 }
+
+.summary-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+    gap: 1px;
+    margin-bottom: var(--sp-4);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    background: var(--border-subtle);
+    width: 100%;
+}
