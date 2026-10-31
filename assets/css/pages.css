@@ -315,3 +315,29 @@
     background: var(--bg-surface);
     box-shadow: var(--shadow-sm);
 }
+
+.profile-id {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    flex: 1 1 16rem;
+    min-width: 0;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-tight);
+}
+
+.profile-sub {
+    margin: var(--sp-1) 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-2);
+    min-width: 0;
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
