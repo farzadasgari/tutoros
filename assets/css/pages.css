@@ -449,3 +449,29 @@
         scroll-snap-align: start;
     }
 }
+
+.kanban-col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+    min-width: 0;
+    padding: var(--sp-3);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-sunken);
+}
+
+.kanban-col-head {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding-inline: var(--sp-1);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+}
+
+.kanban-col-head .n {
+    margin-inline-start: auto;
+    color: var(--fg-subtle);
+    font-variant-numeric: tabular-nums;
+}
