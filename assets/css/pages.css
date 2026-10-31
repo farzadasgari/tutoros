@@ -288,3 +288,18 @@
 .heat-cell.l4 {
     background: var(--brand);
 }
+
+.heat-scale {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-1);
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+}
+
+.heat-scale i {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+}
