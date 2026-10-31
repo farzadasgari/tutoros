@@ -391,3 +391,15 @@
     font-variant-numeric: tabular-nums;
     overflow-wrap: anywhere;
 }
+
+.prep-grid {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 768px) {
+    .prep-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
