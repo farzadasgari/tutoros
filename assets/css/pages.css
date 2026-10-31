@@ -341,3 +341,21 @@
     color: var(--fg-muted);
     font-size: var(--fs-sm);
 }
+
+.profile-sub a, .profile-sub span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.profile-sub a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+}
+
+.profile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    align-items: center;
+}
