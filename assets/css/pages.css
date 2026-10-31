@@ -272,3 +272,19 @@
     border-radius: 3px;
     background: var(--bg-sunken);
 }
+
+.heat-cell.l1 {
+    background: color-mix(in srgb, var(--brand) 18%, var(--bg-sunken));
+}
+
+.heat-cell.l2 {
+    background: color-mix(in srgb, var(--brand) 38%, var(--bg-sunken));
+}
+
+.heat-cell.l3 {
+    background: color-mix(in srgb, var(--brand) 62%, var(--bg-sunken));
+}
+
+.heat-cell.l4 {
+    background: var(--brand);
+}
