@@ -558,3 +558,68 @@
     font-size: var(--fs-3xs);
     color: var(--fg-subtle);
 }
+
+.file-row {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-3);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+}
+
+.file-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+    font-size: 1.1rem;
+}
+
+.file-icon.f-pdf {
+    background: var(--danger-soft);
+    color: var(--danger-fg);
+}
+
+.file-icon.f-doc {
+    background: var(--info-soft);
+    color: var(--info-fg);
+}
+
+.file-icon.f-data {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
+
+.file-icon.f-code {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+}
+
+.file-icon.f-slide {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+}
+
+.file-meta {
+    flex: 1;
+    min-width: 0;
+}
+
+.file-name {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-sub {
+    font-size: var(--fs-2xs);
+    color: var(--fg-subtle);
+}
