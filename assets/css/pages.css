@@ -342,7 +342,8 @@
     font-size: var(--fs-sm);
 }
 
-.profile-sub a, .profile-sub span {
+.profile-sub a,
+.profile-sub span {
     min-width: 0;
     overflow-wrap: anywhere;
 }
@@ -474,4 +475,31 @@
     margin-inline-start: auto;
     color: var(--fg-subtle);
     font-variant-numeric: tabular-nums;
+}
+
+.task-card {
+    padding: var(--sp-3);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+}
+
+.task-card .t-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    margin-bottom: var(--sp-2);
+}
+
+.task-card .t-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-2);
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+}
+
+.task-card.is-done .t-title {
+    text-decoration: line-through;
+    color: var(--fg-subtle);
 }
