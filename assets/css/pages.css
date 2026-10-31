@@ -371,3 +371,23 @@
     background: var(--border-subtle);
     width: 100%;
 }
+
+.summary-strip > div {
+    padding: var(--sp-3);
+    background: var(--bg-surface);
+    min-width: 0;
+}
+
+.summary-strip dt {
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    margin-bottom: 2px;
+}
+
+.summary-strip dd {
+    margin: 0;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}
