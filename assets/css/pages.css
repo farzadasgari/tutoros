@@ -503,3 +503,22 @@
     text-decoration: line-through;
     color: var(--fg-subtle);
 }
+
+.prio {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    font-weight: var(--fw-semibold);
+}
+
+.prio.p-high {
+    color: var(--danger-fg);
+}
+
+.prio.p-med {
+    color: var(--warning-fg);
+}
+
+.prio.p-low {
+    color: var(--fg-subtle);
+}
