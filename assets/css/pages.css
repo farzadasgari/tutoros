@@ -423,3 +423,29 @@
     font-size: var(--fs-sm);
     line-height: var(--lh-snug);
 }
+
+.kanban {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 768px) {
+    .kanban {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .kanban {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: var(--sp-3);
+    }
+
+    .kanban > * {
+        flex: 0 0 min(19rem, 78vw);
+        scroll-snap-align: start;
+    }
+}
