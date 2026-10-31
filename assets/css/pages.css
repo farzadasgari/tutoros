@@ -403,3 +403,23 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
+
+.prep-block {
+    padding: var(--sp-4);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--r-md);
+    background: var(--bg-sunken);
+}
+
+.prep-block h4 {
+    margin: 0 0 var(--sp-2);
+    font-size: var(--fs-xs);
+    color: var(--fg-muted);
+    font-weight: var(--fw-semibold);
+}
+
+.prep-block p {
+    margin: 0;
+    font-size: var(--fs-sm);
+    line-height: var(--lh-snug);
+}
