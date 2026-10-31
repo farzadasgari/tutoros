@@ -244,3 +244,31 @@
 .agenda-date.is-today .dnum {
     color: var(--brand-fg);
 }
+
+.heatmap {
+    display: grid;
+    grid-template-columns: 2.6rem repeat(7, minmax(0, 1fr));
+    gap: 3px;
+    align-items: center;
+}
+
+.heat-hour {
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    font-variant-numeric: tabular-nums;
+    text-align: end;
+    padding-inline-end: var(--sp-1);
+}
+
+.heat-dow {
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    text-align: center;
+}
+
+.heat-cell {
+    aspect-ratio: 1;
+    min-height: 14px;
+    border-radius: 3px;
+    background: var(--bg-sunken);
+}
