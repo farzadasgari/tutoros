@@ -522,3 +522,39 @@
 .prio.p-low {
     color: var(--fg-subtle);
 }
+
+.note-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+    padding: var(--sp-4);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-md);
+    background: var(--bg-surface);
+}
+
+.note-card.is-pinned {
+    border-color: var(--warning-bold);
+    border-inline-start-width: 3px;
+    background-color: color-mix(in srgb, var(--warning-soft) 55%, var(--bg-surface));
+}
+
+.note-card.is-pinned .note-foot {
+    color: var(--fg-muted);
+}
+
+.note-body {
+    font-size: var(--fs-sm);
+    line-height: var(--lh-normal);
+}
+
+.note-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-2);
+    margin-top: auto;
+    padding-top: var(--sp-2);
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+}
