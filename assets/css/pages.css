@@ -654,3 +654,16 @@
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
     margin-bottom: var(--sp-6);
 }
+
+.invoice-party h4 {
+    margin: 0 0 var(--sp-2);
+    font-size: var(--fs-2xs);
+    color: var(--fg-subtle);
+    font-weight: var(--fw-semibold);
+}
+
+.invoice-party p {
+    margin: 0;
+    font-size: var(--fs-sm);
+    line-height: var(--lh-normal);
+}
