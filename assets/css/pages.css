@@ -720,3 +720,14 @@
 .wizard-steps::-webkit-scrollbar {
     display: none;
 }
+
+.wizard-step {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-shrink: 0;
+    padding: var(--sp-2) var(--sp-3);
+    border-radius: var(--r-md);
+    color: var(--fg-subtle);
+    font-size: var(--fs-xs);
+}
