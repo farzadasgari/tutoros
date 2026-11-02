@@ -1038,3 +1038,14 @@
     gap: var(--sp-2);
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 7rem), 1fr));
 }
+
+.icon-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-3);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--r-md);
+    text-align: center;
+}
