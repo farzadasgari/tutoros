@@ -1009,3 +1009,26 @@
     padding: var(--sp-3) 0;
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.spec-row:last-child {
+    border-bottom: 0;
+}
+
+.spec-row .spec-name {
+    flex: 0 0 9rem;
+    font-family: var(--font-mono);
+    font-size: var(--fs-2xs);
+    color: var(--brand-fg);
+}
+
+.spec-row .spec-demo {
+    flex: 1;
+    min-width: 0;
+}
+
+.spec-row .spec-val {
+    flex-shrink: 0;
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+    font-family: var(--font-mono);
+}
