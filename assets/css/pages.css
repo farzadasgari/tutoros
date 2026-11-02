@@ -977,3 +977,10 @@
     color: var(--fg-subtle);
     font-family: var(--font-mono);
 }
+
+.demo-block {
+    padding: var(--sp-5);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    background: var(--bg-surface);
+}
