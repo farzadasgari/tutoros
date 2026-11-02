@@ -917,3 +917,12 @@
 .strength-meter.s4 i {
     background: var(--success);
 }
+
+.error-shell {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: var(--sp-6) var(--sp-4);
+    text-align: center;
+}
