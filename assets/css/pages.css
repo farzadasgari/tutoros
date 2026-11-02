@@ -1049,3 +1049,14 @@
     border-radius: var(--r-md);
     text-align: center;
 }
+
+.icon-cell .bi {
+    font-size: 1.3rem;
+    color: var(--fg-default);
+}
+
+.icon-cell .nm {
+    font-size: var(--fs-3xs);
+    color: var(--fg-subtle);
+    word-break: break-all;
+}
