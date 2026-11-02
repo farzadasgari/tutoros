@@ -743,3 +743,27 @@
     font-weight: var(--fw-bold);
     font-variant-numeric: tabular-nums;
 }
+
+.wizard-step.is-active .n {
+    border-color: var(--brand);
+    background: var(--brand);
+    color: #fff;
+}
+
+.wizard-step.is-done {
+    color: var(--success-fg);
+}
+
+.wizard-step.is-done .n {
+    border-color: var(--success);
+    background: var(--success);
+    color: #fff;
+}
+
+.wizard-sep {
+    flex-shrink: 0;
+    align-self: center;
+    width: 1rem;
+    height: 1px;
+    background: var(--border-default);
+}
