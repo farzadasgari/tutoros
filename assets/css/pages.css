@@ -959,3 +959,21 @@
     border-radius: var(--r-md);
     overflow: hidden;
 }
+
+.swatch .chip {
+    height: 56px;
+}
+
+.swatch .info {
+    padding: var(--sp-2) var(--sp-3);
+    font-size: var(--fs-3xs);
+}
+
+.swatch .info .nm {
+    font-weight: var(--fw-semibold);
+}
+
+.swatch .info .hx {
+    color: var(--fg-subtle);
+    font-family: var(--font-mono);
+}
