@@ -647,3 +647,10 @@
     font-size: var(--fs-sm);
     color: var(--fg-muted);
 }
+
+.invoice-parties {
+    display: grid;
+    gap: var(--sp-5);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    margin-bottom: var(--sp-6);
+}
