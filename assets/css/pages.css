@@ -984,3 +984,9 @@
     border-radius: var(--r-lg) var(--r-lg) 0 0;
     background: var(--bg-surface);
 }
+
+.demo-block + .demo-code {
+    border-radius: 0 0 var(--r-lg) var(--r-lg);
+    border-top: 0;
+    margin-top: 0;
+}
