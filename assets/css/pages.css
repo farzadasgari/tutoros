@@ -623,3 +623,13 @@
     font-size: var(--fs-2xs);
     color: var(--fg-subtle);
 }
+
+.invoice-sheet {
+    max-width: 52rem;
+    margin-inline: auto;
+    padding: clamp(var(--sp-5), 4vw, var(--sp-10));
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+    box-shadow: var(--shadow-sm);
+}
