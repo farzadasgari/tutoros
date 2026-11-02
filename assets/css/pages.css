@@ -1001,3 +1001,11 @@
     align-items: center;
     gap: var(--sp-3);
 }
+
+.spec-row {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    padding: var(--sp-3) 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
