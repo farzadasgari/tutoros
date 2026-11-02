@@ -926,3 +926,13 @@
     padding: var(--sp-6) var(--sp-4);
     text-align: center;
 }
+
+.error-code {
+    margin: 0;
+    font-size: clamp(4rem, 2rem + 14vw, 9rem);
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    font-variant-numeric: tabular-nums;
+    color: var(--brand-fg);
+}
