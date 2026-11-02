@@ -947,3 +947,9 @@
     max-width: 44ch;
     color: var(--fg-muted);
 }
+
+.swatch-grid {
+    display: grid;
+    gap: var(--sp-3);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+}
