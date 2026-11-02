@@ -695,3 +695,15 @@
     font-weight: var(--fw-bold);
     letter-spacing: var(--ls-wide);
 }
+
+.invoice-stamp.is-paid {
+    color: var(--success-fg);
+}
+
+.invoice-stamp.is-due {
+    color: var(--warning-fg);
+}
+
+.invoice-stamp.is-overdue {
+    color: var(--danger-fg);
+}
