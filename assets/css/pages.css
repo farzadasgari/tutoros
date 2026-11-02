@@ -731,3 +731,15 @@
     color: var(--fg-subtle);
     font-size: var(--fs-xs);
 }
+
+.wizard-step .n {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border: 1px solid var(--border-control);
+    border-radius: var(--r-circle);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+}
