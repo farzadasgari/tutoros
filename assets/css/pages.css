@@ -1032,3 +1032,9 @@
     font-size: var(--fs-2xs);
     font-family: var(--font-mono);
 }
+
+.icon-grid {
+    display: grid;
+    gap: var(--sp-2);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 7rem), 1fr));
+}
