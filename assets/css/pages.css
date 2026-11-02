@@ -707,3 +707,16 @@
 .invoice-stamp.is-overdue {
     color: var(--danger-fg);
 }
+
+.wizard-steps {
+    display: flex;
+    gap: var(--sp-1);
+    overflow-x: auto;
+    margin-bottom: var(--sp-5);
+    padding-bottom: var(--sp-2);
+    scrollbar-width: none;
+}
+
+.wizard-steps::-webkit-scrollbar {
+    display: none;
+}
