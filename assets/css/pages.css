@@ -683,3 +683,15 @@
     font-size: var(--fs-lg);
     font-weight: var(--fw-bold);
 }
+
+.invoice-stamp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.3em 0.8em;
+    border: 2px solid currentColor;
+    border-radius: var(--r-md);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-wide);
+}
