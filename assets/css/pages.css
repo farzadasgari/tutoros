@@ -821,3 +821,19 @@
     font-size: var(--fs-sm);
     color: var(--fg-muted);
 }
+
+.auth-aside {
+    position: relative;
+    display: none;
+    overflow: hidden;
+    padding: var(--sp-10);
+    background: linear-gradient(150deg, var(--violet-800), var(--violet-700) 45%, var(--indigo-700));
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .auth-shell.is-split .auth-aside {
+        display: grid;
+        align-content: center;
+    }
+}
