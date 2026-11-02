@@ -667,3 +667,19 @@
     font-size: var(--fs-sm);
     line-height: var(--lh-normal);
 }
+
+.invoice-total-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--sp-4);
+    padding: var(--sp-2) 0;
+    font-size: var(--fs-sm);
+}
+
+.invoice-total-row.is-grand {
+    padding-top: var(--sp-3);
+    border-top: 2px solid var(--border-default);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+}
