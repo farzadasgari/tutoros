@@ -641,3 +641,9 @@
     justify-content: space-between;
     margin-bottom: var(--sp-8);
 }
+
+.invoice-no {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+    color: var(--fg-muted);
+}
