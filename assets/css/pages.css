@@ -936,3 +936,14 @@
     font-variant-numeric: tabular-nums;
     color: var(--brand-fg);
 }
+
+.error-title {
+    margin: var(--sp-4) 0 var(--sp-2);
+    font-size: var(--fs-2xl);
+}
+
+.error-text {
+    margin: 0 auto var(--sp-6);
+    max-width: 44ch;
+    color: var(--fg-muted);
+}
