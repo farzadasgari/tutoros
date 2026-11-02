@@ -888,3 +888,16 @@
     height: 1px;
     background-color: var(--border-subtle);
 }
+
+.strength-meter {
+    display: flex;
+    gap: 4px;
+    margin-top: 0.4rem;
+}
+
+.strength-meter i {
+    flex: 1;
+    height: 4px;
+    border-radius: var(--r-pill);
+    background: var(--bg-sunken);
+}
