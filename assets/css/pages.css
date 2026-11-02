@@ -780,3 +780,44 @@
         grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
     }
 }
+
+.auth-panel {
+    display: grid;
+    place-items: center;
+    padding: var(--sp-6) var(--sp-4);
+    background: var(--bg-body);
+}
+
+.auth-card {
+    width: min(26rem, 100%);
+}
+
+.auth-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-3);
+    margin-bottom: var(--sp-6);
+    color: var(--fg-default);
+    text-decoration: none;
+}
+
+.auth-title {
+    margin: 0 0 var(--sp-2);
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-tight);
+}
+
+.auth-sub {
+    margin: 0 0 var(--sp-6);
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
+
+.auth-foot {
+    margin-top: var(--sp-6);
+    padding-top: var(--sp-5);
+    border-top: 1px solid var(--border-subtle);
+    font-size: var(--fs-sm);
+    color: var(--fg-muted);
+}
