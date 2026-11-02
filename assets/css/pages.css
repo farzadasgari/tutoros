@@ -901,3 +901,19 @@
     border-radius: var(--r-pill);
     background: var(--bg-sunken);
 }
+
+.strength-meter.s1 i:nth-child(1) {
+    background: var(--danger);
+}
+
+.strength-meter.s2 i:nth-child(-n+2) {
+    background: var(--warning-bold);
+}
+
+.strength-meter.s3 i:nth-child(-n+3) {
+    background: var(--accent-bold);
+}
+
+.strength-meter.s4 i {
+    background: var(--success);
+}
