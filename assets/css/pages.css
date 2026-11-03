@@ -781,6 +781,23 @@
     }
 }
 
+.is-print {
+    background: var(--bg-surface);
+}
+
+.print-shell {
+    max-width: 820px;
+    margin-inline: auto;
+    padding: var(--sp-8) var(--sp-5);
+}
+
+@media print {
+    .print-shell {
+        max-width: none;
+        padding: 0;
+    }
+}
+
 .auth-panel {
     display: grid;
     place-items: center;
@@ -893,6 +910,12 @@
     flex: 1;
     height: 1px;
     background-color: var(--border-subtle);
+}
+
+.is-auth {
+    min-height: 100vh;
+    min-height: 100svh;
+    background: var(--bg-body);
 }
 
 .strength-meter {
@@ -1037,6 +1060,15 @@
     color: var(--fg-subtle);
     font-size: var(--fs-2xs);
     font-family: var(--font-mono);
+}
+
+.spec-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec-list .spec-row:last-child {
+    border-bottom: 0;
 }
 
 .icon-grid {
@@ -1408,30 +1440,4 @@
 
 .widget-hidden {
     display: none !important;
-}
-
-.spec-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.spec-list .spec-row:last-child {
-    border-bottom: 0;
-}
-
-.is-print {
-    background: var(--bg-surface);
-}
-
-.print-shell {
-    max-width: 820px;
-    margin-inline: auto;
-    padding: var(--sp-8) var(--sp-5);
-}
-
-@media print {
-    .print-shell {
-        max-width: none;
-        padding: 0;
-    }
 }
