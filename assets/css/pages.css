@@ -1237,3 +1237,32 @@
     background: var(--bg-sunken);
     color: var(--fg-muted);
 }
+
+.notif-row .n-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.notif-row .n-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
+
+.notif-row .n-desc {
+    color: var(--fg-muted);
+    font-size: var(--fs-xs);
+    margin-top: 2px;
+}
+
+.notif-row .n-time {
+    color: var(--fg-subtle);
+    font-size: var(--fs-3xs);
+    margin-top: var(--sp-1);
+}
+
+.notif-row .n-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    margin-top: var(--sp-3);
+}
