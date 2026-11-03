@@ -1378,3 +1378,13 @@
 .insight.is-warning .bi {
     color: var(--warning-fg);
 }
+
+.widget-toggle-row {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-2) var(--sp-3);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--r-sm);
+    background: var(--bg-surface);
+}
