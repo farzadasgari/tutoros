@@ -1122,3 +1122,12 @@
     color: var(--brand-fg);
     font-weight: var(--fw-semibold);
 }
+
+.setting-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-4) 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
