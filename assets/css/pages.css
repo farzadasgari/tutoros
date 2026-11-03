@@ -1307,3 +1307,17 @@
     color: var(--fg-muted);
     font-size: var(--fs-sm);
 }
+
+.tally {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
+    gap: var(--sp-3);
+}
+
+.tally > div {
+    padding: var(--sp-3);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--r-md);
+    background: var(--bg-sunken);
+    text-align: center;
+}
