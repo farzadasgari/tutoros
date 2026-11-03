@@ -1218,3 +1218,22 @@
     padding: var(--sp-4);
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.notif-row:last-child {
+    border-bottom: 0;
+}
+
+.notif-row.is-unread {
+    background: var(--brand-soft);
+}
+
+.notif-row .n-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+    color: var(--fg-muted);
+}
