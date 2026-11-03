@@ -1286,3 +1286,24 @@
     border-radius: var(--r-circle);
     font-size: 1.4rem;
 }
+
+.review-verdict.is-clear .rv-mark {
+    background: var(--success-soft);
+    color: var(--success-fg);
+}
+
+.review-verdict.is-attention .rv-mark {
+    background: var(--warning-soft);
+    color: var(--warning-fg);
+}
+
+.review-verdict h2 {
+    margin: 0;
+    font-size: var(--fs-xl);
+}
+
+.review-verdict p {
+    margin: var(--sp-1) 0 0;
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+}
