@@ -1155,3 +1155,9 @@
 .setting-row .sr-control {
     flex-shrink: 0;
 }
+
+.theme-choice {
+    display: grid;
+    gap: var(--sp-3);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+}
