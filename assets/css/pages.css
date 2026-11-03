@@ -1362,3 +1362,19 @@
 .insight.is-time .bi {
     color: var(--accent-fg);
 }
+
+.insight.is-money {
+    border-inline-start-color: var(--success);
+}
+
+.insight.is-money .bi {
+    color: var(--success-fg);
+}
+
+.insight.is-warning {
+    border-inline-start-color: var(--warning-bold);
+}
+
+.insight.is-warning .bi {
+    color: var(--warning-fg);
+}
