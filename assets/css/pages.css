@@ -1171,3 +1171,10 @@
     position: absolute;
     opacity: 0;
 }
+
+.theme-option .preview {
+    border: 2px solid var(--border-default);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    transition: var(--dur-fast) var(--ease-out);
+}
