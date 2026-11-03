@@ -1388,3 +1388,18 @@
     border-radius: var(--r-sm);
     background: var(--bg-surface);
 }
+
+.widget-toggle-row .grip {
+    color: var(--fg-disabled);
+    cursor: grab;
+}
+
+.widget-toggle-row .wname {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--fs-sm);
+}
+
+.widget-hidden {
+    display: none !important;
+}
