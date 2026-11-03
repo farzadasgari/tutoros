@@ -1321,3 +1321,15 @@
     background: var(--bg-sunken);
     text-align: center;
 }
+
+.tally dt {
+    color: var(--fg-muted);
+    font-size: var(--fs-2xs);
+}
+
+.tally dd {
+    margin: var(--sp-1) 0 0;
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+}
