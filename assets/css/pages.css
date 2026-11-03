@@ -1188,3 +1188,18 @@
     outline: 2px solid var(--focus-color);
     outline-offset: 2px;
 }
+
+.theme-option .preview-bar {
+    height: 10px;
+}
+
+.theme-option .preview-body {
+    display: flex;
+    gap: 4px;
+    padding: 8px;
+    height: 46px;
+}
+
+.theme-option .preview-body i {
+    border-radius: 3px;
+}
