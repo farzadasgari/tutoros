@@ -1060,3 +1060,16 @@
     color: var(--fg-subtle);
     word-break: break-all;
 }
+
+.settings-layout {
+    display: grid;
+    gap: var(--sp-5);
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+}
+
+@media (min-width: 992px) {
+    .settings-layout {
+        grid-template-columns: 14rem minmax(0, 1fr);
+    }
+}
