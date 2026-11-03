@@ -1211,3 +1211,10 @@
     font-weight: var(--fw-medium);
     text-align: center;
 }
+
+.notif-row {
+    display: flex;
+    gap: var(--sp-3);
+    padding: var(--sp-4);
+    border-bottom: 1px solid var(--border-subtle);
+}
