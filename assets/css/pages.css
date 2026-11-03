@@ -1161,3 +1161,13 @@
     gap: var(--sp-3);
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
 }
+
+.theme-option {
+    display: block;
+    cursor: pointer;
+}
+
+.theme-option input {
+    position: absolute;
+    opacity: 0;
+}
