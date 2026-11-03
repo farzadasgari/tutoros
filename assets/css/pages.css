@@ -1266,3 +1266,13 @@
     gap: var(--sp-2);
     margin-top: var(--sp-3);
 }
+
+.review-verdict {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    padding: var(--sp-5) var(--sp-card);
+    border: 1px solid var(--border-default);
+    border-radius: var(--r-lg);
+    background: var(--bg-surface);
+}
