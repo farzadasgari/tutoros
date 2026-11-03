@@ -1203,3 +1203,11 @@
 .theme-option .preview-body i {
     border-radius: 3px;
 }
+
+.theme-option .cap {
+    display: block;
+    margin-top: var(--sp-2);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-medium);
+    text-align: center;
+}
