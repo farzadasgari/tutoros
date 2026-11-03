@@ -1073,3 +1073,26 @@
         grid-template-columns: 14rem minmax(0, 1fr);
     }
 }
+
+.settings-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+@media (max-width: 992px) {
+    .settings-nav {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: var(--sp-2);
+        scrollbar-width: none;
+    }
+
+    .settings-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .settings-nav a {
+        flex-shrink: 0;
+    }
+}
