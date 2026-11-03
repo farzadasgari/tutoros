@@ -1096,3 +1096,29 @@
         flex-shrink: 0;
     }
 }
+
+.settings-nav a {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    min-height: var(--tap);
+    padding: var(--sp-2) var(--sp-3);
+    border-radius: var(--r-sm);
+    color: var(--fg-muted);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.settings-nav a:hover {
+    background: var(--bg-hover);
+    color: var(--fg-default);
+    text-decoration: none;
+}
+
+.settings-nav a.active {
+    background: var(--brand-soft);
+    color: var(--brand-fg);
+    font-weight: var(--fw-semibold);
+}
