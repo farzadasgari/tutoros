@@ -1178,3 +1178,13 @@
     overflow: hidden;
     transition: var(--dur-fast) var(--ease-out);
 }
+
+.theme-option input:checked + .preview {
+    border-color: var(--brand);
+    box-shadow: var(--focus-ring);
+}
+
+.theme-option input:focus-visible + .preview {
+    outline: 2px solid var(--focus-color);
+    outline-offset: 2px;
+}
