@@ -1342,3 +1342,23 @@
     border-radius: var(--r-sm);
     background: var(--bg-sunken);
 }
+
+.insight .bi {
+    flex-shrink: 0;
+    color: var(--brand-fg);
+    margin-top: 0.12em;
+}
+
+.insight p {
+    margin: 0;
+    font-size: var(--fs-sm);
+    line-height: var(--lh-snug);
+}
+
+.insight.is-time {
+    border-inline-start-color: var(--accent-bold);
+}
+
+.insight.is-time .bi {
+    color: var(--accent-fg);
+}
