@@ -1333,3 +1333,12 @@
     font-weight: var(--fw-bold);
     font-variant-numeric: tabular-nums;
 }
+
+.insight {
+    display: flex;
+    gap: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
+    border-inline-start: 3px solid var(--brand);
+    border-radius: var(--r-sm);
+    background: var(--bg-sunken);
+}
