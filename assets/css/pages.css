@@ -1131,3 +1131,27 @@
     padding: var(--sp-4) 0;
     border-bottom: 1px solid var(--border-subtle);
 }
+
+.setting-row:last-child {
+    border-bottom: 0;
+}
+
+.setting-row .sr-text {
+    flex: 1 1 16rem;
+    min-width: 0;
+}
+
+.setting-row .sr-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
+
+.setting-row .sr-desc {
+    color: var(--fg-subtle);
+    font-size: var(--fs-2xs);
+    margin-top: 2px;
+}
+
+.setting-row .sr-control {
+    flex-shrink: 0;
+}
