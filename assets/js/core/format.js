@@ -1,35 +1,36 @@
 (function (TutorOS) {
-    "use strict";
+    'use strict';
 
     let CURRENCIES = {
         USD: {
-            code: "USD",
-            symbol: "$",
-            symbolEn: "$",
+            code: 'USD',
+            symbol: '$',
+            symbolEn: '$',
             decimals: 2,
-            position: "before"
+            position: 'before',
         },
         EUR: {
-            code: "EUR",
-            symbol: "€",
-            symbolEn: "€",
+            code: 'EUR',
+            symbol: '€',
+            symbolEn: '€',
             decimals: 2,
-            position: "before"
+            position: 'before',
         },
         IRT: {
-            code: "IRT",
-            symbol: "تومان",
-            symbolEn: "Toman",
+            code: 'IRT',
+            symbol: 'تومان',
+            symbolEn: 'Toman',
             decimals: 0,
-            position: "after"
+            position: 'after',
         },
         IRR: {
-            code: "IRR",
-            symbol: "﷼",
-            symbolEn: "Rial",
+            code: 'IRR',
+            symbol: '﷼',
+            symbolEn: 'Rial',
             decimals: 0,
-            position: "after"
-        }
+            position: 'after',
+        },
     };
-    
-})(window.TutorOS = window.TutorOS || {})
+
+    let WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+})((window.TutorOS = window.TutorOS || {}));
