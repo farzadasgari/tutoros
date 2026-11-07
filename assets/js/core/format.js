@@ -33,4 +33,6 @@
     };
 
     let WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    let WEEKDAYS_SHORTS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 })((window.TutorOS = window.TutorOS || {}));
