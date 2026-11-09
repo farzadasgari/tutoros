@@ -65,4 +65,12 @@
         'Nov',
         'Dec',
     ];
+
+    let fmt = {
+        number: function (n, decimal) {},
+
+        money: function (amount, currency, opts) {},
+
+        duration: function (minutes, opts) {},
+    };
 })((window.TutorOS = window.TutorOS || {}));
