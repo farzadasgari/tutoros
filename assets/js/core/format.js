@@ -67,8 +67,16 @@
     ];
 
     let fmt = {
-        number: function (n, decimal) {},
+        number: function (n, decimals) {
+            if (n === null || n === undefined || isNaN(n)) return '–';
 
+            let d = decimals === undefined ? 0 : decimals;
+            return Number(n).toLocaleString('en-US', {
+                minimumFractionDigits: d,
+                maximumFractionDigits: d,
+            });
+        },
+        
         money: function (amount, currency, opts) {},
 
         duration: function (minutes, opts) {},
