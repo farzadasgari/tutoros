@@ -86,6 +86,12 @@
             let cls = 'money';
             if (opts.signed && amount > 0) cls += ' is-pos';
             if (amount < 0) cls += ' is-neg';
+
+            let body = fmt.number(Math.abs(amount), cur.decimals);
+            let sign = amount < 0 ? '–' : opts.signed && amount > 0 ? '+' : '';
+            let unit = `<span class="cur">${cur.symbol}</span>`;
+            let inner = cur.position === 'before' ? unit + sign + body : sign + body + ' ' + unit;
+            return '<span class="' + cls + '">' + inner + '</span>';
         },
 
         duration: function (minutes, opts) {},
