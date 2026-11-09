@@ -76,8 +76,17 @@
                 maximumFractionDigits: d,
             });
         },
-        
-        money: function (amount, currency, opts) {},
+
+        money: function (amount, currency, opts) {
+            opts = opts || {};
+            let cur = CURRENCIES[currency || fmt.defaultCurrency] || CURRENCIES.IRT;
+            if (amount === null || amount === undefined || isNaN(amount)) {
+                return '<span class="money">–</span>';
+            }
+            let cls = 'money';
+            if (opts.signed && amount > 0) cls += ' is-pos';
+            if (amount < 0) cls += ' is-neg';
+        },
 
         duration: function (minutes, opts) {},
     };
