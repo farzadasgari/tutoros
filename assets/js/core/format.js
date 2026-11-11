@@ -94,6 +94,15 @@
             return '<span class="' + cls + '">' + inner + '</span>';
         },
 
+        moneyText: function (amount, currency) {
+            let cur = CURRENCIES[currency || fmt.defaultCurrency] || CURRENCIES.IRT;
+            if (amount === null || amount === undefined || isNaN(amount)) return '–';
+
+            let body = fmt.number(amount, cur.decimals);
+
+            return cur.position === 'before' ? cur.symbol + body : body + ' ' + cur.symbol;
+        },
+
         duration: function (minutes, opts) {},
     };
 })((window.TutorOS = window.TutorOS || {}));
