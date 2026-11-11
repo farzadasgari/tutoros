@@ -107,20 +107,35 @@
             let cur = CURRENCIES[currency || fmt.defaultCurrency] || CURRENCIES.IRT;
             if (!amount && amount !== 0) return '–';
 
-            let abs = Math.abs(amount), out;
+            let abs = Math.abs(amount),
+                out;
 
-            if (abs >= 1e9) out = (amount / 1e9).toFixed(abs >= 1e10 ? 0 : 1) + "B";
-            else if (abs >= 1e6) out = (amount / 1e6).toFixed(abs >= 1e7 ? 0 : 1) + "M";
-            else if (abs >= 1e3) out = (amount / 1e3).toFixed(0) + "K";
-            else out = String(amount)
+            if (abs >= 1e9) out = (amount / 1e9).toFixed(abs >= 1e10 ? 0 : 1) + 'B';
+            else if (abs >= 1e6) out = (amount / 1e6).toFixed(abs >= 1e7 ? 0 : 1) + 'M';
+            else if (abs >= 1e3) out = (amount / 1e3).toFixed(0) + 'K';
+            else out = String(amount);
 
-            return out.replace(".0", "") + " " + cur.symbol
+            return out.replace('.0', '') + ' ' + cur.symbol;
         },
 
         currencySymbol: function (code) {
-            return (CURRENCIES[code] || CURRENCIES.IRT).symbol
+            return (CURRENCIES[code] || CURRENCIES.IRT).symbol;
         },
 
-        duration: function (minutes, opts) {},
+        duration: function (minutes, opts) {
+            opts = opts || {};
+            if (minutes === null || minutes === undefined || isNaN(minutes)) return '–';
+
+            let neg = minutes < 0;
+            let m = Math.round(Math.abs(minutes));
+            let h = Math.floor(m / 60);
+            let r = m % 60;
+
+            let out;
+            if (h === 0) out = r + 'm';
+            else if (r === 0) out = h + 'h';
+            else out = h + 'h' + (opts.pad ? String(r).padStart(2, '0') : r) + 'm';
+            return (neg ? '–' : '') + out;
+        },
     };
 })((window.TutorOS = window.TutorOS || {}));
