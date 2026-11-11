@@ -117,6 +117,10 @@
             return out.replace(".0", "") + " " + cur.symbol
         },
 
+        currencySymbol: function (code) {
+            return (CURRENCIES[code] || CURRENCIES.IRT).symbol
+        },
+
         duration: function (minutes, opts) {},
     };
 })((window.TutorOS = window.TutorOS || {}));
